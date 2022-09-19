@@ -1,0 +1,4329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: Ability_Description/0
+      TermType: 0
+      Description: 
+      Languages:
+      - SLIGHTLY increase your attack
+      - "T\u0103ng NH\u1EB8 t\u1EA5n c\xF4ng c\u1EE7a b\u1EA1n"
+      - Aumente % Dmg de acordo com o dmg base do jogador
+      - "\uD50C\uB808\uC774\uC5B4\uC758 \uAE30\uBCF8 \uB370\uBBF8\uC9C0\uC5D0 \uB530\uB77C
+        % \uB370\uBBF8\uC9C0 \uC99D\uAC00"
+      - "Augmente le % de d\xE9g\xE2ts en fonction des d\xE9g\xE2ts de base du joueur"
+      - "% Dmg entsprechend dem Basis-Dmg des Spielers erh\xF6hen"
+      - Tingkatkan % Dmg sesuai dengan dmg basis pemain
+      - "Aumenta el % de da\xF1o seg\xFAn el da\xF1o base del jugador"
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u0438\u0435 % \u0443\u0440\u043E\u043D\u0430
+        \u0432 \u0441\u043E\u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0438
+        \u0441 \u0431\u0430\u0437\u043E\u0432\u044B\u043C \u0443\u0440\u043E\u043D\u043E\u043C
+        \u0438\u0433\u0440\u043E\u043A\u0430"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21 % Dmg \u0E15\u0E32\u0E21 dmg \u0E1E\u0E37\u0E49\u0E19\u0E10\u0E32\u0E19\u0E02\u0E2D\u0E07\u0E1C\u0E39\u0E49\u0E40\u0E25\u0E48\u0E19"
+      - "\u6839\u636E\u73A9\u5BB6\u7684\u57FA\u7840\u4F24\u5BB3\u589E\u52A0%\u4F24\u5BB3"
+      - Tingkatkan % Dmg mengikut dmg asas pemain
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/1
+      TermType: 0
+      Description: 
+      Languages:
+      - MODERATELY increase your attack
+      - "T\u0103ng t\u1EA5n c\xF4ng c\u1EE7a b\u1EA1n"
+      - Aumente MODERADAMENTE seu ataque
+      - "\uC801\uB2F9\uD788 \uACF5\uACA9\uB825 \uC99D\uAC00"
+      - "Augmentez MOD\xC9R\xC9MENT votre attaque"
+      - "Erh\xF6he deinen Angriff MODERAT"
+      - SEDANG meningkatkan serangan Anda
+      - Aumenta MODERADAMENTE tu ataque
+      - "\u0423\u041C\u0415\u0420\u0415\u041D\u041D\u041E \u0443\u0432\u0435\u043B\u0438\u0447\u044C\u0442\u0435
+        \u0441\u0432\u043E\u044E \u0430\u0442\u0430\u043A\u0443"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E01\u0E32\u0E23\u0E42\u0E08\u0E21\u0E15\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E1E\u0E2D\u0E2A\u0E21\u0E04\u0E27\u0E23"
+      - "\u9002\u5EA6\u589E\u52A0\u4F60\u7684\u653B\u51FB"
+      - SECARA sederhana tingkatkan serangan anda
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/10
+      TermType: 0
+      Description: 
+      Languages:
+      - SLIGHTLY increase rotation speed of your blade
+      - "T\u0103ng NH\u1EB8 t\u1ED1c \u0111\u1ED9 quay cl\u01B0\u1EE1i dao c\u1EE7a
+        b\u1EA1n"
+      - "Aumenta % da velocidade de rota\xE7\xE3o da ferramenta"
+      - "\uB3C4\uAD6C \uD68C\uC804 \uC18D\uB3C4\uC758 % \uC99D\uAC00"
+      - Augmentation % de la vitesse de rotation de l'outil
+      - "% der Werkzeugdrehzahl erh\xF6hen"
+      - Tingkatkan % kecepatan putaran alat
+      - "Aumentar el % de la velocidad de rotaci\xF3n de la herramienta"
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u0438\u0435 % \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u0438
+        \u0432\u0440\u0430\u0449\u0435\u043D\u0438\u044F \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0430"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21 % \u0E02\u0E2D\u0E07\u0E04\u0E27\u0E32\u0E21\u0E40\u0E23\u0E47\u0E27\u0E43\u0E19\u0E01\u0E32\u0E23\u0E2B\u0E21\u0E38\u0E19\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E21\u0E37\u0E2D"
+      - "\u589E\u52A0\u5DE5\u5177\u65CB\u8F6C\u901F\u5EA6\u7684\u767E\u5206\u6BD4"
+      - Tingkatkan % kelajuan putaran alat
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/11
+      TermType: 0
+      Description: 
+      Languages:
+      - GREATLY increase rotation speed of your blade
+      - "T\u0103ng M\u1EA0NH t\u1ED1c \u0111\u1ED9 quay l\u01B0\u1EE1i dao c\u1EE7a
+        b\u1EA1n"
+      - "Aumente MUITO a velocidade de rota\xE7\xE3o da sua l\xE2mina"
+      - "\uBE14\uB808\uC774\uB4DC\uC758 \uD68C\uC804 \uC18D\uB3C4\uB97C \uD06C\uAC8C
+        \uB192\uC785\uB2C8\uB2E4."
+      - "Augmentez consid\xE9rablement la vitesse de rotation de votre lame"
+      - "Erh\xF6hen Sie die Rotationsgeschwindigkeit Ihrer Klinge erheblich"
+      - SANGAT meningkatkan kecepatan rotasi pisau Anda
+      - "Aumenta GRANDEMENTE la velocidad de rotaci\xF3n de tu cuchilla"
+      - "\u0417\u041D\u0410\u0427\u0418\u0422\u0415\u041B\u042C\u041D\u041E \u0443\u0432\u0435\u043B\u0438\u0447\u044C\u0442\u0435
+        \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u044C \u0432\u0440\u0430\u0449\u0435\u043D\u0438\u044F
+        \u0432\u0430\u0448\u0435\u0433\u043E \u043B\u0435\u0437\u0432\u0438\u044F"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E04\u0E27\u0E32\u0E21\u0E40\u0E23\u0E47\u0E27\u0E43\u0E19\u0E01\u0E32\u0E23\u0E2B\u0E21\u0E38\u0E19\u0E02\u0E2D\u0E07\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E21\u0E32\u0E01"
+      - "\u5927\u5927\u63D0\u9AD8\u5200\u7247\u7684\u65CB\u8F6C\u901F\u5EA6"
+      - AMAT meningkatkan kelajuan putaran bilah anda
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/12
+      TermType: 0
+      Description: 
+      Languages:
+      - Summons lightning to attack up to 5 enemies
+      - "Tri\u1EC7u h\u1ED3i tia ch\u1EDBp \u0111\u1EC3 t\u1EA5n c\xF4ng t\u1ED1i
+        \u0111a 5 k\u1EBB \u0111\u1ECBch"
+      - "A cada 10s, um raio chocar\xE1 at\xE9 5 alvos ao redor do personagem, causando
+        dano = % dano do jogador"
+      - "10\uCD08\uB9C8\uB2E4 \uBC88\uAC1C\uAC00 \uCE90\uB9AD\uD130 \uC8FC\uBCC0\uC758
+        \uCD5C\uB300 5\uBA85\uC758 \uB300\uC0C1\uC5D0\uAC8C \uCDA9\uACA9\uC744 \uAC00\uD558\uC5EC
+        \uD53C\uD574\uB7C9 = % \uD50C\uB808\uC774\uC5B4\uC758 \uD53C\uD574\uB7C9\uC744
+        \uC785\uD799\uB2C8\uB2E4."
+      - "Toutes les 10s, la foudre choquera jusqu'\xE0 5 cibles autour du personnage,
+        infligeant dmg = % dmg du joueur"
+      - Alle 10 Sekunden schockt ein Blitz bis zu 5 Ziele um den Charakter herum
+        und verursacht Schaden = % des Schadens des Spielers
+      - Setiap 10 detik, petir akan mengejutkan hingga 5 target di sekitar karakter,
+        memberikan dmg = % dmg pemain
+      - "Cada 10 s, un rayo impactar\xE1 hasta 5 objetivos alrededor del personaje,
+        infligiendo da\xF1o = % del da\xF1o del jugador"
+      - "\u041A\u0430\u0436\u0434\u044B\u0435 10 \u0441\u0435\u043A\u0443\u043D\u0434
+        \u043C\u043E\u043B\u043D\u0438\u044F \u043F\u043E\u0440\u0430\u0436\u0430\u0435\u0442
+        \u0434\u043E 5 \u0446\u0435\u043B\u0435\u0439 \u0432\u043E\u043A\u0440\u0443\u0433
+        \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430, \u043D\u0430\u043D\u043E\u0441\u044F
+        \u0443\u0440\u043E\u043D, \u0440\u0430\u0432\u043D\u044B\u0439 % \u0443\u0440\u043E\u043D\u0430
+        \u0438\u0433\u0440\u043E\u043A\u0430."
+      - "\u0E17\u0E38\u0E01\u0E46 10 \u0E27\u0E34\u0E19\u0E32\u0E17\u0E35 \u0E2A\u0E32\u0E22\u0E1F\u0E49\u0E32\u0E08\u0E30\u0E17\u0E33\u0E43\u0E2B\u0E49\u0E40\u0E1B\u0E49\u0E32\u0E2B\u0E21\u0E32\u0E22
+        5 \u0E40\u0E1B\u0E49\u0E32\u0E2B\u0E21\u0E32\u0E22\u0E23\u0E2D\u0E1A\u0E46
+        \u0E15\u0E31\u0E27\u0E25\u0E30\u0E04\u0E23\u0E15\u0E01\u0E43\u0E08 \u0E2A\u0E23\u0E49\u0E32\u0E07
+        dmg = % dmg \u0E02\u0E2D\u0E07\u0E1C\u0E39\u0E49\u0E40\u0E25\u0E48\u0E19"
+      - "\u6BCF 10 \u79D2\uFF0C\u95EA\u7535\u4F1A\u7535\u51FB\u89D2\u8272\u5468\u56F4\u6700\u591A
+        5 \u4E2A\u76EE\u6807\uFF0C\u9020\u6210 dmg = % \u73A9\u5BB6\u7684 dmg"
+      - Setiap 10s, kilat akan mengejutkan sehingga 5 sasaran di sekeliling watak,
+        menangani dmg = % dmg pemain
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/13
+      TermType: 0
+      Description: 
+      Languages:
+      - Place mines while moving
+      - "\u0110\u1EB7t m\xECn khi di chuy\u1EC3n"
+      - "A cada X dist\xE2ncia de viagem espalhar\xE1 1 mina no ch\xE3o, o inimigo
+        que tocar a mina detonar\xE1, causando % de dano"
+      - "X \uC774\uB3D9 \uAC70\uB9AC\uB9C8\uB2E4 \uC9C0\uBA74\uC5D0 \uC9C0\uB8B0
+        1\uAC1C\uAC00 \uD769\uC5B4\uC9C0\uACE0 \uC9C0\uB8B0\uC5D0 \uB2FF\uC740 \uC801\uC740
+        \uD3ED\uBC1C\uD558\uC5EC % dmg \uD53C\uD574\uB97C \uC90D\uB2C8\uB2E4."
+      - Chaque distance parcourue par X dispersera 1 mine au sol, l'ennemi qui touche
+        la mine explosera, infligeant % dmg
+      - "Jede X-Wegstrecke wird 1 Mine auf den Boden streuen, der Feind, der die
+        Mine ber\xFChrt, wird explodieren und % dmg verursachen"
+      - Setiap jarak X perjalanan akan menyebarkan 1 ranjau di tanah, musuh yang
+        menyentuh ranjau akan meledak, menangani % dmg
+      - "Cada X distancia de viaje esparcir\xE1 1 mina en el suelo, el enemigo que
+        toque la mina detonar\xE1, causando % de da\xF1o"
+      - "\u041D\u0430 \u043A\u0430\u0436\u0434\u043E\u043C X \u043F\u0440\u043E\u0439\u0434\u0435\u043D\u043D\u043E\u043C
+        \u0440\u0430\u0441\u0441\u0442\u043E\u044F\u043D\u0438\u0438 \u0431\u0443\u0434\u0435\u0442
+        \u0440\u0430\u0437\u0431\u0440\u043E\u0441\u0430\u043D\u0430 1 \u043C\u0438\u043D\u0430
+        \u043F\u043E \u0437\u0435\u043C\u043B\u0435, \u0432\u0440\u0430\u0433, \u043A\u043E\u0442\u043E\u0440\u044B\u0439
+        \u043A\u043E\u0441\u043D\u0435\u0442\u0441\u044F \u043C\u0438\u043D\u044B,
+        \u0432\u0437\u043E\u0440\u0432\u0435\u0442\u0441\u044F, \u043D\u0430\u043D\u043E\u0441\u044F
+        % \u0443\u0440\u043E\u043D\u0430."
+      - "\u0E17\u0E38\u0E01\u0E23\u0E30\u0E22\u0E30\u0E01\u0E32\u0E23\u0E40\u0E14\u0E34\u0E19\u0E17\u0E32\u0E07
+        X \u0E08\u0E30\u0E01\u0E23\u0E30\u0E08\u0E32\u0E22 1 \u0E17\u0E38\u0E48\u0E19\u0E23\u0E30\u0E40\u0E1A\u0E34\u0E14\u0E1A\u0E19\u0E1E\u0E37\u0E49\u0E19
+        \u0E28\u0E31\u0E15\u0E23\u0E39\u0E17\u0E35\u0E48\u0E41\u0E15\u0E30\u0E01\u0E31\u0E1A\u0E17\u0E38\u0E48\u0E19\u0E23\u0E30\u0E40\u0E1A\u0E34\u0E14\u0E08\u0E30\u0E23\u0E30\u0E40\u0E1A\u0E34\u0E14
+        \u0E2A\u0E23\u0E49\u0E32\u0E07 % dmg"
+      - "\u6BCF X \u79FB\u52A8\u8DDD\u79BB\u4F1A\u5728\u5730\u9762\u6563\u5E03 1
+        \u4E2A\u5730\u96F7\uFF0C\u63A5\u89E6\u5230\u5730\u96F7\u7684\u654C\u4EBA\u4F1A\u5F15\u7206\uFF0C\u9020\u6210
+        % \u4F24\u5BB3"
+      - Setiap jarak perjalanan X akan menyerakkan 1 lombong di atas tanah, musuh
+        yang menyentuh lombong akan meletup, berurusan % dmg
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/14
+      TermType: 0
+      Description: 
+      Languages:
+      - Emits an electric pulse that damages and knocks back enemies
+      - "Ph\xE1t ra xung \u0111i\u1EC7n g\xE2y s\xE1t th\u01B0\u01A1ng v\xE0 \u0111\u1EA9y
+        l\xF9i k\u1EBB th\xF9"
+      - A cada 10s, emite um raio centrado em si mesmo e se espalha para longe, repelindo
+        inimigos e causando % de dano
+      - "10\uCD08\uB9C8\uB2E4 \uC790\uC2E0\uC744 \uC911\uC2EC\uC73C\uB85C \uBE54\uC744
+        \uBC29\uCD9C\uD558\uC5EC \uBA40\uB9AC \uD37C\uB728\uB824 \uC801\uC744 \uBC00\uCCD0\uB0B4\uACE0
+        % \uB370\uBBF8\uC9C0\uB97C \uC90D\uB2C8\uB2E4."
+      - "Toutes les 10s, \xE9met un rayon centr\xE9 sur lui-m\xEAme et se propageant
+        au loin, repoussant les ennemis et infligeant % dmg"
+      - "Sendet alle 10 Sekunden einen Strahl aus, der auf ihn selbst zentriert ist
+        und sich weit ausbreitet, Feinde zur\xFCckst\xF6\xDFt und % dmg verursacht"
+      - Setiap 10 d, memancarkan sinar yang berpusat pada dirinya sendiri dan menyebar
+        jauh, memukul mundur musuh dan memberikan % dmg
+      - "Cada 10 s, emite un rayo centrado en s\xED mismo y se extiende lejos, derribando
+        a los enemigos e infligiendo % de da\xF1o."
+      - "\u041A\u0430\u0436\u0434\u044B\u0435 10 \u0441\u0435\u043A\u0443\u043D\u0434
+        \u0438\u0441\u043F\u0443\u0441\u043A\u0430\u0435\u0442 \u043B\u0443\u0447
+        \u0441 \u0446\u0435\u043D\u0442\u0440\u043E\u043C \u043D\u0430 \u0441\u0435\u0431\u0435
+        \u0438 \u0434\u0430\u043B\u0435\u043A\u043E \u0440\u0430\u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F,
+        \u043E\u0442\u0431\u0440\u0430\u0441\u044B\u0432\u0430\u044F \u0432\u0440\u0430\u0433\u043E\u0432
+        \u0438 \u043D\u0430\u043D\u043E\u0441\u044F % \u0443\u0440\u043E\u043D\u0430."
+      - "\u0E17\u0E38\u0E01\u0E46 10 \u0E27\u0E34\u0E19\u0E32\u0E17\u0E35 \u0E08\u0E30\u0E1B\u0E25\u0E48\u0E2D\u0E22\u0E25\u0E33\u0E41\u0E2A\u0E07\u0E17\u0E35\u0E48\u0E21\u0E35\u0E28\u0E39\u0E19\u0E22\u0E4C\u0E01\u0E25\u0E32\u0E07\u0E17\u0E35\u0E48\u0E15\u0E31\u0E27\u0E40\u0E02\u0E32\u0E40\u0E2D\u0E07\u0E41\u0E25\u0E30\u0E01\u0E23\u0E30\u0E08\u0E32\u0E22\u0E2D\u0E2D\u0E01\u0E44\u0E1B\u0E44\u0E01\u0E25
+        \u0E01\u0E23\u0E30\u0E41\u0E17\u0E01\u0E28\u0E31\u0E15\u0E23\u0E39\u0E41\u0E25\u0E30\u0E2A\u0E23\u0E49\u0E32\u0E07
+        % dmg"
+      - "\u6BCF 10 \u79D2\uFF0C\u53D1\u5C04\u4E00\u9053\u4EE5\u81EA\u8EAB\u4E3A\u4E2D\u5FC3\u7684\u5149\u675F\u5E76\u6269\u6563\u5230\u8FDC\u5904\uFF0C\u51FB\u9000\u654C\u4EBA\u5E76\u9020\u6210
+        % \u4F24\u5BB3"
+      - Setiap 10s, memancarkan pancaran berpusat pada dirinya dan merebak jauh,
+        mengetuk musuh dan menangani % dmg
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/15
+      TermType: 0
+      Description: 
+      Languages:
+      - Attack enemies with lasers
+      - "T\u1EA5n c\xF4ng k\u1EBB \u0111\u1ECBch b\u1EB1ng tia laser"
+      - "Cria um raio laser, varre um c\xEDrculo ao redor do jogador a cada 10 segundos,
+        os inimigos atingidos pelo raio receber\xE3o % dmg"
+      - "\uB808\uC774\uC800 \uBE54\uC744 \uC0DD\uC131\uD558\uACE0 10\uCD08\uB9C8\uB2E4
+        \uD50C\uB808\uC774\uC5B4 \uC8FC\uC704\uB97C \uB3C4\uB294 \uC6D0\uC744 \uADF8\uB9AC\uBA70
+        \uBE54\uC5D0 \uB9DE\uC740 \uC801\uC740 % \uB370\uBBF8\uC9C0\uB97C \uBC1B\uC2B5\uB2C8\uB2E4."
+      - "Cr\xE9e un rayon laser, balaie un cercle autour du joueur toutes les 10
+        secondes, les ennemis touch\xE9s par le rayon recevront % dmg"
+      - Erzeugt einen Laserstrahl, fegt alle 10 Sekunden einen Kreis um den Spieler
+        herum, Gegner, die vom Strahl getroffen werden, erhalten % dmg
+      - Membuat sinar laser, menyapu lingkaran di sekitar pemain setiap 10 detik,
+        musuh yang terkena sinar akan menerima % dmg
+      - "Crea un rayo l\xE1ser, barre un c\xEDrculo alrededor del jugador cada 10
+        segundos, los enemigos golpeados por el rayo recibir\xE1n un % de da\xF1o"
+      - "\u0421\u043E\u0437\u0434\u0430\u0435\u0442 \u043B\u0430\u0437\u0435\u0440\u043D\u044B\u0439
+        \u043B\u0443\u0447, \u043E\u0447\u0435\u0440\u0447\u0438\u0432\u0430\u0435\u0442
+        \u043A\u0440\u0443\u0433 \u0432\u043E\u043A\u0440\u0443\u0433 \u0438\u0433\u0440\u043E\u043A\u0430
+        \u043A\u0430\u0436\u0434\u044B\u0435 10 \u0441\u0435\u043A\u0443\u043D\u0434,
+        \u0432\u0440\u0430\u0433\u0438, \u043F\u043E\u0440\u0430\u0436\u0435\u043D\u043D\u044B\u0435
+        \u043B\u0443\u0447\u043E\u043C, \u043F\u043E\u043B\u0443\u0447\u0430\u0442
+        % \u0443\u0440\u043E\u043D\u0430"
+      - "\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E25\u0E33\u0E41\u0E2A\u0E07\u0E40\u0E25\u0E40\u0E0B\u0E2D\u0E23\u0E4C
+        \u0E01\u0E27\u0E32\u0E14\u0E40\u0E1B\u0E47\u0E19\u0E27\u0E07\u0E01\u0E25\u0E21\u0E23\u0E2D\u0E1A\u0E46
+        \u0E1C\u0E39\u0E49\u0E40\u0E25\u0E48\u0E19\u0E17\u0E38\u0E01\u0E46 10 \u0E27\u0E34\u0E19\u0E32\u0E17\u0E35
+        \u0E28\u0E31\u0E15\u0E23\u0E39\u0E17\u0E35\u0E48\u0E42\u0E14\u0E19\u0E25\u0E33\u0E41\u0E2A\u0E07\u0E08\u0E30\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A
+        % dmg"
+      - "\u5236\u9020\u4E00\u675F\u6FC0\u5149\uFF0C\u6BCF 10 \u79D2\u5728\u73A9\u5BB6\u5468\u56F4\u626B\u4E00\u5708\uFF0C\u88AB\u5149\u675F\u51FB\u4E2D\u7684\u654C\u4EBA\u5C06\u53D7\u5230
+        % \u4F24\u5BB3"
+      - Mencipta pancaran laser, menyapu bulatan di sekeliling pemain setiap 10 saat,
+        musuh yang terkena pancaran akan menerima % dmg
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/16
+      TermType: 0
+      Description: 
+      Languages:
+      - Get a shield after a few seconds
+      - "Nh\u1EADn l\xE1 ch\u1EAFn sau v\xE0i gi\xE2y"
+      - "A cada 10 segundos, ganha 1 escudo protetor, dura 3 segundos, o escudo tem
+        um HP igual a % do HP m\xE1ximo"
+      - "10\uCD08\uB9C8\uB2E4 \uBCF4\uD638\uB9C9 1\uAC1C \uD68D\uB4DD, 3\uCD08 \uB3D9\uC548
+        \uC9C0\uC18D, \uBCF4\uD638\uB9C9\uC758 HP\uB294 \uCD5C\uB300 HP\uC758 %"
+      - "Toutes les 10 secondes, gagnez 1 bouclier protecteur, dure 3 secondes, le
+        bouclier a un HP \xE9gal \xE0 % max HP"
+      - "Erhalte alle 10 Sekunden 1 Schutzschild, h\xE4lt 3 Sekunden lang an, der
+        Schild hat eine HP in H\xF6he von % max HP"
+      - Setiap 10 detik, dapatkan 1 pelindung pelindung, bertahan selama 3 detik,
+        pelindung memiliki HP sama dengan % max HP
+      - "Cada 10 segundos, gana 1 escudo protector, dura 3 segundos, el escudo tiene
+        un HP igual al % de HP m\xE1ximo"
+      - "\u041A\u0430\u0436\u0434\u044B\u0435 10 \u0441\u0435\u043A\u0443\u043D\u0434
+        \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0435 1 \u0437\u0430\u0449\u0438\u0442\u043D\u044B\u0439
+        \u0449\u0438\u0442, \u0434\u043B\u0438\u0442\u0441\u044F 3 \u0441\u0435\u043A\u0443\u043D\u0434\u044B,
+        \u0449\u0438\u0442 \u0438\u043C\u0435\u0435\u0442 HP, \u0440\u0430\u0432\u043D\u044B\u0439
+        % \u043E\u0442 \u043C\u0430\u043A\u0441\u0438\u043C\u0430\u043B\u044C\u043D\u043E\u0433\u043E
+        HP"
+      - "\u0E17\u0E38\u0E01\u0E46 10 \u0E27\u0E34\u0E19\u0E32\u0E17\u0E35 \u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E42\u0E25\u0E48\u0E1B\u0E49\u0E2D\u0E07\u0E01\u0E31\u0E19
+        1 \u0E0A\u0E34\u0E49\u0E19 \u0E40\u0E1B\u0E47\u0E19\u0E40\u0E27\u0E25\u0E32
+        3 \u0E27\u0E34\u0E19\u0E32\u0E17\u0E35 \u0E42\u0E25\u0E48\u0E21\u0E35 HP
+        \u0E40\u0E17\u0E48\u0E32\u0E01\u0E31\u0E1A % HP \u0E2A\u0E39\u0E07\u0E2A\u0E38\u0E14"
+      - "\u6BCF 10 \u79D2\uFF0C\u83B7\u5F97 1 \u4E2A\u9632\u62A4\u76FE\uFF0C\u6301\u7EED
+        3 \u79D2\uFF0C\u9632\u62A4\u76FE\u7684\u751F\u547D\u503C\u7B49\u4E8E\u6700\u5927\u751F\u547D\u503C\u7684
+        %"
+      - Setiap 10 saat, dapatkan 1 perisai pelindung, bertahan selama 3 saat, perisai
+        itu mempunyai HP bersamaan dengan % HP maks
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/17
+      TermType: 0
+      Description: 
+      Languages:
+      - Summon a drone to shoot at enemies
+      - "G\u1ECDi m\u1ED9t m\xE1y bay t\u1EA5n c\xF4ng k\u1EBB \u0111\u1ECBch"
+      - Chame 1 Drone para seguir e atirar balas em zumbis no raio, causando % dmg
+      - "1 Drone\uC744 \uD638\uCD9C\uD558\uC5EC \uBC18\uACBD \uB0B4 \uC880\uBE44\uB97C
+        \uB530\uB77C\uAC00 \uCD1D\uC54C\uC744 \uC3D8\uC544 % dmg\uB97C \uCC98\uB9AC\uD569\uB2C8\uB2E4."
+      - Appelez 1 drone pour suivre et tirer des balles sur les zombies dans le rayon,
+        infligeant % dmg
+      - "Rufen Sie 1 Drohne an, um zu folgen und Kugeln auf Zombies im Radius zu
+        schie\xDFen, die % dmg verursachen"
+      - Panggil 1 Drone untuk mengikuti dan menembakkan peluru ke zombie dalam radius,
+        menghasilkan % dmg
+      - "Llama a 1 dron para seguir y disparar balas a los zombis en el radio, infligiendo
+        % de da\xF1o"
+      - "\u0412\u044B\u0437\u043E\u0432\u0438\u0442\u0435 1 \u0434\u0440\u043E\u043D\u0430,
+        \u0447\u0442\u043E\u0431\u044B \u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u044C
+        \u0437\u0430 \u043D\u0438\u043C, \u0438 \u0441\u0442\u0440\u0435\u043B\u044F\u0439\u0442\u0435
+        \u043F\u0443\u043B\u044F\u043C\u0438 \u0432 \u0437\u043E\u043C\u0431\u0438
+        \u0432 \u0440\u0430\u0434\u0438\u0443\u0441\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F,
+        \u043D\u0430\u043D\u043E\u0441\u044F % \u0443\u0440\u043E\u043D\u0430."
+      - "\u0E40\u0E23\u0E35\u0E22\u0E01\u0E42\u0E14\u0E23\u0E19 1 \u0E15\u0E31\u0E27\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E15\u0E34\u0E14\u0E15\u0E32\u0E21\u0E41\u0E25\u0E30\u0E22\u0E34\u0E07\u0E01\u0E23\u0E30\u0E2A\u0E38\u0E19\u0E43\u0E2A\u0E48\u0E0B\u0E2D\u0E21\u0E1A\u0E35\u0E49\u0E43\u0E19\u0E23\u0E31\u0E28\u0E21\u0E35
+        \u0E17\u0E33\u0E04\u0E27\u0E32\u0E21\u0E40\u0E2A\u0E35\u0E22\u0E2B\u0E32\u0E22
+        % dmg"
+      - "\u53EC\u5524 1 \u67B6\u65E0\u4EBA\u673A\u8DDF\u968F\u5E76\u5411\u534A\u5F84\u5185\u7684\u50F5\u5C38\u5C04\u51FB\u5B50\u5F39\uFF0C\u9020\u6210
+        % \u4F24\u5BB3"
+      - Panggil 1 Drone untuk mengikuti dan menembak peluru ke arah zombi dalam radius,
+        menghasilkan % dmg
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/18
+      TermType: 0
+      Description: 
+      Languages:
+      - Summon a meteor to attack enemies
+      - "Tri\u1EC7u h\u1ED3i thi\xEAn th\u1EA1ch t\u1EA5n c\xF4ng k\u1EBB \u0111\u1ECBch"
+      - Deixa cair aleatoriamente 1 meteoro em 1 inimigo a cada 5s, causando % de
+        dano espalhado
+      - "5\uCD08\uB9C8\uB2E4 1\uBA85\uC758 \uC801\uC5D0\uAC8C \uBB34\uC791\uC704\uB85C
+        1\uAC1C\uC758 \uC6B4\uC11D\uC744 \uB5A8\uC5B4\uB728\uB824 %\uC758 \uD53C\uD574
+        \uD655\uC0B0\uC744 \uC90D\uB2C8\uB2E4."
+      - "L\xE2che au hasard 1 m\xE9t\xE9ore sur 1 ennemi toutes les 5 s, infligeant
+        % de d\xE9g\xE2ts r\xE9partis"
+      - "L\xE4sst zuf\xE4llig alle 5 Sekunden 1 Meteor auf 1 Feind fallen und verursacht
+        % Schadensausbreitung"
+      - Secara acak menjatuhkan 1 meteor pada 1 musuh setiap 5 d, memberikan % penyebaran
+        kerusakan
+      - "Deja caer aleatoriamente 1 meteorito sobre 1 enemigo cada 5 s, lo que inflige
+        un % de dispersi\xF3n de da\xF1o"
+      - "\u0421\u043B\u0443\u0447\u0430\u0439\u043D\u044B\u043C \u043E\u0431\u0440\u0430\u0437\u043E\u043C
+        \u0441\u0431\u0440\u0430\u0441\u044B\u0432\u0430\u0435\u0442 1 \u043C\u0435\u0442\u0435\u043E\u0440
+        \u043D\u0430 1 \u0432\u0440\u0430\u0433\u0430 \u043A\u0430\u0436\u0434\u044B\u0435
+        5 \u0441\u0435\u043A\u0443\u043D\u0434, \u043D\u0430\u043D\u043E\u0441\u044F
+        % \u0440\u0430\u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0435\u043D\u0438\u044F
+        \u0443\u0440\u043E\u043D\u0430."
+      - "\u0E2A\u0E38\u0E48\u0E21\u0E1B\u0E25\u0E48\u0E2D\u0E22 1 \u0E2D\u0E38\u0E01\u0E01\u0E32\u0E1A\u0E32\u0E15\u0E43\u0E2A\u0E48\u0E28\u0E31\u0E15\u0E23\u0E39
+        1 \u0E15\u0E31\u0E27\u0E17\u0E38\u0E01\u0E46 5 \u0E27\u0E34\u0E19\u0E32\u0E17\u0E35
+        \u0E2A\u0E23\u0E49\u0E32\u0E07\u0E04\u0E27\u0E32\u0E21\u0E40\u0E2A\u0E35\u0E22\u0E2B\u0E32\u0E22
+        % \u0E01\u0E23\u0E30\u0E08\u0E32\u0E22"
+      - "\u6BCF 5 \u79D2\u968F\u673A\u5411 1 \u4E2A\u654C\u4EBA\u6389\u843D 1 \u9897\u6D41\u661F\uFF0C\u9020\u6210
+        % \u4F24\u5BB3\u6269\u6563"
+      - Secara rawak menjatuhkan 1 meteor pada 1 musuh setiap 5 saat, memberikan
+        % penyebaran kerosakan
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/19
+      TermType: 0
+      Description: 
+      Languages:
+      - Fire a wave of rockets to attack the enemy
+      - "B\u1EAFn m\u1ED9t \u0111\u1EE3t t\xEAn l\u1EEDa t\u1EA5n c\xF4ng k\u1EBB
+        \u0111\u1ECBch"
+      - "A cada 5 segundos dispara 1 foguete de n\xEDvel + em um inimigo aleat\xF3rio,
+        causando % de dano espalhado"
+      - "5\uCD08\uB9C8\uB2E4 \uBB34\uC791\uC704 \uC801\uC5D0\uAC8C 1\uB808\uBCA8
+        \uC774\uC0C1\uC758 \uB85C\uCF13\uC744 \uBC1C\uC0AC\uD558\uC5EC % \uB370\uBBF8\uC9C0
+        \uD655\uC0B0"
+      - "Toutes les 5 s, tire une roquette de niveau 1+ sur un ennemi al\xE9atoire,
+        infligeant % de d\xE9g\xE2ts r\xE9partis"
+      - "Alle 5 Sekunden feuert eine Rakete der Stufe 1+ auf einen zuf\xE4lligen
+        Feind und verursacht % Schadensausbreitung"
+      - Setiap 5 d menembakkan roket 1+ level ke musuh acak, menghasilkan % penyebaran
+        kerusakan
+      - "Cada 5 s dispara un cohete de nivel superior a un enemigo aleatorio, lo
+        que inflige un porcentaje de da\xF1o distribuido"
+      - "\u041A\u0430\u0436\u0434\u044B\u0435 5 \u0441\u0435\u043A\u0443\u043D\u0434
+        \u0437\u0430\u043F\u0443\u0441\u043A\u0430\u0435\u0442 \u0440\u0430\u043A\u0435\u0442\u0443
+        1+ \u0443\u0440\u043E\u0432\u043D\u044F \u0432 \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u043E\u0433\u043E
+        \u0432\u0440\u0430\u0433\u0430, \u043D\u0430\u043D\u043E\u0441\u044F % \u0440\u0430\u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0435\u043D\u0438\u044F
+        \u0443\u0440\u043E\u043D\u0430"
+      - "\u0E17\u0E38\u0E01\u0E46 5 \u0E27\u0E34\u0E19\u0E32\u0E17\u0E35 \u0E22\u0E34\u0E07\u0E08\u0E23\u0E27\u0E14\u0E23\u0E30\u0E14\u0E31\u0E1A
+        1+ \u0E44\u0E1B\u0E22\u0E31\u0E07\u0E28\u0E31\u0E15\u0E23\u0E39\u0E41\u0E1A\u0E1A\u0E2A\u0E38\u0E48\u0E21
+        \u0E2A\u0E23\u0E49\u0E32\u0E07\u0E04\u0E27\u0E32\u0E21\u0E40\u0E2A\u0E35\u0E22\u0E2B\u0E32\u0E22
+        % \u0E01\u0E23\u0E30\u0E08\u0E32\u0E22"
+      - "\u6BCF 5 \u79D2\u5411\u968F\u673A\u654C\u4EBA\u53D1\u5C04 1 \u7EA7\u4EE5\u4E0A\u7684\u706B\u7BAD\uFF0C\u9020\u6210
+        % \u4F24\u5BB3\u6269\u6563"
+      - Setiap 5s menembak 1+roket tahap ke arah musuh rawak, memberikan % penyebaran
+        kerosakan
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/2
+      TermType: 0
+      Description: 
+      Languages:
+      - GREATLY increase your attack
+      - "T\u0103ng M\u1EA0NH t\u1EA5n c\xF4ng c\u1EE7a b\u1EA1n"
+      - Aumente MUITO seu ataque
+      - "\uACF5\uACA9\uC744 \uD06C\uAC8C \uC99D\uAC00"
+      - "Augmentez CONSID\xC9RABLEMENT votre attaque"
+      - "Erh\xF6hen Sie Ihren Angriff SEHR"
+      - SANGAT meningkatkan serangan Anda
+      - aumenta GRANDEMENTE tu ataque
+      - "\u0417\u041D\u0410\u0427\u0418\u0422\u0415\u041B\u042C\u041D\u041E \u0443\u0432\u0435\u043B\u0438\u0447\u044C\u0442\u0435
+        \u0441\u0432\u043E\u044E \u0430\u0442\u0430\u043A\u0443"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E01\u0E32\u0E23\u0E42\u0E08\u0E21\u0E15\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E21\u0E32\u0E01"
+      - "\u5927\u5927\u589E\u52A0\u4F60\u7684\u653B\u51FB\u529B"
+      - AMAT meningkatkan serangan anda
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/20
+      TermType: 0
+      Description: 
+      Languages:
+      - Has a chance to drop a healing potion after killing an enemy
+      - "C\xF3 c\u01A1 h\u1ED9i r\u01A1i b\xECnh thu\u1ED1c h\u1ED3i m\xE1u sau khi
+        ti\xEAu di\u1EC7t k\u1EBB th\xF9"
+      - Aumente a taxa de queda de % de HP ao matar o inimigo
+      - "\uC801 \uCC98\uCE58 \uC2DC HP \uB4DC\uB78D\uB960 % \uC99D\uAC00"
+      - Augmente le pourcentage de chute de HP lorsque vous tuez un ennemi
+      - "Erh\xF6hen Sie die prozentuale HP-Droprate beim T\xF6ten eines Feindes"
+      - Tingkatkan persentase penurunan HP saat membunuh musuh
+      - "Aumenta el porcentaje de ca\xEDda de HP al matar enemigos"
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u0438\u0435 % \u0448\u0430\u043D\u0441\u0430
+        \u0432\u044B\u043F\u0430\u0434\u0435\u043D\u0438\u044F HP \u043F\u0440\u0438
+        \u0443\u0431\u0438\u0439\u0441\u0442\u0432\u0435 \u0432\u0440\u0430\u0433\u0430"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E2D\u0E31\u0E15\u0E23\u0E32\u0E01\u0E32\u0E23\u0E14\u0E23\u0E2D\u0E1B
+        HP % \u0E40\u0E21\u0E37\u0E48\u0E2D\u0E2A\u0E31\u0E07\u0E2B\u0E32\u0E23\u0E28\u0E31\u0E15\u0E23\u0E39"
+      - "\u51FB\u6740\u654C\u4EBA\u65F6\u589E\u52A0 % HP \u6389\u7387"
+      - Tingkatkan % kadar penurunan HP apabila membunuh musuh
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/21
+      TermType: 0
+      Description: 
+      Languages:
+      - Summons a flying sword to attack enemies
+      - "Tri\u1EC7u h\u1ED3i m\u1ED9t thanh phi ki\u1EBFm \u0111\u1EC3 t\u1EA5n c\xF4ng
+        k\u1EBB th\xF9"
+      - "Convoca 3+ punhais de n\xEDvel para atirar em inimigos aleat\xF3rios a cada
+        5 segundos, arremessando punhais em todos os inimigos e causando % de dano
+        neles"
+      - "5\uCD08\uB9C8\uB2E4 \uBB34\uC791\uC704 \uC801\uC5D0\uAC8C 3\uB808\uBCA8
+        \uC774\uC0C1\uC758 \uB2E8\uAC80\uC744 \uC18C\uD658\uD558\uC5EC \uBAA8\uB4E0
+        \uC801\uC5D0\uAC8C \uB2E8\uAC80\uC744 \uB358\uC9C0\uACE0 % \uB300\uBBF8\uC9C0\uB97C
+        \uC90D\uB2C8\uB2E4."
+      - "Invoque des poignards de niveau 3+ pour tirer sur des ennemis al\xE9atoires
+        toutes les 5 secondes, lan\xE7ant des poignards \xE0 travers tous les ennemis
+        et leur infligeant % de d\xE9g\xE2ts"
+      - "Beschw\xF6rt Dolche der Stufe 3+, um alle 5 Sekunden auf zuf\xE4llige Feinde
+        zu feuern, Dolche durch alle Feinde zu schleudern und ihnen % Schaden zuzuf\xFCgen"
+      - Panggil 3+ level dagger untuk menembak musuh secara acak setiap 5 detik,
+        lemparkan dagger ke semua musuh dan berikan % dmg pada mereka
+      - "Invoca dagas de m\xE1s de 3 niveles para disparar a enemigos aleatorios
+        cada 5 segundos, arrojando dagas a trav\xE9s de todos los enemigos e infligiendo
+        % de da\xF1o sobre ellos"
+      - "\u041F\u0440\u0438\u0437\u044B\u0432\u0430\u0435\u0442 \u043A\u0438\u043D\u0436\u0430\u043B\u044B
+        3+ \u0443\u0440\u043E\u0432\u043D\u044F, \u043A\u043E\u0442\u043E\u0440\u044B\u0435
+        \u0441\u0442\u0440\u0435\u043B\u044F\u044E\u0442 \u0432 \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u044B\u0445
+        \u0432\u0440\u0430\u0433\u043E\u0432 \u043A\u0430\u0436\u0434\u044B\u0435
+        5 \u0441\u0435\u043A\u0443\u043D\u0434, \u0448\u0432\u044B\u0440\u044F\u044F
+        \u043A\u0438\u043D\u0436\u0430\u043B\u044B \u0447\u0435\u0440\u0435\u0437
+        \u0432\u0441\u0435\u0445 \u0432\u0440\u0430\u0433\u043E\u0432 \u0438 \u043D\u0430\u043D\u043E\u0441\u044F
+        \u0438\u043C % \u0443\u0440\u043E\u043D\u0430"
+      - "\u0E40\u0E23\u0E35\u0E22\u0E01\u0E21\u0E35\u0E14\u0E23\u0E30\u0E14\u0E31\u0E1A
+        3 \u0E02\u0E36\u0E49\u0E19\u0E44\u0E1B\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E22\u0E34\u0E07\u0E43\u0E2A\u0E48\u0E28\u0E31\u0E15\u0E23\u0E39\u0E41\u0E1A\u0E1A\u0E2A\u0E38\u0E48\u0E21\u0E17\u0E38\u0E01\u0E46
+        5 \u0E27\u0E34\u0E19\u0E32\u0E17\u0E35 \u0E02\u0E27\u0E49\u0E32\u0E07\u0E21\u0E35\u0E14\u0E1C\u0E48\u0E32\u0E19\u0E28\u0E31\u0E15\u0E23\u0E39\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14\u0E41\u0E25\u0E30\u0E2A\u0E23\u0E49\u0E32\u0E07
+        % dmg \u0E15\u0E48\u0E2D\u0E1E\u0E27\u0E01\u0E21\u0E31\u0E19"
+      - "\u53EC\u5524 3 \u7EA7\u4EE5\u4E0A\u5315\u9996\u6BCF 5 \u79D2\u5411\u968F\u673A\u654C\u4EBA\u5F00\u706B\uFF0C\u5C06\u5315\u9996\u6295\u5411\u6240\u6709\u654C\u4EBA\u5E76\u5BF9\u5176\u9020\u6210
+        % \u4F24\u5BB3"
+      - Memanggil belati 3+ peringkat untuk menembak musuh secara rawak setiap 5
+        saat, melontar belati ke semua musuh dan memberikan % dmg pada mereka
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/22
+      TermType: 0
+      Description: 
+      Languages:
+      - When taking damage, gain a shield and emit a shockwave that knocks enemies
+        back
+      - "Khi ch\u1ECBu s\xE1t th\u01B0\u01A1ng, nh\u1EADn \u0111\u01B0\u1EE3c m\u1ED9t
+        l\xE1 ch\u1EAFn v\xE0 ph\xE1t ra s\xF3ng xung k\xEDch \u0111\xE1nh b\u1EADt
+        k\u1EBB th\xF9"
+      - "Ao receber dano, desencadeia uma onda de choque que repele todos os inimigos
+        e ganha um escudo igual a % HP m\xE1ximo por 3 segundos, 30 segundos de recarga"
+      - "\uD53C\uD574\uB97C \uC785\uC73C\uBA74 \uCDA9\uACA9\uD30C\uB97C \uC77C\uC73C\uCF1C
+        \uC801 \uC804\uCCB4\uB97C \uB4A4\uB85C \uBC00\uCCD0\uB0B4\uACE0 3\uCD08 \uB3D9\uC548
+        \uCD5C\uB300 HP\uC758 %\uB9CC\uD07C \uBCF4\uD638\uB9C9\uC744 \uC5BB\uC2B5\uB2C8\uB2E4.
+        \uC7AC\uC0AC\uC6A9 \uB300\uAE30\uC2DC\uAC04\uC740 30\uCD08\uC785\uB2C8\uB2E4."
+      - "Lorsque vous subissez des d\xE9g\xE2ts, d\xE9clenche une onde de choc qui
+        repousse tous les ennemis et gagne un bouclier \xE9gal \xE0 % max HP pendant
+        3 secondes, 30 secondes de recharge"
+      - "L\xF6st beim Erleiden von Schaden eine Schockwelle aus, die alle Feinde
+        zur\xFCckst\xF6\xDFt und 3 Sekunden lang einen Schild in H\xF6he von % max.
+        HP erh\xE4lt, 30 Sekunden Abklingzeit"
+      - Saat menerima kerusakan, melepaskan gelombang kejut yang menjatuhkan semua
+        musuh dan mendapatkan perisai sebesar % max HP selama 3 detik, cooldown 30
+        detik
+      - "Al recibir da\xF1o, desata una onda de choque que repele a todos los enemigos
+        y gana un escudo igual al % de HP m\xE1ximo durante 3 segundos, 30 segundos
+        de enfriamiento"
+      - "\u041F\u0440\u0438 \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u0438\u0438
+        \u0443\u0440\u043E\u043D\u0430 \u0432\u044B\u043F\u0443\u0441\u043A\u0430\u0435\u0442
+        \u0443\u0434\u0430\u0440\u043D\u0443\u044E \u0432\u043E\u043B\u043D\u0443,
+        \u043A\u043E\u0442\u043E\u0440\u0430\u044F \u043E\u0442\u0431\u0440\u0430\u0441\u044B\u0432\u0430\u0435\u0442
+        \u0432\u0441\u0435\u0445 \u0432\u0440\u0430\u0433\u043E\u0432 \u0438 \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442
+        \u0449\u0438\u0442, \u0440\u0430\u0432\u043D\u044B\u0439 % \u043E\u0442 \u043C\u0430\u043A\u0441\u0438\u043C\u0430\u043B\u044C\u043D\u043E\u0433\u043E
+        \u0437\u0430\u043F\u0430\u0441\u0430 \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u044F
+        \u043D\u0430 3 \u0441\u0435\u043A\u0443\u043D\u0434\u044B, \u0432\u0440\u0435\u043C\u044F
+        \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u044F
+        30 \u0441\u0435\u043A\u0443\u043D\u0434."
+      - "\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E04\u0E27\u0E32\u0E21\u0E40\u0E2A\u0E35\u0E22\u0E2B\u0E32\u0E22
+        \u0E08\u0E30\u0E1B\u0E25\u0E48\u0E2D\u0E22\u0E04\u0E25\u0E37\u0E48\u0E19\u0E01\u0E23\u0E30\u0E41\u0E17\u0E01\u0E17\u0E35\u0E48\u0E01\u0E23\u0E30\u0E41\u0E17\u0E01\u0E28\u0E31\u0E15\u0E23\u0E39\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14\u0E43\u0E2B\u0E49\u0E01\u0E23\u0E30\u0E40\u0E14\u0E47\u0E19\u0E16\u0E2D\u0E22\u0E2B\u0E25\u0E31\u0E07
+        \u0E41\u0E25\u0E30\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E40\u0E01\u0E23\u0E32\u0E30\u0E40\u0E17\u0E48\u0E32\u0E01\u0E31\u0E1A
+        % HP \u0E2A\u0E39\u0E07\u0E2A\u0E38\u0E14\u0E40\u0E1B\u0E47\u0E19\u0E40\u0E27\u0E25\u0E32
+        3 \u0E27\u0E34\u0E19\u0E32\u0E17\u0E35 \u0E04\u0E39\u0E25\u0E14\u0E32\u0E27\u0E19\u0E4C
+        30 \u0E27\u0E34\u0E19\u0E32\u0E17\u0E35"
+      - "\u53D7\u5230\u4F24\u5BB3\u65F6\uFF0C\u91CA\u653E\u51B2\u51FB\u6CE2\u51FB\u9000\u6240\u6709\u654C\u4EBA\u5E76\u83B7\u5F97\u76F8\u5F53\u4E8E
+        % max HP \u7684\u62A4\u76FE\uFF0C\u6301\u7EED 3 \u79D2\uFF0C30 \u79D2\u51B7\u5374"
+      - Apabila menerima kerosakan, melepaskan gelombang kejutan yang mengetuk balik
+        semua musuh dan memperoleh perisai sama dengan % maks HP selama 3 saat, 30
+        saat bertenang
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/23
+      TermType: 0
+      Description: 
+      Languages:
+      - Increase the amount of coin received
+      - "T\u0103ng s\u1ED1 l\u01B0\u1EE3ng xu nh\u1EADn \u0111\u01B0\u1EE3c"
+      - Aumentar % de prata recebida
+      - "\uBC1B\uB294 \uC740\uD654 % \uC99D\uAC00"
+      - "Augmentation du % d'argent re\xE7u"
+      - "Erh\xF6hen Sie den Prozentsatz des erhaltenen Silbers"
+      - Tingkatkan % dari perak yang diterima
+      - Aumentar % de plata recibida
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u0438\u0435 % \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u043C\u043E\u0433\u043E
+        \u0441\u0435\u0440\u0435\u0431\u0440\u0430"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21 % \u0E02\u0E2D\u0E07\u0E40\u0E07\u0E34\u0E19\u0E17\u0E35\u0E48\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A"
+      - "\u589E\u52A0\u6536\u5230\u7684\u767D\u94F6\u767E\u5206\u6BD4"
+      - Meningkatkan % perak diterima
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/24
+      TermType: 0
+      Description: 
+      Languages:
+      - Creates an icy blast that damages and freezes enemies
+      - "T\u1EA1o ra 1 v\u1EE5 n\u1ED5 b\u0103ng gi\xE1 g\xE2y s\xE1t th\u01B0\u01A1ng
+        v\xE0 \u0111\xF3ng b\u0103ng k\u1EBB \u0111\u1ECBch"
+      - "Cria uma explos\xE3o gelada que danifica e congela os inimigos"
+      - "\uC801\uC5D0\uAC8C \uD53C\uD574\uB97C \uC785\uD788\uACE0 \uC5BC\uB9AC\uB294
+        \uC5BC\uC74C \uD3ED\uBC1C\uC744 \uC0DD\uC131\uD569\uB2C8\uB2E4."
+      - "Cr\xE9e une explosion glac\xE9e qui endommage et g\xE8le les ennemis"
+      - "Erzeugt eine eisige Explosion, die Gegnern Schaden zuf\xFCgt und sie einfriert"
+      - Menciptakan ledakan es yang merusak dan membekukan musuh
+      - "Crea una explosi\xF3n helada que da\xF1a y congela a los enemigos."
+      - "\u0421\u043E\u0437\u0434\u0430\u0435\u0442 \u043B\u0435\u0434\u044F\u043D\u043E\u0439
+        \u0432\u0437\u0440\u044B\u0432, \u043A\u043E\u0442\u043E\u0440\u044B\u0439
+        \u043D\u0430\u043D\u043E\u0441\u0438\u0442 \u0443\u0440\u043E\u043D \u0438
+        \u0437\u0430\u043C\u043E\u0440\u0430\u0436\u0438\u0432\u0430\u0435\u0442
+        \u0432\u0440\u0430\u0433\u043E\u0432"
+      - "\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E23\u0E30\u0E40\u0E1A\u0E34\u0E14\u0E19\u0E49\u0E33\u0E41\u0E02\u0E47\u0E07\u0E17\u0E35\u0E48\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E04\u0E27\u0E32\u0E21\u0E40\u0E2A\u0E35\u0E22\u0E2B\u0E32\u0E22\u0E41\u0E25\u0E30\u0E17\u0E33\u0E43\u0E2B\u0E49\u0E28\u0E31\u0E15\u0E23\u0E39\u0E41\u0E0A\u0E48\u0E41\u0E02\u0E47\u0E07"
+      - "\u5236\u9020\u51FA\u51B0\u51B7\u7684\u51B2\u51FB\u6CE2\uFF0C\u4F24\u5BB3\u5E76\u51BB\u7ED3\u654C\u4EBA"
+      - Mencipta letupan berais yang merosakkan dan membekukan musuh
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/25
+      TermType: 0
+      Description: 
+      Languages:
+      - Standing still for slowly regen health
+      - "Khi \u0111\u1EE9ng y\xEAn s\u1EBD t\u1EEB t\u1EEB h\u1ED3i ph\u1EE5c sinh
+        l\u1EF1c"
+      - Ao ficar parado por pelo menos comece a curar a cada segundo
+      - "\uC801\uC5B4\uB3C4 \uB9E4\uCD08 \uCE58\uC720\uB97C \uC2DC\uC791\uD558\uAE30
+        \uC704\uD574 \uAC00\uB9CC\uD788 \uC11C \uC788\uC744 \uB54C"
+      - "Lorsque vous restez immobile pendant au moins commencer \xE0 gu\xE9rir chaque
+        seconde"
+      - Wenn Sie still stehen, beginnen Sie mindestens jede Sekunde mit der Heilung
+      - Saat berdiri diam setidaknya mulai menyembuhkan setiap detik
+      - Cuando te quedes quieto por al menos comienza a sanar cada segundo
+      - "\u0421\u0442\u043E\u044F \u043D\u0430 \u043C\u0435\u0441\u0442\u0435, \u043F\u043E
+        \u043A\u0440\u0430\u0439\u043D\u0435\u0439 \u043C\u0435\u0440\u0435, \u043D\u0430\u0447\u043D\u0438\u0442\u0435
+        \u043B\u0435\u0447\u0438\u0442\u044C \u043A\u0430\u0436\u0434\u0443\u044E
+        \u0441\u0435\u043A\u0443\u043D\u0434\u0443"
+      - "\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E22\u0E37\u0E19\u0E19\u0E34\u0E48\u0E07\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E19\u0E49\u0E2D\u0E22\u0E40\u0E23\u0E34\u0E48\u0E21\u0E23\u0E31\u0E01\u0E29\u0E32\u0E17\u0E38\u0E01\u0E27\u0E34\u0E19\u0E32\u0E17\u0E35"
+      - "\u9759\u6B62\u7AD9\u7ACB\u81F3\u5C11\u6BCF\u79D2\u5F00\u59CB\u6062\u590D"
+      - Apabila berdiri diam sekurang-kurangnya mulakan penyembuhan setiap saat
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/26
+      TermType: 0
+      Description: 
+      Languages:
+      - When the enemy dies it will explode, dealing damage to other enemies
+      - "Khi k\u1EBB \u0111\u1ECBch ch\u1EBFt s\u1EBD ph\xE1t n\u1ED5, g\xE2y s\xE1t
+        th\u01B0\u01A1ng l\xEAn c\xE1c k\u1EBB \u0111\u1ECBch kh\xE1c"
+      - "Quando o zumbi morrer, ele explodir\xE1, causando 1 de dano ao redor do
+        raio"
+      - "\uC880\uBE44\uAC00 \uC8FD\uC73C\uBA74 \uD3ED\uBC1C\uD558\uC5EC \uBC18\uACBD
+        \uC8FC\uBCC0\uC5D0 1\uC758 \uD53C\uD574\uB97C \uC90D\uB2C8\uB2E4."
+      - "Lorsque le zombie meurt, il explose, infligeant 1 d\xE9g\xE2t autour du
+        rayon"
+      - Wenn der Zombie stirbt, explodiert er und verursacht 1 Schaden im Radius
+      - Ketika zombie mati itu akan meledak, memberikan 1 kerusakan di sekitar radius
+      - "Cuando el zombi muera, explotar\xE1 e infligir\xE1 1 da\xF1o alrededor del
+        radio."
+      - "\u041A\u043E\u0433\u0434\u0430 \u0437\u043E\u043C\u0431\u0438 \u0443\u043C\u0438\u0440\u0430\u0435\u0442,
+        \u043E\u043D \u0432\u0437\u0440\u044B\u0432\u0430\u0435\u0442\u0441\u044F,
+        \u043D\u0430\u043D\u043E\u0441\u044F 1 \u0435\u0434\u0438\u043D\u0438\u0446\u0443
+        \u0443\u0440\u043E\u043D\u0430 \u0432 \u0440\u0430\u0434\u0438\u0443\u0441\u0435."
+      - "\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E0B\u0E2D\u0E21\u0E1A\u0E35\u0E49\u0E15\u0E32\u0E22
+        \u0E21\u0E31\u0E19\u0E08\u0E30\u0E23\u0E30\u0E40\u0E1A\u0E34\u0E14 \u0E2A\u0E23\u0E49\u0E32\u0E07\u0E04\u0E27\u0E32\u0E21\u0E40\u0E2A\u0E35\u0E22\u0E2B\u0E32\u0E22
+        1 \u0E14\u0E32\u0E40\u0E21\u0E08\u0E23\u0E2D\u0E1A\u0E23\u0E31\u0E28\u0E21\u0E35"
+      - "\u50F5\u5C38\u6B7B\u4EA1\u65F6\u4F1A\u7206\u70B8\uFF0C\u5728\u534A\u5F84\u5468\u56F4\u9020\u6210
+        1 \u70B9\u4F24\u5BB3"
+      - Apabila zombi mati ia akan meletup, memberikan 1 kerosakan di sekitar jejari
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/27
+      TermType: 0
+      Description: 
+      Languages:
+      - Call an air strike to bomb the enemy
+      - "Tri\u1EC7u h\u1ED3i m\u1ED9t cu\u1ED9c kh\xF4ng k\xEDch oanh t\u1EA1c k\u1EBB
+        \u0111\u1ECBch"
+      - "O esquadr\xE3o de avi\xF5es passou voando e lan\xE7ou bombas"
+      - "\uBE44\uD589\uAE30 \uD3B8\uB300\uAC00 \uB0A0\uC544 \uB2E4\uB2C8\uBA70 \uD3ED\uD0C4\uC744
+        \uB5A8\uC5B4 \uB728\uB838\uB2E4."
+      - "L'escadron d'avions est pass\xE9 et a largu\xE9 des bombes"
+      - Die Flugzeugstaffel flog vorbei und warfen Bomben ab
+      - Skuadron pesawat terbang dan menjatuhkan bom
+      - "El escuadr\xF3n de aviones pas\xF3 volando y arroj\xF3 bombas."
+      - "\u041F\u0440\u043E\u043B\u0435\u0442\u0435\u043B\u0430 \u044D\u0441\u043A\u0430\u0434\u0440\u0438\u043B\u044C\u044F
+        \u0441\u0430\u043C\u043E\u043B\u0435\u0442\u043E\u0432 \u0438 \u0441\u0431\u0440\u043E\u0441\u0438\u043B\u0430
+        \u0431\u043E\u043C\u0431\u044B"
+      - "\u0E1D\u0E39\u0E07\u0E1A\u0E34\u0E19\u0E1A\u0E34\u0E19\u0E1C\u0E48\u0E32\u0E19\u0E41\u0E25\u0E30\u0E17\u0E34\u0E49\u0E07\u0E23\u0E30\u0E40\u0E1A\u0E34\u0E14"
+      - "\u98DE\u673A\u4E2D\u961F\u98DE\u8FC7\u5E76\u6295\u4E0B\u70B8\u5F39"
+      - Skuadron pesawat terbang dan menjatuhkan bom
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/28
+      TermType: 0
+      Description: 
+      Languages:
+      - The plane flew by and dropped a supply box
+      - "M\xE1y bay bay ngang qua v\xE0 th\u1EA3 xu\u1ED1ng m\u1ED9t h\xF2m ti\u1EBFp
+        t\u1EBF"
+      - "O avi\xE3o voou e deixou cair uma caixa de suprimentos"
+      - "\uBE44\uD589\uAE30\uAC00 \uB0A0\uC544\uAC00\uC11C \uBCF4\uAE09\uD488 \uC0C1\uC790\uB97C
+        \uB5A8\uC5B4\uB728\uB838\uC5B4"
+      - "L'avion est pass\xE9 et a laiss\xE9 tomber une bo\xEEte de ravitaillement"
+      - "Das Flugzeug flog vorbei und lie\xDF eine Versorgungskiste fallen"
+      - Pesawat terbang lewat dan menjatuhkan kotak persediaan
+      - "El avi\xF3n pas\xF3 volando y dej\xF3 caer una caja de suministros."
+      - "\u0421\u0430\u043C\u043E\u043B\u0435\u0442 \u043F\u0440\u043E\u043B\u0435\u0442\u0435\u043B
+        \u0438 \u0441\u0431\u0440\u043E\u0441\u0438\u043B \u044F\u0449\u0438\u043A
+        \u0441 \u043F\u0440\u0438\u043F\u0430\u0441\u0430\u043C\u0438"
+      - "\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E1A\u0E34\u0E19\u0E1A\u0E34\u0E19\u0E1C\u0E48\u0E32\u0E19\u0E21\u0E32\u0E41\u0E25\u0E30\u0E17\u0E34\u0E49\u0E07\u0E01\u0E25\u0E48\u0E2D\u0E07\u0E40\u0E2A\u0E1A\u0E35\u0E22\u0E07"
+      - "\u98DE\u673A\u98DE\u8FC7\uFF0C\u6389\u4E86\u4E00\u4E2A\u8865\u7ED9\u7BB1"
+      - Pesawat itu terbang dan menjatuhkan kotak bekalan
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/29
+      TermType: 0
+      Description: 
+      Languages:
+      - Create a dummy to attract enemies
+      - "T\u1EA1o ra m\u1ED9t con b\xF9 nh\xECn \u0111\u1EC3 \u0111\xE1nh l\u1EA1c
+        h\u01B0\u1EDBng k\u1EBB \u0111\u1ECBch"
+      - "O personagem ficar\xE1 invis\xEDvel e criar\xE1 um espantalho para substitu\xED-lo"
+      - "\uCE90\uB9AD\uD130\uAC00 \uD22C\uBA85\uD574\uC9C0\uBA70 \uC774\uB97C \uB300\uCCB4\uD560
+        \uD5C8\uC218\uC544\uBE44\uB97C \uC0DD\uC131\uD569\uB2C8\uB2E4."
+      - "Le personnage deviendra invisible et cr\xE9era un \xE9pouvantail pour le
+        remplacer"
+      - Der Charakter wird unsichtbar und erschafft eine Vogelscheuche, um ihn zu
+        ersetzen
+      - Karakter akan menjadi tidak terlihat dan membuat orang-orangan sawah untuk
+        menggantikannya
+      - "El personaje se volver\xE1 invisible y crear\xE1 un espantap\xE1jaros para
+        reemplazarlo."
+      - "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 \u0441\u0442\u0430\u043D\u0435\u0442
+        \u043D\u0435\u0432\u0438\u0434\u0438\u043C\u044B\u043C \u0438 \u0432\u043C\u0435\u0441\u0442\u043E
+        \u043D\u0435\u0433\u043E \u0441\u043E\u0437\u0434\u0430\u0441\u0442 \u0447\u0443\u0447\u0435\u043B\u043E"
+      - "\u0E15\u0E31\u0E27\u0E25\u0E30\u0E04\u0E23\u0E08\u0E30\u0E25\u0E48\u0E2D\u0E07\u0E2B\u0E19\u0E41\u0E25\u0E30\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E2B\u0E38\u0E48\u0E19\u0E44\u0E25\u0E48\u0E01\u0E32\u0E21\u0E32\u0E41\u0E17\u0E19\u0E17\u0E35\u0E48"
+      - "\u89D2\u8272\u5C06\u53D8\u5F97\u9690\u5F62\u5E76\u521B\u9020\u4E00\u4E2A\u7A3B\u8349\u4EBA\u6765\u4EE3\u66FF\u5B83"
+      - Watak itu akan menjadi tidak kelihatan dan mencipta orang-orangan sawah untuk
+        menggantikannya
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/3
+      TermType: 0
+      Description: 
+      Languages:
+      - SLIGHTLY increase your HP
+      - "T\u0103ng NH\u1EB8 sinh l\u1EF1c c\u1EE7a b\u1EA1n"
+      - "Aumente % de HP m\xE1ximo de acordo com o HP base do jogador"
+      - "\uD50C\uB808\uC774\uC5B4\uC758 \uAE30\uBCF8 HP\uC5D0 \uB530\uB77C % \uCD5C\uB300
+        HP \uC99D\uAC00"
+      - Augmentez le % Max HP en fonction des HP de base du joueur
+      - "Erh\xF6hen Sie % Max HP entsprechend der Basis-HP des Spielers"
+      - Meningkatkan % Max HP sesuai dengan HP dasar pemain
+      - Aumente el % Max HP de acuerdo con el HP base del jugador
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u044C\u0442\u0435 % \u041C\u0430\u043A\u0441.
+        HP \u0432 \u0441\u043E\u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0438
+        \u0441 \u0431\u0430\u0437\u043E\u0432\u044B\u043C HP \u0438\u0433\u0440\u043E\u043A\u0430."
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21 % Max HP \u0E15\u0E32\u0E21 HP \u0E1E\u0E37\u0E49\u0E19\u0E10\u0E32\u0E19\u0E02\u0E2D\u0E07\u0E1C\u0E39\u0E49\u0E40\u0E25\u0E48\u0E19"
+      - "\u6839\u636E\u73A9\u5BB6\u7684\u57FA\u7840\u751F\u547D\u503C\u589E\u52A0
+        % Max HP"
+      - Tingkatkan % HP Maks mengikut HP asas pemain
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/30
+      TermType: 0
+      Description: 
+      Languages:
+      - Creates 12 flying swords that deal damage to enemies
+      - "T\u1EA1o ra 12 thanh ki\u1EBFm bay t\u1ECFa ra g\xE2y s\xE1t th\u01B0\u01A1ng
+        cho k\u1EBB th\xF9"
+      - Cria 8 espadas voadoras que causam dano aos inimigos
+      - "\uC801\uC5D0\uAC8C \uD53C\uD574\uB97C \uC8FC\uB294 \uBE44\uD589\uAC80 8\uAC1C
+        \uC0DD\uC131"
+      - "Cr\xE9e 8 \xE9p\xE9es volantes qui infligent des d\xE9g\xE2ts aux ennemis"
+      - "Erzeugt 8 fliegende Schwerter, die Feinden Schaden zuf\xFCgen"
+      - Menciptakan 8 pedang terbang yang memberikan kerusakan pada musuh
+      - "Crea 8 espadas voladoras que infligen da\xF1o a los enemigos."
+      - "\u0421\u043E\u0437\u0434\u0430\u0435\u0442 8 \u043B\u0435\u0442\u0430\u044E\u0449\u0438\u0445
+        \u043C\u0435\u0447\u0435\u0439, \u043D\u0430\u043D\u043E\u0441\u044F\u0449\u0438\u0445
+        \u0443\u0440\u043E\u043D \u0432\u0440\u0430\u0433\u0430\u043C."
+      - "\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E14\u0E32\u0E1A\u0E1A\u0E34\u0E19\u0E44\u0E14\u0E49
+        8 \u0E40\u0E25\u0E48\u0E21\u0E17\u0E35\u0E48\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E04\u0E27\u0E32\u0E21\u0E40\u0E2A\u0E35\u0E22\u0E2B\u0E32\u0E22\u0E43\u0E2B\u0E49\u0E01\u0E31\u0E1A\u0E28\u0E31\u0E15\u0E23\u0E39"
+      - "\u5236\u9020 8 \u628A\u98DE\u5251\u5BF9\u654C\u4EBA\u9020\u6210\u4F24\u5BB3"
+      - Mencipta 8 pedang terbang yang memberikan kerosakan kepada musuh
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/31
+      TermType: 0
+      Description: 
+      Languages:
+      - Summon a meteor to attack and freeze enemies
+      - "Tri\u1EC7u h\u1ED3i m\u1ED9t thi\xEAn th\u1EA1ch \u0111\u1EC3 t\u1EA5n c\xF4ng
+        v\xE0 \u0111\xF3ng b\u0103ng k\u1EBB th\xF9"
+      - Invoque um meteoro para atacar e congelar os inimigos
+      - "\uC720\uC131\uC744 \uC18C\uD658\uD558\uC5EC \uC801\uC744 \uACF5\uACA9\uD558\uACE0
+        \uC5BC\uB9AC\uC2ED\uC2DC\uC624."
+      - "Invoquez un m\xE9t\xE9ore pour attaquer et geler les ennemis"
+      - "Beschw\xF6re einen Meteor, um Feinde anzugreifen und einzufrieren"
+      - Panggil meteor untuk menyerang dan membekukan musuh
+      - Invoca un meteorito para atacar y congelar a los enemigos.
+      - "\u041F\u0440\u0438\u0437\u044B\u0432\u0430\u0435\u0442 \u043C\u0435\u0442\u0435\u043E\u0440,
+        \u0447\u0442\u043E\u0431\u044B \u0430\u0442\u0430\u043A\u043E\u0432\u0430\u0442\u044C
+        \u0438 \u0437\u0430\u043C\u043E\u0440\u0430\u0436\u0438\u0432\u0430\u0442\u044C
+        \u0432\u0440\u0430\u0433\u043E\u0432"
+      - "\u0E40\u0E23\u0E35\u0E22\u0E01\u0E2D\u0E38\u0E01\u0E01\u0E32\u0E1A\u0E32\u0E15\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E42\u0E08\u0E21\u0E15\u0E35\u0E41\u0E25\u0E30\u0E41\u0E0A\u0E48\u0E41\u0E02\u0E47\u0E07\u0E28\u0E31\u0E15\u0E23\u0E39"
+      - "\u53EC\u5524\u6D41\u661F\u653B\u51FB\u5E76\u51BB\u7ED3\u654C\u4EBA"
+      - Panggil meteor untuk menyerang dan membekukan musuh
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/32
+      TermType: 0
+      Description: 
+      Languages:
+      - Place ice mines while moving
+      - "\u0110\u1EB7t m\xECn b\u0103ng khi di chuy\u1EC3n"
+      - Coloque minas de gelo enquanto se move
+      - "\uC774\uB3D9\uD558\uB294 \uB3D9\uC548 \uC5BC\uC74C \uAD11\uC0B0 \uBC30\uCE58"
+      - "Placer des mines de glace en se d\xE9pla\xE7ant"
+      - "Platziere Eisminen, w\xE4hrend du dich bewegst"
+      - Tempatkan tambang es sambil bergerak
+      - Coloca minas de hielo mientras te mueves
+      - "\u0421\u0442\u0430\u0432\u044C\u0442\u0435 \u043B\u0435\u0434\u044F\u043D\u044B\u0435
+        \u043C\u0438\u043D\u044B \u0432\u043E \u0432\u0440\u0435\u043C\u044F \u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F"
+      - "\u0E27\u0E32\u0E07\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E07\u0E19\u0E49\u0E33\u0E41\u0E02\u0E47\u0E07\u0E02\u0E13\u0E30\u0E40\u0E04\u0E25\u0E37\u0E48\u0E2D\u0E19\u0E17\u0E35\u0E48"
+      - "\u79FB\u52A8\u65F6\u653E\u7F6E\u51B0\u96F7"
+      - Letakkan lombong ais semasa bergerak
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/33
+      TermType: 0
+      Description: 
+      Languages:
+      - Summons a black hole to attack and pull enemies
+      - "Tri\u1EC7u h\u1ED3i m\u1ED9t l\u1ED7 \u0111en \u0111\u1EC3 t\u1EA5n c\xF4ng
+        v\xE0 k\xE9o k\u1EBB th\xF9"
+      - Invoca um buraco negro para atacar e puxar os inimigos
+      - "\uBE14\uB799\uD640\uC744 \uC18C\uD658\uD558\uC5EC \uC801\uC744 \uACF5\uACA9\uD558\uACE0
+        \uB04C\uC5B4\uB2F9\uAE41\uB2C8\uB2E4."
+      - Invoque un trou noir pour attaquer et attirer les ennemis
+      - "Beschw\xF6rt ein schwarzes Loch, um Feinde anzugreifen und zu ziehen"
+      - Memanggil lubang hitam untuk menyerang dan menarik musuh
+      - Invoca un agujero negro para atacar y atraer enemigos.
+      - "\u041F\u0440\u0438\u0437\u044B\u0432\u0430\u0435\u0442 \u0447\u0435\u0440\u043D\u0443\u044E
+        \u0434\u044B\u0440\u0443, \u043A\u043E\u0442\u043E\u0440\u0430\u044F \u0430\u0442\u0430\u043A\u0443\u0435\u0442
+        \u0438 \u043F\u0440\u0438\u0442\u044F\u0433\u0438\u0432\u0430\u0435\u0442
+        \u0432\u0440\u0430\u0433\u043E\u0432"
+      - "\u0E2D\u0E31\u0E0D\u0E40\u0E0A\u0E34\u0E0D\u0E2B\u0E25\u0E38\u0E21\u0E14\u0E33\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E42\u0E08\u0E21\u0E15\u0E35\u0E41\u0E25\u0E30\u0E14\u0E36\u0E07\u0E28\u0E31\u0E15\u0E23\u0E39"
+      - "\u53EC\u5524\u4E00\u4E2A\u9ED1\u6D1E\u6765\u653B\u51FB\u548C\u62C9\u626F\u654C\u4EBA"
+      - Memanggil lubang hitam untuk menyerang dan menarik musuh
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/34
+      TermType: 0
+      Description: 
+      Languages:
+      - Creates wisp flying around himself damage to enemies
+      - "T\u1EA1o ra ng\u1ECDn l\u1EEDa ma ch\u01A1i xoay quanh b\u1EA3n th\xE2n
+        v\xE0 g\xE2y s\xE1t th\u01B0\u01A1ng"
+      - "Cria wisp voando em torno de si mesmo dano \xE0 colis\xE3o de inimigos"
+      - "\uC790\uC2E0 \uC8FC\uC704\uB97C \uB0A0\uC544\uB2E4\uB2C8\uB294 \uC704\uC2B5\uC744
+        \uC0DD\uC131\uD558\uC5EC \uC801 \uCDA9\uB3CC\uC5D0 \uD53C\uD574\uB97C \uC90D\uB2C8\uB2E4."
+      - "Cr\xE9e un feu follet volant autour de lui, endommageant la collision avec
+        les ennemis"
+      - Erzeugt um sich herum fliegende Irrwische, die Schaden bei der Kollision
+        von Feinden verursachen
+      - Membuat gumpalan terbang di sekitar dirinya merusak tabrakan musuh
+      - "Crea volutas que vuelan a su alrededor y da\xF1an la colisi\xF3n de los
+        enemigos."
+      - "\u0421\u043E\u0437\u0434\u0430\u0435\u0442 \u043B\u0435\u0442\u0430\u044E\u0449\u0438\u0439
+        \u0432\u043E\u043A\u0440\u0443\u0433 \u0441\u0435\u0431\u044F \u043E\u0433\u043E\u043D\u0435\u043A,
+        \u043D\u0430\u043D\u043E\u0441\u044F\u0449\u0438\u0439 \u0443\u0440\u043E\u043D
+        \u0432\u0440\u0430\u0433\u0430\u043C \u043F\u0440\u0438 \u0441\u0442\u043E\u043B\u043A\u043D\u043E\u0432\u0435\u043D\u0438\u0438"
+      - "\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E04\u0E27\u0E32\u0E21\u0E40\u0E2A\u0E35\u0E22\u0E2B\u0E32\u0E22\u0E43\u0E2B\u0E49\u0E01\u0E31\u0E1A\u0E28\u0E31\u0E15\u0E23\u0E39\u0E17\u0E35\u0E48\u0E1E\u0E38\u0E48\u0E07\u0E40\u0E02\u0E49\u0E32\u0E2B\u0E32\u0E15\u0E31\u0E27"
+      - "\u5728\u81EA\u5DF1\u5468\u56F4\u5236\u9020\u4E00\u7F15\u98DE\u821E\u5BF9\u654C\u4EBA\u78B0\u649E\u9020\u6210\u4F24\u5BB3"
+      - Mencipta gumpalan terbang mengelilingi dirinya merosakkan perlanggaran musuh
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/35
+      TermType: 0
+      Description: 
+      Languages:
+      - Become constantly upgrading and maximize the rate of reviews and brands
+      - "Tr\u1EDF n\xEAn kh\u1ED5ng l\u1ED3 v\xE0 t\u0103ng t\u1ED1i \u0111a t\u1ED1c
+        \u0111\u1ED9 \u0111\xE1nh v\xE0 s\xE1t th\u01B0\u01A1ng"
+      - "Torne-se constantemente atualizando e maximize a taxa de avalia\xE7\xF5es
+        e marcas"
+      - "\uC9C0\uC18D\uC801\uC73C\uB85C \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uACE0
+        \uB9AC\uBDF0 \uBC0F \uBE0C\uB79C\uB4DC\uC758 \uBE44\uC728\uC744 \uADF9\uB300\uD654\uD558\uC2ED\uC2DC\uC624."
+      - "Am\xE9liorez-vous constamment et maximisez le taux d'avis et de marques"
+      - "Verbessern Sie st\xE4ndig und maximieren Sie die Rate der Bewertungen und
+        Marken"
+      - Menjadi terus meningkatkan dan memaksimalkan tingkat ulasan dan merek
+      - "Actual\xEDcese constantemente y maximice la tasa de rese\xF1as y marcas"
+      - "\u041F\u043E\u0441\u0442\u043E\u044F\u043D\u043D\u043E \u043E\u0431\u043D\u043E\u0432\u043B\u044F\u0439\u0442\u0435\u0441\u044C
+        \u0438 \u043C\u0430\u043A\u0441\u0438\u043C\u0438\u0437\u0438\u0440\u0443\u0439\u0442\u0435
+        \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043E\u0442\u0437\u044B\u0432\u043E\u0432
+        \u0438 \u0431\u0440\u0435\u043D\u0434\u043E\u0432"
+      - "\u0E2D\u0E31\u0E1B\u0E40\u0E01\u0E23\u0E14\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E15\u0E48\u0E2D\u0E40\u0E19\u0E37\u0E48\u0E2D\u0E07\u0E41\u0E25\u0E30\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E2D\u0E31\u0E15\u0E23\u0E32\u0E1A\u0E17\u0E27\u0E34\u0E08\u0E32\u0E23\u0E13\u0E4C\u0E41\u0E25\u0E30\u0E41\u0E1A\u0E23\u0E19\u0E14\u0E4C\u0E43\u0E2B\u0E49\u0E2A\u0E39\u0E07\u0E2A\u0E38\u0E14"
+      - "\u6210\u4E3A\u4E0D\u65AD\u5347\u7EA7\u548C\u6700\u5927\u5316\u8BC4\u8BBA\u548C\u54C1\u724C\u7387"
+      - Menjadi sentiasa menaik taraf dan memaksimumkan kadar ulasan dan jenama
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/4
+      TermType: 0
+      Description: 
+      Languages:
+      - MODERATELY increase your HP
+      - "T\u0103ng sinh l\u1EF1c c\u1EE7a b\u1EA1n"
+      - Aumente MODERADAMENTE seu HP
+      - "HP\uB97C \uC801\uB2F9\uD788 \uC99D\uAC00"
+      - "Augmentez MOD\xC9R\xC9MENT vos HP"
+      - "Erh\xF6hen Sie Ihre HP MODERAT"
+      - SEDANG meningkatkan HP Anda
+      - Aumenta MODERADAMENTE tu HP
+      - "\u0423\u041C\u0415\u0420\u0415\u041D\u041D\u041E \u0443\u0432\u0435\u043B\u0438\u0447\u044C\u0442\u0435
+        \u0441\u0432\u043E\u0439 HP"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21 HP \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E1E\u0E2D\u0E2A\u0E21\u0E04\u0E27\u0E23"
+      - "\u9002\u5EA6\u589E\u52A0\u4F60\u7684HP"
+      - Tingkatkan HP anda secara sederhana
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/5
+      TermType: 0
+      Description: 
+      Languages:
+      - GREATLY increase your HP
+      - "T\u0103ng M\u1EA0NH sinh l\u1EF1c c\u1EE7a b\u1EA1n"
+      - Aumente MUITO seu HP
+      - "HP\uB97C \uB300\uD3ED \uC99D\uAC00"
+      - "Augmentez CONSID\xC9RABLEMENT vos HP"
+      - "Erh\xF6hen Sie Ihre HP SEHR"
+      - SANGAT meningkatkan HP Anda
+      - Aumenta GRANDEMENTE tu HP
+      - "\u0417\u041D\u0410\u0427\u0418\u0422\u0415\u041B\u042C\u041D\u041E \u0443\u0432\u0435\u043B\u0438\u0447\u044C\u0442\u0435
+        \u0441\u0432\u043E\u0439 HP"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21 HP \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E21\u0E32\u0E01"
+      - "\u5927\u5927\u589E\u52A0\u4F60\u7684HP"
+      - AMAT meningkatkan HP anda
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/6
+      TermType: 0
+      Description: 
+      Languages:
+      - Add ONE outer blade
+      - "T\u0103ng th\xEAm M\u1ED8T l\u01B0\u1EE1i dao ph\xEDa ngo\xE0i"
+      - "Aumente a l\xE2mina externa"
+      - "\uC678\uBD80 \uBE14\uB808\uC774\uB4DC \uC99D\uAC00"
+      - "Augmenter la lame ext\xE9rieure"
+      - "Au\xDFenmesser vergr\xF6\xDFern"
+      - Tingkatkan bilah luar
+      - Aumentar hoja exterior
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C \u0432\u043D\u0435\u0448\u043D\u0435\u0435
+        \u043B\u0435\u0437\u0432\u0438\u0435"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E14\u0E49\u0E32\u0E19\u0E19\u0E2D\u0E01"
+      - "\u52A0\u5927\u5916\u5203"
+      - Tingkatkan bilah luar
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/7
+      TermType: 0
+      Description: 
+      Languages:
+      - Add TWO outer blade
+      - "T\u0103ng th\xEAm HAI l\u01B0\u1EE1i dao ph\xEDa ngo\xE0i"
+      - "Adicione duas l\xE2minas externas"
+      - "\uB450 \uAC1C\uC758 \uC678\uBD80 \uBE14\uB808\uC774\uB4DC \uCD94\uAC00"
+      - "Ajouter deux lames ext\xE9rieures"
+      - "F\xFCgen Sie zwei \xE4u\xDFere Klingen hinzu"
+      - Tambahkan dua bilah luar
+      - "A\xF1adir dos hoja exterior"
+      - "\u0414\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0434\u0432\u0430 \u0432\u043D\u0435\u0448\u043D\u0438\u0445
+        \u043B\u0435\u0437\u0432\u0438\u044F"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E14\u0E49\u0E32\u0E19\u0E19\u0E2D\u0E01\u0E2A\u0E2D\u0E07\u0E2D\u0E31\u0E19"
+      - "\u6DFB\u52A0\u4E24\u4E2A\u5916\u5200\u7247"
+      - Tambah dua bilah luar
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/8
+      TermType: 0
+      Description: 
+      Languages:
+      - Add ONE inner blade
+      - "T\u0103ng th\xEAm M\u1ED8T l\u01B0\u1EE1i dao ph\xEDa trong"
+      - "Aumente a l\xE2mina interna"
+      - "\uB0B4\uBD80 \uBE14\uB808\uC774\uB4DC \uC99D\uAC00"
+      - "Augmenter la lame int\xE9rieure"
+      - "Innenmesser erh\xF6hen"
+      - Tingkatkan bilah bagian dalam
+      - Aumentar hoja interior
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u044C\u0442\u0435 \u0432\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u0435\u0435
+        \u043B\u0435\u0437\u0432\u0438\u0435"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E14\u0E49\u0E32\u0E19\u0E43\u0E19"
+      - "\u589E\u52A0\u5185\u5200\u7247"
+      - Tingkatkan bilah dalam
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Description/9
+      TermType: 0
+      Description: 
+      Languages:
+      - Add ONE inner blade
+      - "T\u0103ng th\xEAm HAI l\u01B0\u1EE1i dao ph\xEDa trong"
+      - "Adicione duas l\xE2minas internas"
+      - "\uB450 \uAC1C\uC758 \uB0B4\uBD80 \uBE14\uB808\uC774\uB4DC \uCD94\uAC00"
+      - "Ajouter deux lames int\xE9rieures"
+      - "F\xFCgen Sie zwei innere Klingen hinzu"
+      - Tambahkan dua bilah bagian dalam
+      - Agregar dos cuchillas internas
+      - "\u0414\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0434\u0432\u0430 \u0432\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u0438\u0445
+        \u043B\u0435\u0437\u0432\u0438\u044F"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E14\u0E49\u0E32\u0E19\u0E43\u0E19
+        2 \u0E2D\u0E31\u0E19"
+      - "\u6DFB\u52A0\u4E24\u4E2A\u5185\u5200\u7247"
+      - Tambah dua bilah dalam
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/0
+      TermType: 0
+      Description: 
+      Languages:
+      - Attack Boost (Minor)
+      - "T\u0103ng t\u1EA5n c\xF4ng (nh\u1ECF)"
+      - Aumentar Dmg
+      - "\uB370\uBBF8\uC9C0 \uC99D\uAC00"
+      - "Augmenter Les D\xE9g\xE2ts"
+      - "Dmg Erh\xF6hen"
+      - Tambah Dmg
+      - "Aumentar Da\xF1o"
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C \u0423\u0440\u043E\u043D"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21 Dmg"
+      - "\u589E\u52A0\u4F24\u5BB3"
+      - Meningkatkan Dmg
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/1
+      TermType: 0
+      Description: 
+      Languages:
+      - Attack Boost (Med)
+      - "T\u0103ng t\u1EA5n c\xF4ng (v\u1EEBa)"
+      - Impulso De Ataque (Med)
+      - "\uACF5\uACA9 \uBD80\uC2A4\uD2B8(\uC911)"
+      - Boost D'attaque (Moyen)
+      - Angriffsschub (Med)
+      - Peningkatan Serangan (Med)
+      - Impulso De Ataque (Med)
+      - "\u0423\u0441\u0438\u043B\u0435\u043D\u0438\u0435 \u0410\u0442\u0430\u043A\u0438
+        (\u041C\u0435\u0434.)"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E1E\u0E25\u0E31\u0E07\u0E42\u0E08\u0E21\u0E15\u0E35
+        (Med)"
+      - "\u653B\u51FB\u63D0\u5347\uFF08\u4E2D\uFF09"
+      - Rangsangan Serangan (Med)
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/10
+      TermType: 0
+      Description: 
+      Languages:
+      - Speed boost (Minor)
+      - "T\u0103ng t\u1ED1c \u0111\u1ED9 (nh\u1ECF)"
+      - "Aumentar A Velocidade De Rota\xE7\xE3o"
+      - "\uD68C\uC804 \uC18D\uB3C4\uB97C \uB192\uC774\uB2E4"
+      - Augmenter La Vitesse De Rotation
+      - "Drehzahl Erh\xF6hen"
+      - Meningkatkan Kecepatan Rotasi
+      - "Aumentar La Velocidad De Rotaci\xF3n"
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C \u0421\u043A\u043E\u0440\u043E\u0441\u0442\u044C
+        \u0412\u0440\u0430\u0449\u0435\u043D\u0438\u044F"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E04\u0E27\u0E32\u0E21\u0E40\u0E23\u0E47\u0E27\u0E43\u0E19\u0E01\u0E32\u0E23\u0E2B\u0E21\u0E38\u0E19"
+      - "\u63D0\u9AD8\u65CB\u8F6C\u901F\u5EA6"
+      - Meningkatkan Kelajuan Putaran
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/11
+      TermType: 0
+      Description: 
+      Languages:
+      - Speed boost (Major)
+      - "T\u0103ng t\u1ED1c \u0111\u1ED9 (l\u1EDBn)"
+      - Aumento de velocidade (Maior)
+      - "\uC2A4\uD53C\uB4DC \uBD80\uC2A4\uD2B8(\uBA54\uC774\uC800)"
+      - Boost de vitesse (Majeur)
+      - Geschwindigkeitsschub (Major)
+      - Peningkatan kecepatan (Utama)
+      - Aumento de velocidad (mayor)
+      - "\u041F\u043E\u0432\u044B\u0448\u0435\u043D\u0438\u0435 \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u0438
+        (\u043E\u0441\u043D\u043E\u0432\u043D\u043E\u0435)"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E04\u0E27\u0E32\u0E21\u0E40\u0E23\u0E47\u0E27
+        (\u0E40\u0E21\u0E40\u0E08\u0E2D\u0E23\u0E4C)"
+      - "\u901F\u5EA6\u63D0\u5347\uFF08\u4E3B\u8981\uFF09"
+      - Peningkatan kelajuan (Major)
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/12
+      TermType: 0
+      Description: 
+      Languages:
+      - Lightning strike
+      - "Gi\u1EADt S\xE9t"
+      - "Choque Rel\xE2mpago"
+      - "\uBC88\uAC1C \uCDA9\uACA9"
+      - Coup De Foudre
+      - Blitzschlag
+      - Kejutan Petir
+      - "Rel\xE1mpago"
+      - "\u0423\u0434\u0430\u0440 \u041C\u043E\u043B\u043D\u0438\u0438"
+      - "\u0E1F\u0E49\u0E32\u0E1C\u0E48\u0E32"
+      - "\u95EA\u7535\u51B2\u51FB"
+      - Renjatan Kilat
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/13
+      TermType: 0
+      Description: 
+      Languages:
+      - Place mines
+      - "\u0110\u1EB7t m\xECn"
+      - Espalhar Bomba
+      - "\uD655\uC0B0 \uD3ED\uD0C4"
+      - "R\xE9pandre La Bombe"
+      - Bombe Verteilen
+      - Sebarkan Bom
+      - Bomba Esparcida
+      - "\u0420\u0430\u0437\u043B\u043E\u0436\u0438\u0442\u044C \u0411\u043E\u043C\u0431\u0443"
+      - "\u0E23\u0E30\u0E40\u0E1A\u0E34\u0E14\u0E01\u0E23\u0E30\u0E08\u0E32\u0E22"
+      - "\u6563\u5E03\u70B8\u5F39"
+      - Sebarkan Bom
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/14
+      TermType: 0
+      Description: 
+      Languages:
+      - Electrical Wave
+      - "S\xF3ng \u0111i\u1EC7n"
+      - "Onda De Impulso El\xE9trico"
+      - "\uC804\uAE30 \uCDA9\uACA9\uD30C"
+      - "Onde D'impulsion \xC9lectrique"
+      - Elektrische Impulswelle
+      - Gelombang Impuls Listrik
+      - "Onda De Impulso El\xE9ctrico"
+      - "\u042D\u043B\u0435\u043A\u0442\u0440\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+        \u0418\u043C\u043F\u0443\u043B\u044C\u0441\u043D\u0430\u044F \u0412\u043E\u043B\u043D\u0430"
+      - "\u0E04\u0E25\u0E37\u0E48\u0E19\u0E41\u0E23\u0E07\u0E01\u0E23\u0E30\u0E15\u0E38\u0E49\u0E19\u0E44\u0E1F\u0E1F\u0E49\u0E32"
+      - "\u7535\u8109\u51B2\u6CE2"
+      - Gelombang Impuls Elektrik
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/15
+      TermType: 0
+      Description: 
+      Languages:
+      - X-Ray
+      - X-Ray
+      - X-Ray
+      - X-Ray
+      - X-Ray
+      - X-Ray
+      - X-Ray
+      - X-Ray
+      - X-Ray
+      - X-Ray
+      - X-Ray
+      - X-Ray
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/16
+      TermType: 0
+      Description: 
+      Languages:
+      - Shield guard
+      - "L\xE1 ch\u1EAFn"
+      - Escudo De Luz
+      - "\uB77C\uC774\uD2B8 \uC274\uB4DC"
+      - "Bouclier De Lumi\xE8re"
+      - Lichtschild
+      - Perisai Cahaya
+      - Escudo Ligero
+      - "\u041B\u0435\u0433\u043A\u0438\u0439 \u0429\u0438\u0442"
+      - "\u0E42\u0E25\u0E48\u0E41\u0E2A\u0E07"
+      - "\u5149\u76FE"
+      - Perisai Ringan
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/17
+      TermType: 0
+      Description: 
+      Languages:
+      - Wingman
+      - "Tr\u1EE3 Th\u1EE7"
+      - Apoio, Suporte
+      - "\uC9C0\uC6D0\uD558\uB2E4"
+      - Support
+      - "Unterst\xFCtzung"
+      - Mendukung
+      - Apoyo
+      - "\u0421\u043B\u0443\u0436\u0431\u0430 \u041F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438"
+      - "\u0E2A\u0E19\u0E31\u0E1A\u0E2A\u0E19\u0E38\u0E19"
+      - "\u652F\u6301"
+      - Sokongan
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/18
+      TermType: 0
+      Description: 
+      Languages:
+      - Meteor
+      - "Thi\xEAn Th\u1EA1ch"
+      - Meteorito
+      - "\uC6B4\uC11D"
+      - "M\xE9t\xE9orite"
+      - Meteorit
+      - Meteorit
+      - Meteorito
+      - "\u041C\u0435\u0442\u0435\u043E\u0440\u0438\u0442"
+      - "\u0E2D\u0E38\u0E01\u0E01\u0E32\u0E1A\u0E32\u0E15"
+      - "\u9668\u77F3"
+      - Meteorit
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/19
+      TermType: 0
+      Description: 
+      Languages:
+      - Rocket
+      - "T\xEAn L\u1EEDa"
+      - Foguete
+      - "\uB85C\uCF13"
+      - "Fus\xE9e"
+      - Rakete
+      - Roket
+      - Cohete
+      - "\u0420\u0430\u043A\u0435\u0442\u0430"
+      - "\u0E08\u0E23\u0E27\u0E14"
+      - "\u706B\u7BAD"
+      - Roket
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/2
+      TermType: 0
+      Description: 
+      Languages:
+      - Attack Boost (Major)
+      - "T\u0103ng t\u1EA5n c\xF4ng (l\u1EDBn)"
+      - Impulso De Ataque (Maior)
+      - "\uACF5\uACA9\uB825 \uC99D\uAC00(\uC8FC)"
+      - Boost D'attaque (Majeur)
+      - "Angriffsschub (Gro\xDF)"
+      - Peningkatan Serangan (Utama)
+      - Impulso De Ataque (Mayor)
+      - "\u0423\u0441\u0438\u043B\u0435\u043D\u0438\u0435 \u0410\u0442\u0430\u043A\u0438
+        (\u041E\u0441\u043D\u043E\u0432\u043D\u043E\u0435)"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E1E\u0E25\u0E31\u0E07\u0E42\u0E08\u0E21\u0E15\u0E35
+        (\u0E2B\u0E25\u0E31\u0E01)"
+      - "\u653B\u51FB\u63D0\u5347\uFF08\u4E3B\u8981\uFF09"
+      - Rangsangan Serangan (Utama)
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/20
+      TermType: 0
+      Description: 
+      Languages:
+      - Strong heart
+      - "Tr\xE1i tim m\u1EA1nh m\u1EBD"
+      - "Emerg\xEAncia"
+      - "\uBE44\uC0C1"
+      - Urgence
+      - Notfall
+      - Keadaan Darurat
+      - Emergencia
+      - "\u0427\u0440\u0435\u0437\u0432\u044B\u0447\u0430\u0439\u043D\u043E\u0435
+        \u041F\u0440\u043E\u0438\u0441\u0448\u0435\u0441\u0442\u0432\u0438\u0435"
+      - "\u0E20\u0E32\u0E27\u0E30\u0E09\u0E38\u0E01\u0E40\u0E09\u0E34\u0E19"
+      - "\u7D27\u6025\u60C5\u51B5"
+      - Kecemasan
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/21
+      TermType: 0
+      Description: 
+      Languages:
+      - Flying sword
+      - "Phi ki\u1EBFm"
+      - Atirar Faca
+      - "\uCE7C\uC744 \uB358\uC9C0\uB2E4"
+      - Lancer Un Couteau
+      - Messer Werfen
+      - Melempar Pisau
+      - Tirar Cuchillo
+      - "\u041C\u0435\u0442\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u041D\u043E\u0436"
+      - "\u0E1B\u0E32\u0E21\u0E35\u0E14"
+      - "\u6254\u5200"
+      - Baling Pisau
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/22
+      TermType: 0
+      Description: 
+      Languages:
+      - Guardian
+      - "H\u1ED9 v\u1EC7"
+      - Amuleto
+      - "\uBD80\uC801"
+      - Amulette
+      - Amulett
+      - Jimat
+      - Amuleto
+      - "\u0410\u043C\u0443\u043B\u0435\u0442"
+      - "\u0E1E\u0E23\u0E30\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07"
+      - "\u62A4\u8EAB\u7B26"
+      - Azimat
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/23
+      TermType: 0
+      Description: 
+      Languages:
+      - Get rich
+      - "L\xE0m gi\xE0u"
+      - Aumentar Prata
+      - "\uC740\uC744 \uB298\uB9AC\uB2E4"
+      - Augmenter L'argent
+      - "Silber Erh\xF6hen"
+      - Meningkatkan Perak
+      - Aumentar La Plata
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C \u0421\u0435\u0440\u0435\u0431\u0440\u043E"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E40\u0E07\u0E34\u0E19"
+      - "\u52A0\u94F6"
+      - Menambah Perak
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/24
+      TermType: 0
+      Description: 
+      Languages:
+      - Frost nova
+      - "\u0110\xF3ng b\u0103ng"
+      - Congelar
+      - "\uC5BC\uB2E4"
+      - Geler
+      - Einfrieren
+      - Membekukan
+      - Congelar
+      - "\u0417\u0430\u043C\u043E\u0440\u043E\u0437\u0438\u0442\u044C"
+      - "\u0E41\u0E0A\u0E48\u0E41\u0E02\u0E47\u0E07"
+      - "\u51BB\u7ED3"
+      - Membekukan
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/25
+      TermType: 0
+      Description: 
+      Languages:
+      - Steady
+      - "V\u1EEFng v\xE0ng"
+      - Amuleto
+      - "\uBD80\uC801"
+      - Amulette
+      - Amulett
+      - Jimat
+      - Amuleto
+      - "\u0410\u043C\u0443\u043B\u0435\u0442"
+      - "\u0E1E\u0E23\u0E30\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07"
+      - "\u62A4\u8EAB\u7B26"
+      - Azimat
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/26
+      TermType: 0
+      Description: 
+      Languages:
+      - Exploding corpses
+      - "N\u1ED5 x\xE1c"
+      - "Explodindo cad\xE1veres"
+      - "\uD3ED\uBC1C\uD558\uB294 \uC2DC\uCCB4"
+      - Cadavres qui explosent
+      - Explodierende Leichen
+      - Mayat yang meledak
+      - "Explosi\xF3n de cad\xE1veres"
+      - "\u0412\u0437\u0440\u044B\u0432\u0430\u044E\u0449\u0438\u0435\u0441\u044F
+        \u0442\u0440\u0443\u043F\u044B"
+      - "\u0E23\u0E30\u0E40\u0E1A\u0E34\u0E14\u0E28\u0E1E"
+      - "\u7206\u70B8\u7684\u5C38\u4F53"
+      - Mayat yang meletup
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/27
+      TermType: 0
+      Description: 
+      Languages:
+      - Air Bomb
+      - "R\u1EA3i bom"
+      - Bomba De Ar
+      - "\uACF5\uAE30 \uD3ED\uD0C4"
+      - "Bombe A\xE9rienne"
+      - Luftbombe
+      - Bom Udara
+      - Bomba De Aire
+      - "\u0410\u0432\u0438\u0430\u0431\u043E\u043C\u0431\u0430"
+      - "\u0E23\u0E30\u0E40\u0E1A\u0E34\u0E14\u0E25\u0E21"
+      - "\u7A7A\u6C14\u70B8\u5F39"
+      - Bom Udara
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/28
+      TermType: 0
+      Description: 
+      Languages:
+      - Provision
+      - "Ti\u1EBFp t\u1EBF"
+      - "Provis\xE3o"
+      - "\uACF5\uAE09"
+      - Disposition
+      - Bestimmung
+      - Persediaan
+      - "Provisi\xF3n"
+      - "\u041E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u0435"
+      - "\u0E1A\u0E17\u0E1A\u0E31\u0E0D\u0E0D\u0E31\u0E15\u0E34"
+      - "\u6761\u6B3E"
+      - Peruntukan
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/29
+      TermType: 0
+      Description: 
+      Languages:
+      - Subtitute Jutsu
+      - "Th\u1EBF th\xE2n chi thu\u1EADt"
+      - Jutsu Substituto
+      - "\uB300\uCCB4\uC220"
+      - Jutsu De Substitution
+      - Ersatz-Jutsu
+      - Jurus Pengganti
+      - Jutsu Sustituto
+      - "\u0417\u0430\u043C\u0435\u043D\u0430 \u0414\u0437\u044E\u0446\u0443"
+      - "\u0E0B\u0E31\u0E1A\u0E44\u0E15\u0E40\u0E15\u0E34\u0E49\u0E25 Jutsu"
+      - "\u66FF\u4EE3\u672F"
+      - Jurus Ganti
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/3
+      TermType: 0
+      Description: 
+      Languages:
+      - HP Boost (Minor)
+      - "T\u0103ng sinh l\u1EF1c (nh\u1ECF)"
+      - "Aumento M\xE1ximo De Hp"
+      - "\uCD5C\uB300 HP \uC99D\uAC00"
+      - Augmentation De La Puissance Maximale
+      - Maximale PS-Steigerung
+      - Peningkatan Hp Maksimal
+      - "Aumento M\xE1ximo De Hp"
+      - "\u041C\u0430\u043A\u0441\u0438\u043C\u0430\u043B\u044C\u043D\u043E\u0435
+        \u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u0438\u0435 \u0425\u043F"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E41\u0E23\u0E07\u0E21\u0E49\u0E32\u0E2A\u0E39\u0E07\u0E2A\u0E38\u0E14"
+      - "\u6700\u5927\u9A6C\u529B\u589E\u52A0"
+      - Peningkatan Maks Hp
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/30
+      TermType: 0
+      Description: 
+      Languages:
+      - Explode Sword
+      - "N\u1ED5 Ki\u1EBFm"
+      - Explodir Espada
+      - "\uD3ED\uBC1C \uCE7C"
+      - "Exploser L'\xE9p\xE9e"
+      - Schwert Explodieren
+      - Pedang Meledak
+      - Explotar Espada
+      - "\u0412\u0437\u043E\u0440\u0432\u0430\u0442\u044C \u041C\u0435\u0447"
+      - "\u0E23\u0E30\u0E40\u0E1A\u0E34\u0E14\u0E14\u0E32\u0E1A"
+      - "\u7206\u5251"
+      - Meletupkan Pedang
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/31
+      TermType: 0
+      Description: 
+      Languages:
+      - Ice Meteor
+      - "Thi\xEAn Th\u1EA1ch B\u0103ng"
+      - Meteoro De Gelo
+      - "\uC5BC\uC74C \uC720\uC131"
+      - "M\xE9t\xE9ore De Glace"
+      - Eis Meteor
+      - Meteor Es
+      - Meteoro De Hielo
+      - "\u041B\u0435\u0434\u044F\u043D\u043E\u0439 \u041C\u0435\u0442\u0435\u043E\u0440"
+      - "\u0E2D\u0E38\u0E01\u0E01\u0E32\u0E1A\u0E32\u0E15\u0E19\u0E49\u0E33\u0E41\u0E02\u0E47\u0E07"
+      - "\u51B0\u6D41\u661F"
+      - Meteor Ais
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/32
+      TermType: 0
+      Description: 
+      Languages:
+      - Ice crystal
+      - "Tinh th\u1EC3 b\u0103ng"
+      - Minas De Gelo
+      - "\uC5BC\uC74C \uAD11\uC0B0"
+      - Mines De Glace
+      - Eisminen
+      - Tambang Es
+      - Minas De Hielo
+      - "\u041B\u0435\u0434\u044F\u043D\u044B\u0435 \u0428\u0430\u0445\u0442\u044B"
+      - "\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E07\u0E19\u0E49\u0E33\u0E41\u0E02\u0E47\u0E07"
+      - "\u51B0\u77FF"
+      - Lombong Ais
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/33
+      TermType: 0
+      Description: 
+      Languages:
+      - Black Hole
+      - "H\u1ED1 \u0110en"
+      - Buraco Negro
+      - "\uBE14\uB799\uD640"
+      - Trou Noir
+      - Schwarzes Loch
+      - Lubang Hitam
+      - Calabozo
+      - "\u0427\u0435\u0440\u043D\u0430\u044F \u0414\u044B\u0440\u0430"
+      - "\u0E2B\u0E25\u0E38\u0E21\u0E14\u0E33"
+      - "\u9ED1\u6D1E"
+      - Lubang Hitam
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/34
+      TermType: 0
+      Description: 
+      Languages:
+      - Wisp
+      - "L\u1EEDa Ma Tr\u01A1i"
+      - Fio
+      - "\uB3C4\uAE68\uBE44\uBD88"
+      - Brin
+      - Hauch
+      - Gumpalan
+      - "Jir\xF3n"
+      - "\u041F\u0443\u0447\u043E\u043A"
+      - Wisp
+      - "\u4E00\u7F15"
+      - Gumpalan
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/35
+      TermType: 0
+      Description: 
+      Languages:
+      - Giant
+      - "Kh\u1ED5ng L\u1ED3 H\xF3a"
+      - Gigante
+      - "\uAC70\uB300\uD654"
+      - "G\xE9antisation"
+      - Gigantisierung
+      - Raksasaisasi
+      - "Gigantizaci\xF3n"
+      - "\u0413\u0438\u0433\u0430\u043D\u0442\u0438\u0437\u0430\u0446\u0438\u044F"
+      - "\u0E01\u0E32\u0E23\u0E17\u0E33\u0E43\u0E2B\u0E49\u0E40\u0E1B\u0E47\u0E19\u0E22\u0E31\u0E01\u0E29\u0E4C"
+      - "\u5DE8\u578B\u5316"
+      - Gergasi
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/4
+      TermType: 0
+      Description: 
+      Languages:
+      - HP Boost (Med)
+      - "T\u0103ng sinh l\u1EF1c (v\u1EEBa)"
+      - Aumento De Hp (Med)
+      - "HP \uBD80\uC2A4\uD2B8(\uC911)"
+      - HP Boost (Moyen)
+      - PS-Boost (Mittel)
+      - Penambah Hp (Med)
+      - Aumento De Hp (Med)
+      - "\u041F\u043E\u0432\u044B\u0448\u0435\u043D\u0438\u0435 \u0425\u043F (\u0421\u0440\u0435\u0434\u043D\u0435\u0435)"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E41\u0E23\u0E07\u0E21\u0E49\u0E32 (\u0E1B\u0E32\u0E19\u0E01\u0E25\u0E32\u0E07)"
+      - "\u9A6C\u529B\u63D0\u5347\uFF08\u4E2D\uFF09"
+      - Hp Boost (Med)
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/5
+      TermType: 0
+      Description: 
+      Languages:
+      - HP Boost (Major)
+      - "T\u0103ng sinh l\u1EF1c (l\u1EDBn)"
+      - Aumento De Hp (Maior)
+      - "HP \uBD80\uC2A4\uD2B8(\uC8FC)"
+      - HP Boost (Majeur)
+      - "PS-Boost (Gro\xDF)"
+      - Peningkatan Hp (Utama)
+      - Aumento De Hp (Principal)
+      - "\u041F\u043E\u0432\u044B\u0448\u0435\u043D\u0438\u0435 \u0425\u043F (\u0411\u043E\u043B\u044C\u0448\u043E\u0435)"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E41\u0E23\u0E07\u0E21\u0E49\u0E32 (\u0E2B\u0E25\u0E31\u0E01)"
+      - "\u9A6C\u529B\u63D0\u5347\uFF08\u4E3B\u8981\uFF09"
+      - Peningkatan Hp (Utama)
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/6
+      TermType: 0
+      Description: 
+      Languages:
+      - Outer Blade +1
+      - "L\u01B0\u1EE1i dao ngo\xE0i +1"
+      - "Aumentar A L\xE2mina Externa"
+      - "\uC678\uBD80 \uBE14\uB808\uC774\uB4DC \uC99D\uAC00"
+      - "Augmenter La Lame Ext\xE9rieure"
+      - "Erh\xF6hen Sie Die \xC4u\xDFere Klinge"
+      - Tingkatkan Bilah Luar
+      - Aumentar La Hoja Exterior
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C \u0412\u043D\u0435\u0448\u043D\u0435\u0435
+        \u041B\u0435\u0437\u0432\u0438\u0435"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E14\u0E49\u0E32\u0E19\u0E19\u0E2D\u0E01"
+      - "\u589E\u52A0\u5916\u5203"
+      - Meningkatkan Bilah Luar
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/7
+      TermType: 0
+      Description: 
+      Languages:
+      - Outer Blade +2
+      - "L\u01B0\u1EE1i dao ngo\xE0i +2"
+      - "L\xE2mina Externa X2"
+      - "\uC678\uBD80 \uBE14\uB808\uC774\uB4DC X2"
+      - "Lame Ext\xE9rieure X2"
+      - "Au\xDFenklinge X2"
+      - Bilah Luar X2
+      - Hoja Exterior X2
+      - "\u0412\u043D\u0435\u0448\u043D\u0435\u0435 \u041B\u0435\u0437\u0432\u0438\u0435
+        X2"
+      - "\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E14\u0E49\u0E32\u0E19\u0E19\u0E2D\u0E01
+        X2"
+      - "\u5916\u5203 X2"
+      - Bilah Luar X2
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/8
+      TermType: 0
+      Description: 
+      Languages:
+      - Inner Blade +1
+      - "L\u01B0\u1EE1i dao trong +1"
+      - "Aumentar A L\xE2mina Interna"
+      - "\uB0B4\uBD80 \uBE14\uB808\uC774\uB4DC \uC99D\uAC00"
+      - "Augmenter La Lame Int\xE9rieure"
+      - "Erh\xF6hen Sie Die Innere Klinge"
+      - Tingkatkan Bilah Bagian Dalam
+      - Aumentar La Hoja Interior
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C \u0412\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u0435\u0435
+        \u041B\u0435\u0437\u0432\u0438\u0435"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E14\u0E49\u0E32\u0E19\u0E43\u0E19"
+      - "\u589E\u52A0\u5185\u5200\u7247"
+      - Meningkatkan Bilah Dalam
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ability_Name/9
+      TermType: 0
+      Description: 
+      Languages:
+      - Inner Blade +2
+      - "L\u01B0\u1EE1i dao trong +2"
+      - "L\xE2mina Interna X2"
+      - "\uB0B4\uBD80 \uBE14\uB808\uC774\uB4DC X2"
+      - "Lame Int\xE9rieure X2"
+      - Innenklinge X2
+      - Bilah Dalam X2
+      - Hoja Interior X2
+      - "\u0412\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u0435\u0435 \u041B\u0435\u0437\u0432\u0438\u0435
+        X2"
+      - "\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E14\u0E49\u0E32\u0E19\u0E43\u0E19 X2"
+      - "\u5185\u5200\u7247 X2"
+      - Bilah Dalam X2
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ads unavailable
+      TermType: 0
+      Description: 
+      Languages:
+      - Ads unavailable
+      - "Qu\u1EA3ng c\xE1o kh\xF4ng c\xF3 s\u1EB5n"
+      - "An\xFAncios indispon\xEDveis"
+      - "\uAD11\uACE0\uB97C \uC0AC\uC6A9\uD560 \uC218 \uC5C6\uC74C"
+      - Annonces indisponibles
+      - "Anzeigen nicht verf\xFCgbar"
+      - Iklan tidak tersedia
+      - Anuncios no disponibles
+      - "\u041E\u0431\u044A\u044F\u0432\u043B\u0435\u043D\u0438\u044F \u043D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u043D\u044B"
+      - "\u0E44\u0E21\u0E48\u0E21\u0E35\u0E42\u0E06\u0E29\u0E13\u0E32"
+      - "\u5E7F\u544A\u4E0D\u53EF\u7528"
+      - Iklan tidak tersedia
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: BONUS STAGE
+      TermType: 0
+      Description: 
+      Languages:
+      - BONUS STAGE
+      - "M\xC0N TH\u01AF\u1EDENG"
+      - "Est\xE1gio B\xF4nus"
+      - "\uBCF4\uB108\uC2A4 \uC2A4\uD14C\uC774\uC9C0"
+      - "\xC9tape Bonus"
+      - Bonusphase
+      - Tahap Bonus
+      - "Etapa De Bonificaci\xF3n"
+      - "\u0411\u043E\u043D\u0443\u0441\u043D\u044B\u0439 \u042D\u0442\u0430\u043F"
+      - "\u0E40\u0E27\u0E17\u0E35\u0E42\u0E1A\u0E19\u0E31\u0E2A"
+      - "\u5956\u91D1\u9636\u6BB5"
+      - Peringkat Bonus
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Battle
+      TermType: 0
+      Description: 
+      Languages:
+      - Battle
+      - "Tr\u1EADn \u0110\xE1nh"
+      - Batalha
+      - "\uC804\uD22C"
+      - Bataille
+      - Schlacht
+      - Pertarungan
+      - Batalla
+      - "\u0411\u043E\u0435\u0432\u043E\u0439"
+      - "\u0E01\u0E32\u0E23\u0E15\u0E48\u0E2D\u0E2A\u0E39\u0E49"
+      - "\u6218\u6597"
+      - Pertempuran
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Bought
+      TermType: 0
+      Description: 
+      Languages:
+      - Claimed
+      - "\u0110\xE3 nh\u1EADn"
+      - Comprado
+      - "\uAD6C\uC785\uD588\uB2E4"
+      - "Achet\xE9"
+      - Gekauft
+      - Dibeli
+      - "Compr\xF3"
+      - "\u041A\u0443\u043F\u0438\u043B\u0430"
+      - "\u0E0B\u0E37\u0E49\u0E2D\u0E41\u0E25\u0E49\u0E27"
+      - "\u4E70"
+      - Dibeli
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: CONTINUE
+      TermType: 0
+      Description: 
+      Languages:
+      - CONTINUE
+      - "TI\u1EBEP T\u1EE4C"
+      - Prosseguir
+      - "\uACC4\uC18D\uD558\uB2E4"
+      - Continuez
+      - Fortsetzen
+      - Melanjutkan
+      - Seguir
+      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0442\u044C"
+      - "\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E15\u0E48\u0E2D"
+      - "\u7EE7\u7EED"
+      - Teruskan
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: CONTINUE?
+      TermType: 0
+      Description: 
+      Languages:
+      - CONTINUE?
+      - "Ti\u1EBFp T\u1EE5c?"
+      - Prosseguir?
+      - "\uACC4\uC18D\uD558\uB2E4?"
+      - Continuez?
+      - Fortsetzen?
+      - Melanjutkan?
+      - "\xBFSeguir?"
+      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0442\u044C?"
+      - "\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E15\u0E48\u0E2D?"
+      - "\u7EE7\u7EED\uFF1F"
+      - Teruskan?
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Change Hero
+      TermType: 0
+      Description: 
+      Languages:
+      - Change Hero
+      - "Thay \u0110\u1ED5i Anh H\xF9ng"
+      - "Mudar Her\xF3i"
+      - "\uC601\uC6C5\uC744 \uBC14\uAFB8\uB2E4"
+      - "Changer De H\xE9ros"
+      - Held Wechseln
+      - Ganti Pahlawan
+      - "Cambiar H\xE9roe"
+      - "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0413\u0435\u0440\u043E\u044F"
+      - "\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E2E\u0E35\u0E42\u0E23\u0E48"
+      - "\u6362\u82F1\u96C4"
+      - Tukar Hero
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Chest
+      TermType: 0
+      Description: 
+      Languages:
+      - Chest
+      - "R\u01B0\u01A1ng"
+      - Peito
+      - "\uAC00\uC2B4"
+      - Coffre
+      - Truhe
+      - Dada
+      - Cofre
+      - "\u0413\u0440\u0443\u0434\u044C"
+      - "\u0E2B\u0E19\u0E49\u0E32\u0E2D\u0E01"
+      - "\u80F8\u90E8"
+      - Dada
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Chest Contain
+      TermType: 0
+      Description: 
+      Languages:
+      - Contains one {0} or {1} or {2} equipment
+      - "Ch\u1EE9a m\u1ED9t trang b\u1ECB {0} ho\u1EB7c {1} ho\u1EB7c {2}"
+      - "Cont\xE9m um equipamento {0} ou {1} ou {2}"
+      - "{0}, {1} \uB610\uB294 {2} \uC7A5\uBE44 1\uAC1C \uD3EC\uD568"
+      - "Contient un \xE9quipement {0} ou {1} ou {2}"
+      - "Enth\xE4lt eine {0}- oder {1}- oder {2}-Ausr\xFCstung"
+      - Berisi satu {0} atau {1} atau {2} peralatan
+      - Contiene un equipo {0} o {1} o {2}
+      - "\u0421\u043E\u0434\u0435\u0440\u0436\u0438\u0442 \u043E\u0434\u043D\u043E
+        \u043E\u0431\u043E\u0440\u0443\u0434\u043E\u0432\u0430\u043D\u0438\u0435
+        {0} \u0438\u043B\u0438 {1} \u0438\u043B\u0438 {2}"
+      - "\u0E1B\u0E23\u0E30\u0E01\u0E2D\u0E1A\u0E14\u0E49\u0E27\u0E22\u0E2D\u0E38\u0E1B\u0E01\u0E23\u0E13\u0E4C
+        {0} \u0E2B\u0E23\u0E37\u0E2D {1} \u0E2B\u0E23\u0E37\u0E2D {2} \u0E23\u0E32\u0E22\u0E01\u0E32\u0E23"
+      - "\u5305\u542B\u4E00\u4E2A {0} \u6216 {1} \u6216 {2} \u8BBE\u5907"
+      - Mengandungi satu peralatan {0} atau {1} atau {2}.
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Chest Special Contain
+      TermType: 0
+      Description: 
+      Languages:
+      - Surely receiving for {0} or {1} after {2} times of opening
+      - "Ch\u1EAFc ch\u1EAFn nh\u1EADn \u0111\u01B0\u1EE3c {0} ho\u1EB7c {1} sau
+        {2} l\u1EA7n m\u1EDF"
+      - "Certamente recebendo por {0} ou {1} ap\xF3s {2} vezes de abertura"
+      - "\uAC1C\uBD09 \uD6C4 {2}\uD68C \uD6C4\uC5D0 \uBC18\uB4DC\uC2DC {0} \uB610\uB294
+        {1}\uC5D0 \uBC1B\uC2B5\uB2C8\uB2E4."
+      - "R\xE9ception s\xFBrement pour {0} ou {1} apr\xE8s {2} heures d'ouverture"
+      - "Sicher erhalten f\xFCr {0} oder {1} nach {2} \xD6ffnungszeiten"
+      - Pasti menerima {0} atau {1} setelah {2} kali pembukaan
+      - "Seguramente recibiendo por {0} o {1} despu\xE9s de {2} veces de apertura"
+      - "\u0423\u0432\u0435\u0440\u0435\u043D\u043D\u044B\u0439 \u043F\u0440\u0438\u0435\u043C
+        \u0437\u0430 {0} \u0438\u043B\u0438 {1} \u043F\u043E\u0441\u043B\u0435 {2}
+        \u0432\u0440\u0435\u043C\u0435\u043D\u0438 \u043E\u0442\u043A\u0440\u044B\u0442\u0438\u044F"
+      - "\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E41\u0E19\u0E48\u0E19\u0E2D\u0E19\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A
+        {0} \u0E2B\u0E23\u0E37\u0E2D {1} \u0E2B\u0E25\u0E31\u0E07\u0E08\u0E32\u0E01\u0E40\u0E1B\u0E34\u0E14
+        {2} \u0E04\u0E23\u0E31\u0E49\u0E07"
+      - "\u5728 {2} \u6B21\u6253\u5F00\u540E\u80AF\u5B9A\u4F1A\u6536\u5230 {0} \u6216
+        {1}"
+      - Pasti menerima untuk {0} atau {1} selepas {2} kali dibuka
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Coming soon
+      TermType: 0
+      Description: 
+      Languages:
+      - Coming soon
+      - "S\u1EAFp c\xF3"
+      - Em breve
+      - "\uCD9C\uC2DC \uC608\uC815"
+      - "Bient\xF4t disponible"
+      - Kommt bald
+      - Segera hadir
+      - "Pr\xF3ximamente"
+      - "\u0412\u0441\u043A\u043E\u0440\u0435"
+      - "\u0E40\u0E23\u0E47\u0E27\u0E46 \u0E19\u0E35\u0E49"
+      - "\u5FEB\u6765\u4E86"
+      - Akan datang
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Common
+      TermType: 0
+      Description: 
+      Languages:
+      - Common
+      - "Th\u01B0\u1EDDng"
+      - Comum
+      - "\uD754\uD55C"
+      - Commun
+      - Gemeinsam
+      - Umum
+      - "Com\xFAn"
+      - "\u041E\u0431\u0449\u0438\u0439"
+      - "\u0E17\u0E31\u0E48\u0E27\u0E44\u0E1B"
+      - "\u5E38\u89C1\u7684"
+      - Biasa
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Complete Zone To Unlock
+      TermType: 0
+      Description: 
+      Languages:
+      - Need to complete zone
+      - "C\u1EA7n ho\xE0n th\xE0nh ch\u01B0\u01A1ng"
+      - Precisa completar a zona
+      - "\uC601\uC5ED\uC744 \uC644\uB8CC\uD574\uC57C \uD569\uB2C8\uB2E4."
+      - "Zone \xE0 compl\xE9ter"
+      - "Muss die Zone vervollst\xE4ndigen"
+      - Perlu menyelesaikan zona
+      - Necesidad de completar la zona
+      - "\u041D\u0443\u0436\u043D\u043E \u0437\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u044C
+        \u0437\u043E\u043D\u0443"
+      - "\u0E15\u0E49\u0E2D\u0E07\u0E17\u0E33\u0E43\u0E2B\u0E49\u0E04\u0E23\u0E1A\u0E42\u0E0B\u0E19"
+      - "\u9700\u8981\u5B8C\u6210\u533A\u57DF"
+      - Perlu melengkapkan zon
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Conditions are not enough to receive gifts
+      TermType: 0
+      Description: 
+      Languages:
+      - Conditions are not enough to receive gifts
+      - "Kh\xF4ng \u0111\u1EE7 \u0111i\u1EC1u ki\u1EC7n \u0111\u1EC3 nh\u1EADn qu\xE0"
+      - "As condi\xE7\xF5es n\xE3o s\xE3o suficientes para receber presentes"
+      - "\uC120\uBB3C\uC744 \uBC1B\uC744 \uC218 \uC788\uB294 \uC870\uAC74\uC774 \uCDA9\uBD84\uD558\uC9C0
+        \uC54A\uC2B5\uB2C8\uB2E4"
+      - Les conditions ne suffisent pas pour recevoir des cadeaux
+      - Bedingungen reichen nicht aus, um Geschenke zu erhalten
+      - Kondisi tidak cukup untuk menerima hadiah
+      - Las condiciones no son suficientes para recibir regalos
+      - "\u0423\u0441\u043B\u043E\u0432\u0438\u0439 \u043D\u0435\u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E
+        \u0434\u043B\u044F \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u0438\u044F
+        \u043F\u043E\u0434\u0430\u0440\u043A\u043E\u0432"
+      - "\u0E40\u0E07\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E02\u0E44\u0E21\u0E48\u0E1E\u0E2D\u0E23\u0E31\u0E1A\u0E02\u0E2D\u0E07\u0E2A\u0E21\u0E19\u0E32\u0E04\u0E38\u0E13"
+      - "\u6761\u4EF6\u4E0D\u591F\u63A5\u53D7\u793C\u7269"
+      - Syarat tidak mencukupi untuk menerima hadiah
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Congratulations on reaching a new level
+      TermType: 0
+      Description: 
+      Languages:
+      - Congratulations on reaching a new level
+      - "Ch\xFAc m\u1EEBng b\u1EA1n \u0111\xE3 \u0111\u1EA1t \u0111\u1EBFn m\u1ED9t
+        c\u1EA5p \u0111\u1ED9 m\u1EDBi"
+      - "Parab\xE9ns por alcan\xE7ar um novo n\xEDvel"
+      - "\uC0C8\uB85C\uC6B4 \uB808\uBCA8\uC5D0 \uB3C4\uB2EC\uD55C \uAC83\uC744 \uCD95\uD558\uD569\uB2C8\uB2E4"
+      - "F\xE9licitations pour avoir atteint un nouveau niveau"
+      - "Herzlichen Gl\xFCckwunsch zum Erreichen eines neuen Levels"
+      - Selamat telah mencapai level baru
+      - Felicitaciones por alcanzar un nuevo nivel.
+      - "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E \u0441 \u0432\u044B\u0445\u043E\u0434\u043E\u043C
+        \u043D\u0430 \u043D\u043E\u0432\u044B\u0439 \u0443\u0440\u043E\u0432\u0435\u043D\u044C"
+      - "\u0E02\u0E2D\u0E41\u0E2A\u0E14\u0E07\u0E04\u0E27\u0E32\u0E21\u0E22\u0E34\u0E19\u0E14\u0E35\u0E01\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E01\u0E49\u0E32\u0E27\u0E2A\u0E39\u0E48\u0E23\u0E30\u0E14\u0E31\u0E1A\u0E43\u0E2B\u0E21\u0E48"
+      - "\u606D\u559C\u4F60\u8FBE\u5230\u4E86\u4E00\u4E2A\u65B0\u7684\u6C34\u5E73"
+      - Tahniah kerana mencapai tahap baru
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: DEFEAT
+      TermType: 0
+      Description: 
+      Languages:
+      - DEFEAT
+      - "TH\u1EA4T B\u1EA0I"
+      - Derrota
+      - "\uD328\uBC30\uC2DC\uD0A4\uB2E4"
+      - "D\xE9faite"
+      - Verlust
+      - Mengalahkan
+      - Fracaso
+      - "\u041F\u043E\u0440\u0430\u0436\u0435\u043D\u0438\u0435"
+      - "\u0E04\u0E27\u0E32\u0E21\u0E1E\u0E48\u0E32\u0E22\u0E41\u0E1E\u0E49"
+      - "\u6253\u8D25"
+      - Kekalahan
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Des Confirm Home
+      TermType: 0
+      Description: 
+      Languages:
+      - Returning Home Will Lose Data. Are You Sure?
+      - "Quay v\u1EC1 m\xE0n h\xECnh ch\xEDnh s\u1EBD m\u1EA5t d\u1EEF li\xEAu. B\u1EA1n
+        v\u1EABn mu\u1ED1n ti\u1EBFp t\u1EE5c?"
+      - "Voltar Para Casa Perder\xE1 Dados. Tem Certeza?"
+      - "\uC9D1\uC73C\uB85C \uB3CC\uC544\uAC00\uBA74 \uB370\uC774\uD130\uAC00 \uC190\uC2E4\uB429\uB2C8\uB2E4.
+        \uD655\uC2E4\uD574?"
+      - "Retour \xC0 La Maison Perdra Des Donn\xE9es. \xCAtes-Vous S\xFBr?"
+      - "Wenn Sie Nach Hause Zur\xFCckkehren, Gehen Daten Verloren. Bist Du Sicher?"
+      - Kembali Ke Rumah Akan Kehilangan Data. Apa Kamu Yakin?
+      - "Volver A Casa Perder\xE1 Datos. \xBFEst\xE1 Seguro?"
+      - "\u0412\u0435\u0440\u043D\u0443\u0432\u0448\u0438\u0441\u044C \u0414\u043E\u043C\u043E\u0439,
+        \u0412\u044B \u041F\u043E\u0442\u0435\u0440\u044F\u0435\u0442\u0435 \u0414\u0430\u043D\u043D\u044B\u0435.
+        \u0412\u044B \u0423\u0432\u0435\u0440\u0435\u043D\u044B?"
+      - "\u0E01\u0E25\u0E31\u0E1A\u0E1A\u0E49\u0E32\u0E19\u0E08\u0E30\u0E2A\u0E39\u0E0D\u0E40\u0E2A\u0E35\u0E22\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25
+        \u0E04\u0E38\u0E13\u0E41\u0E19\u0E48\u0E43\u0E08\u0E44\u0E2B\u0E21?"
+      - "\u56DE\u5BB6\u4F1A\u4E22\u5931\u6570\u636E\u3002\u4F60\u786E\u5B9A\u5417\uFF1F"
+      - Pulang Ke Rumah Akan Kehilangan Data. Adakah Anda Pasti?
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Des Confirm Replay
+      TermType: 0
+      Description: 
+      Languages:
+      - Do you want to replay this chapter?
+      - "B\u1EA1n mu\u1ED1n ch\u01A1i l\u1EA1i ch\u01B0\u01A1ng n\xE0y?"
+      - "Voc\xEA Quer Repetir Esta Zona?"
+      - "\uC774 \uC601\uC5ED\uC744 \uC7AC\uC0DD\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+      - "Voulez-Vous Rejouer Cette Zone\_?"
+      - "M\xF6chten Sie Diese Zone Erneut Spielen?"
+      - Apakah Anda Ingin Memutar Ulang Zona Ini?
+      - "\xBFQuieres Volver A Jugar Esta Zona?"
+      - "\u0412\u044B \u0425\u043E\u0442\u0438\u0442\u0435 \u0412\u043E\u0441\u043F\u0440\u043E\u0438\u0437\u0432\u0435\u0441\u0442\u0438
+        \u042D\u0442\u0443 \u0417\u043E\u043D\u0443?"
+      - "\u0E04\u0E38\u0E13\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E40\u0E25\u0E48\u0E19\u0E0B\u0E49\u0E33\u0E42\u0E0B\u0E19\u0E19\u0E35\u0E49\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48?"
+      - "\u4F60\u60F3\u91CD\u64AD\u8FD9\u4E2A\u533A\u57DF\u5417\uFF1F"
+      - Adakah Anda Mahu Memainkan Semula Zon Ini?
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Des Confirm Teleport
+      TermType: 0
+      Description: 
+      Languages:
+      - Move to next stage?
+      - "Chuy\u1EC3n sang giai \u0111o\u1EA1n ti\u1EBFp theo?"
+      - "Mover para a pr\xF3xima etapa?"
+      - "\uB2E4\uC74C \uB2E8\uACC4\uB85C \uC774\uB3D9\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+      - "Passer \xE0 l'\xE9tape suivante\_?"
+      - "Zur n\xE4chsten Stufe wechseln?"
+      - Pindah ke tahap berikutnya?
+      - "\xBFPasar a la siguiente etapa?"
+      - "\u041F\u0435\u0440\u0435\u0439\u0442\u0438 \u043A \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u043C\u0443
+        \u044D\u0442\u0430\u043F\u0443?"
+      - "\u0E22\u0E49\u0E32\u0E22\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E02\u0E31\u0E49\u0E19\u0E15\u0E2D\u0E19\u0E16\u0E31\u0E14\u0E44\u0E1B?"
+      - "\u8FDB\u5165\u4E0B\u4E00\u9636\u6BB5\uFF1F"
+      - Bergerak ke peringkat seterusnya?
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Enemy Remaining
+      TermType: 0
+      Description: 
+      Languages:
+      - Enemy Remaining
+      - "K\u1EBB Th\xF9 C\xF2n L\u1EA1i"
+      - Inimigo Restante
+      - "\uB0A8\uC544\uC788\uB294 \uC801"
+      - Ennemi Restant
+      - "Feind \xDCbrig"
+      - Musuh Yang Tersisa
+      - Enemigo Restante
+      - "\u041E\u0441\u0442\u0430\u0432\u0448\u0438\u0439\u0441\u044F \u0412\u0440\u0430\u0433"
+      - "\u0E28\u0E31\u0E15\u0E23\u0E39\u0E17\u0E35\u0E48\u0E40\u0E2B\u0E25\u0E37\u0E2D\u0E2D\u0E22\u0E39\u0E48"
+      - "\u5269\u4E0B\u7684\u654C\u4EBA"
+      - Musuh Yang Tinggal
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Enemy_Desc/11
+      TermType: 0
+      Description: 
+      Languages:
+      - The mad scientist
+      - "B\xE1c h\u1ECDc \u0111i\xEAn"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Enemy_Desc/13
+      TermType: 0
+      Description: 
+      Languages:
+      - The pirate king
+      - "Vua h\u1EA3i t\u1EB7c"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Enemy_Desc/15
+      TermType: 0
+      Description: 
+      Languages:
+      - The frenzy bull
+      - "B\xF2 \u0111i\xEAn"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Enemy_Desc/7
+      TermType: 0
+      Description: 
+      Languages:
+      - The big guy
+      - "G\xE3 to x\xE1c"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Enemy_Name/11
+      TermType: 0
+      Description: 
+      Languages:
+      - U.F.O
+      - U.F.O
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Enemy_Name/13
+      TermType: 0
+      Description: 
+      Languages:
+      - DAVE
+      - DAVE
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Enemy_Name/15
+      TermType: 0
+      Description: 
+      Languages:
+      - TAUROS
+      - TAUROS
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Enemy_Name/7
+      TermType: 0
+      Description: 
+      Languages:
+      - BOBBY
+      - BOBBY
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Epic
+      TermType: 0
+      Description: 
+      Languages:
+      - Epic
+      - "S\u1EED Thi"
+      - "\xC9pico"
+      - "\uC11C\uC0AC\uC2DC"
+      - "\xC9pique"
+      - Epos
+      - Epik
+      - "\xC9pico"
+      - "\u042D\u043F\u0438\u0447\u0435\u0441\u043A\u0438\u0439"
+      - "\u0E21\u0E2B\u0E32\u0E01\u0E32\u0E1E\u0E22\u0E4C"
+      - "\u53F2\u8BD7"
+      - Epik
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equip
+      TermType: 0
+      Description: 
+      Languages:
+      - Equip
+      - "Trang B\u1ECB"
+      - Equipar
+      - "\uAC16\uCD94\uC5B4 \uC8FC\uB2E4"
+      - "\xC9quiper"
+      - "Ausr\xFCsten"
+      - Melengkapi
+      - Equipar
+      - "\u041E\u0431\u043E\u0440\u0443\u0434\u043E\u0432\u0430\u0442\u044C"
+      - "\u0E2D\u0E38\u0E1B\u0E01\u0E23\u0E13\u0E4C"
+      - "\u88C5\u5907"
+      - Melengkapkan
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equiped
+      TermType: 0
+      Description: 
+      Languages:
+      - Equiped
+      - "\u0110\xE3 Trang B\u1ECB"
+      - Equipado
+      - "\uC7A5\uCC29"
+      - "\xC9quip\xE9"
+      - Ausgestattet
+      - Dilengkapi
+      - Equipado
+      - "\u041E\u0431\u043E\u0440\u0443\u0434\u043E\u0432\u0430\u043D\u043D\u044B\u0439"
+      - "\u0E1E\u0E23\u0E49\u0E2D\u0E21"
+      - "\u88C5\u5907"
+      - Dilengkapi
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/0
+      TermType: 0
+      Description: 
+      Languages:
+      - Superman's suit
+      - "\xC1o si\xEAu nh\xE2n"
+      - terno do super-homem
+      - "\uC288\uD37C\uB9E8\uC758 \uC288\uD2B8"
+      - Le costume de Superman
+      - Supermans Anzug
+      - baju superman
+      - traje de superman
+      - "\u041A\u043E\u0441\u0442\u044E\u043C \u0421\u0443\u043F\u0435\u0440\u043C\u0435\u043D\u0430"
+      - "\u0E0A\u0E38\u0E14\u0E0B\u0E38\u0E1B\u0E40\u0E1B\u0E2D\u0E23\u0E4C\u0E41\u0E21\u0E19"
+      - "\u8D85\u4EBA\u5957\u88C5"
+      - Sut Superman
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/1
+      TermType: 0
+      Description: 
+      Languages:
+      - Superman mask
+      - "M\u1EB7t n\u1EA1 si\xEAu nh\xE2n"
+      - "m\xE1scara do super-homem"
+      - "\uC288\uD37C\uB9E8 \uB9C8\uC2A4\uD06C"
+      - Masque de Superman
+      - Superman-Maske
+      - topeng superman
+      - "M\xE1scara de superhombre"
+      - "\u043C\u0430\u0441\u043A\u0430 \u0441\u0443\u043F\u0435\u0440\u043C\u0435\u043D\u0430"
+      - "\u0E2B\u0E19\u0E49\u0E32\u0E01\u0E32\u0E01\u0E0B\u0E38\u0E1B\u0E40\u0E1B\u0E2D\u0E23\u0E4C\u0E41\u0E21\u0E19"
+      - "\u8D85\u4EBA\u9762\u5177"
+      - Topeng Superman
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/10
+      TermType: 0
+      Description: 
+      Languages:
+      - Ruby Rings
+      - "Nh\u1EABn ruby"
+      - "An\xE9is De Rubi"
+      - "\uB8E8\uBE44 \uBC18\uC9C0"
+      - Bagues Rubis
+      - Rubinringe
+      - Cincin Rubi
+      - "Anillos De Rub\xED"
+      - "\u0420\u0443\u0431\u0438\u043D\u043E\u0432\u044B\u0435 \u041A\u043E\u043B\u044C\u0446\u0430"
+      - "\u0E41\u0E2B\u0E27\u0E19\u0E17\u0E31\u0E1A\u0E17\u0E34\u0E21"
+      - "\u7EA2\u5B9D\u77F3\u6212\u6307"
+      - Cincin Delima
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/11
+      TermType: 0
+      Description: 
+      Languages:
+      - Sapphire Rings
+      - "Nh\u1EABn saphire"
+      - "An\xE9is De Safira"
+      - "\uC0AC\uD30C\uC774\uC5B4 \uBC18\uC9C0"
+      - Anneaux De Saphir
+      - Saphirringe
+      - Cincin Safir
+      - Anillos De Zafiro
+      - "\u0421\u0430\u043F\u0444\u0438\u0440\u043E\u0432\u044B\u0435 \u041A\u043E\u043B\u044C\u0446\u0430"
+      - "\u0E41\u0E2B\u0E27\u0E19\u0E44\u0E1E\u0E25\u0E34\u0E19"
+      - "\u84DD\u5B9D\u77F3\u6212\u6307"
+      - Cincin Nilam
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/12
+      TermType: 0
+      Description: 
+      Languages:
+      - Emerald ring
+      - "Nh\u1EABn emerald"
+      - anel de esmeralda
+      - "\uC5D0\uBA54\uB784\uB4DC \uBC18\uC9C0"
+      - "Bague \xE9meraude"
+      - Smaragdring
+      - Cincin zamrud
+      - anillo esmeralda
+      - "\u0418\u0437\u0443\u043C\u0440\u0443\u0434\u043D\u043E\u0435 \u043A\u043E\u043B\u044C\u0446\u043E"
+      - "\u0E41\u0E2B\u0E27\u0E19\u0E21\u0E23\u0E01\u0E15"
+      - "\u7956\u6BCD\u7EFF\u6212\u6307"
+      - Cincin zamrud
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/13
+      TermType: 0
+      Description: 
+      Languages:
+      - Topaz Rings
+      - "Nh\u1EABn topaz"
+      - "An\xE9is De Top\xE1zio"
+      - "\uD1A0\uD30C\uC988 \uBC18\uC9C0"
+      - Anneaux De Topaze
+      - Topas-Ringe
+      - Cincin Topas
+      - Anillos De Topacio
+      - "\u041A\u043E\u043B\u044C\u0446\u0430 \u0421 \u0422\u043E\u043F\u0430\u0437\u043E\u043C"
+      - "\u0E41\u0E2B\u0E27\u0E19\u0E1A\u0E38\u0E29\u0E23\u0E32\u0E04\u0E31\u0E21"
+      - "\u9EC4\u7389\u6212\u6307"
+      - Cincin Gasing
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/14
+      TermType: 0
+      Description: 
+      Languages:
+      - Ring amethyst
+      - "Nh\u1EABn amethyst"
+      - anel de ametista
+      - "\uB9C1 \uC790\uC218\uC815"
+      - "Bague am\xE9thyste"
+      - Ring Amethyst
+      - Cincin batu kecubung
+      - Anillo amatista
+      - "\u041A\u043E\u043B\u044C\u0446\u043E \u0430\u043C\u0435\u0442\u0438\u0441\u0442"
+      - "\u0E41\u0E2B\u0E27\u0E19\u0E2D\u0E40\u0E21\u0E17\u0E34\u0E2A\u0E15\u0E4C"
+      - "\u6212\u6307\u7D2B\u6C34\u6676"
+      - Cincin amethyst
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/15
+      TermType: 0
+      Description: 
+      Languages:
+      - Ruby transfer wire
+      - "D\xE2y chuy\u1EC3n ruby"
+      - "Transfer\xEAncia de rubi"
+      - "\uB8E8\uBE44 \uC804\uC1A1 \uC640\uC774\uC5B4"
+      - Fil de transfert rubis
+      - "Rubin-\xDCbertragungsdraht"
+      - Kabel transfer ruby
+      - "Alambre de transferencia de rub\xED"
+      - "\u0420\u0443\u0431\u0438\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0432\u043E\u0434"
+      - "\u0E2A\u0E32\u0E22\u0E42\u0E2D\u0E19\u0E17\u0E31\u0E1A\u0E17\u0E34\u0E21"
+      - "\u7EA2\u5B9D\u77F3\u4F20\u8F93\u7EBF"
+      - Kawat pemindahan rubi
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/16
+      TermType: 0
+      Description: 
+      Languages:
+      - Sapphire transfer wire
+      - "D\xE2y chuy\u1EC3n saphire"
+      - "Fio de transfer\xEAncia de safira"
+      - "\uC0AC\uD30C\uC774\uC5B4 \uC804\uC1A1 \uC640\uC774\uC5B4"
+      - Fil de transfert saphir
+      - "\xDCbertragungsdraht aus Saphir"
+      - Kawat transfer safir
+      - Alambre de transferencia de zafiro
+      - "\u0421\u0430\u043F\u0444\u0438\u0440\u043E\u0432\u0430\u044F \u043F\u0440\u043E\u0432\u043E\u043B\u043E\u043A\u0430"
+      - "\u0E2A\u0E32\u0E22\u0E42\u0E2D\u0E19\u0E44\u0E1E\u0E25\u0E34\u0E19"
+      - "\u84DD\u5B9D\u77F3\u4F20\u8F93\u7EBF"
+      - Kawat pemindahan nilam
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/17
+      TermType: 0
+      Description: 
+      Languages:
+      - Emerald necklace
+      - "D\xE2y chuy\u1EC3n emerald"
+      - colar de esmeraldas
+      - "\uC5D0\uBA54\uB784\uB4DC \uBAA9\uAC78\uC774"
+      - "Collier \xE9meraude"
+      - Smaragd-Halskette
+      - kalung zamrud
+      - collar de esmeraldas
+      - "\u0418\u0437\u0443\u043C\u0440\u0443\u0434\u043D\u043E\u0435 \u043A\u043E\u043B\u044C\u0435"
+      - "\u0E2A\u0E23\u0E49\u0E2D\u0E22\u0E04\u0E2D\u0E21\u0E23\u0E01\u0E15"
+      - "\u7956\u6BCD\u7EFF\u9879\u94FE"
+      - Kalung zamrud
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/18
+      TermType: 0
+      Description: 
+      Languages:
+      - Topaz necklace
+      - "D\xE2y chuy\u1EC1n topaz"
+      - "colar de top\xE1zio"
+      - "\uD1A0\uD30C\uC988 \uBAA9\uAC78\uC774"
+      - Collier topaze
+      - Topas-Halskette
+      - kalung batu topas
+      - Collar de topacio
+      - "\u041E\u0436\u0435\u0440\u0435\u043B\u044C\u0435 \u0441 \u0442\u043E\u043F\u0430\u0437\u043E\u043C"
+      - "\u0E2A\u0E23\u0E49\u0E2D\u0E22\u0E04\u0E2D\u0E1A\u0E38\u0E29\u0E23\u0E32\u0E04\u0E31\u0E21"
+      - "\u9EC4\u7389\u9879\u94FE"
+      - Kalung gasing
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/19
+      TermType: 0
+      Description: 
+      Languages:
+      - Amethyst necklace
+      - "D\xE2y chuy\u1EC1n amethyst"
+      - colar de ametista
+      - "\uC790\uC218\uC815 \uBAA9\uAC78\uC774"
+      - "Collier am\xE9thyste"
+      - Amethyst-Halskette
+      - kalung batu kecubung
+      - Collar de amatista
+      - "\u041E\u0436\u0435\u0440\u0435\u043B\u044C\u0435 \u0438\u0437 \u0430\u043C\u0435\u0442\u0438\u0441\u0442\u0430"
+      - "\u0E2A\u0E23\u0E49\u0E2D\u0E22\u0E04\u0E2D\u0E2D\u0E40\u0E21\u0E17\u0E34\u0E2A\u0E15\u0E4C"
+      - "\u7D2B\u6C34\u6676\u9879\u94FE"
+      - Kalung amethyst
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/2
+      TermType: 0
+      Description: 
+      Languages:
+      - Bulletproof vest
+      - "\xC1o ch\u1ED1ng \u0111\u1EA1n"
+      - Colete a prova de balas
+      - "\uBC29\uD0C4 \uC870\uB07C"
+      - Gilet pare-balles
+      - Kugelsichere Weste
+      - Rompi anti peluru
+      - Chaleco antibalas
+      - "\u041F\u0443\u043B\u0435\u043D\u0435\u043F\u0440\u043E\u0431\u0438\u0432\u0430\u0435\u043C\u044B\u0439
+        \u0436\u0438\u043B\u0435\u0442"
+      - "\u0E40\u0E2A\u0E37\u0E49\u0E2D\u0E40\u0E01\u0E23\u0E32\u0E30\u0E01\u0E31\u0E19\u0E01\u0E23\u0E30\u0E2A\u0E38\u0E19"
+      - "\u9632\u5F39\u80CC\u5FC3"
+      - Baju kalis peluru
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/20
+      TermType: 0
+      Description: 
+      Languages:
+      - Batman Blade
+      - "L\u01B0\u1EE1i dao ng\u01B0\u1EDDi d\u01A1i"
+      - "L\xE2mina Do Batman"
+      - "\uBC30\uD2B8\uB9E8 \uBE14\uB808\uC774\uB4DC"
+      - Lame De Batman
+      - Batman-Klinge
+      - Pisau Batman
+      - Espada Batman
+      - "\u0411\u044D\u0442\u043C\u0435\u043D \u041B\u0435\u0437\u0432\u0438\u0435"
+      - "\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E41\u0E1A\u0E17\u0E41\u0E21\u0E19"
+      - "\u8759\u8760\u4FA0\u4E4B\u5203"
+      - Bilah Batman
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/21
+      TermType: 0
+      Description: 
+      Languages:
+      - Lightning blade
+      - "L\u01B0\u1EE1i dao s\u1EA5m s\xE9t"
+      - "L\xE2mina de raio"
+      - "\uB77C\uC774\uD2B8\uB2DD \uBE14\uB808\uC774\uB4DC"
+      - "Lame \xE9clair"
+      - Blitzklinge
+      - Pedang petir
+      - Espada luminosa
+      - "\u041A\u043B\u0438\u043D\u043E\u043A \u043C\u043E\u043B\u043D\u0438\u0438"
+      - "\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E2A\u0E32\u0E22\u0E1F\u0E49\u0E32"
+      - "\u95EA\u7535\u4E4B\u5203"
+      - Bilah kilat
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/22
+      TermType: 0
+      Description: 
+      Languages:
+      - Falcon blade
+      - "L\u01B0\u1EE1i dao chim \u01B0ng"
+      - "L\xE2mina de falc\xE3o"
+      - "\uD314\uCF58 \uBE14\uB808\uC774\uB4DC"
+      - Lame de faucon
+      - Falkenklinge
+      - Pedang elang
+      - "Hoja de halc\xF3n"
+      - "\u0421\u043E\u043A\u043E\u043B\u0438\u043D\u044B\u0439 \u043A\u043B\u0438\u043D\u043E\u043A"
+      - "\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E40\u0E2B\u0E22\u0E35\u0E48\u0E22\u0E27"
+      - "\u730E\u9E70\u5200\u7247"
+      - Bilah falcon
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/23
+      TermType: 0
+      Description: 
+      Languages:
+      - Laser blade
+      - "L\u01B0\u1EE1i dao laze"
+      - "L\xE2mina de laser"
+      - "\uB808\uC774\uC800 \uBE14\uB808\uC774\uB4DC"
+      - Lame laser
+      - Laserklinge
+      - Pisau laser
+      - "Cuchilla l\xE1ser"
+      - "\u041B\u0430\u0437\u0435\u0440\u043D\u043E\u0435 \u043B\u0435\u0437\u0432\u0438\u0435"
+      - "\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E40\u0E25\u0E40\u0E0B\u0E2D\u0E23\u0E4C"
+      - "\u6FC0\u5149\u5200\u7247"
+      - Bilah laser
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/24
+      TermType: 0
+      Description: 
+      Languages:
+      - Lava blade
+      - "L\u01B0\u1EE1i dao nham th\u1EA1ch"
+      - "L\xE2mina de lava"
+      - "\uC6A9\uC554 \uBE14\uB808\uC774\uB4DC"
+      - Lame de lave
+      - Lavaklinge
+      - Pedang lava
+      - hoja de lava
+      - "\u041B\u0430\u0432\u043E\u0432\u044B\u0439 \u043A\u043B\u0438\u043D\u043E\u043A"
+      - "\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E25\u0E32\u0E27\u0E32"
+      - "\u7194\u5CA9\u5200\u7247"
+      - Bilah lava
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/25
+      TermType: 0
+      Description: 
+      Languages:
+      - Ice blade
+      - "L\u01B0\u1EE1i dao b\u0103ng gi\xE1"
+      - "L\xE2mina de gelo"
+      - "\uC544\uC774\uC2A4 \uBE14\uB808\uC774\uB4DC"
+      - Lame de glace
+      - Eiskufe
+      - Pisau es
+      - Hoja de hielo
+      - "\u041B\u0435\u0434\u044F\u043D\u043E\u0439 \u043A\u043B\u0438\u043D\u043E\u043A"
+      - "\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E19\u0E49\u0E33\u0E41\u0E02\u0E47\u0E07"
+      - "\u51B0\u5203"
+      - Bilah ais
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/26
+      TermType: 0
+      Description: 
+      Languages:
+      - Thor hammer blade
+      - "L\u01B0\u1EE1i dao b\xFAa thor"
+      - "L\xE2mina de martelo Thor"
+      - "\uD1A0\uB974 \uD574\uBA38 \uBE14\uB808\uC774\uB4DC"
+      - Lame de marteau de Thor
+      - Thor Hammerklinge
+      - Pisau palu Thor
+      - hoja de martillo thor
+      - "\u041B\u0435\u0437\u0432\u0438\u0435 \u043C\u043E\u043B\u043E\u0442\u0430
+        \u0422\u043E\u0440\u0430"
+      - "\u0E43\u0E1A\u0E04\u0E49\u0E2D\u0E19\u0E18\u0E2D\u0E23\u0E4C"
+      - "\u96F7\u795E\u9524\u5200\u7247"
+      - Bilah tukul Thor
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/27
+      TermType: 0
+      Description: 
+      Languages:
+      - Blade of Light
+      - "L\u01B0\u1EE1i dao \xE1nh s\xE1ng"
+      - "L\xE2mina de Luz"
+      - "\uBE5B\uC758 \uAC80"
+      - "Lame de lumi\xE8re"
+      - Klinge des Lichts
+      - Bilah Cahaya
+      - Hoja de luz
+      - "\u041A\u043B\u0438\u043D\u043E\u043A \u0421\u0432\u0435\u0442\u0430"
+      - "\u0E14\u0E32\u0E1A\u0E41\u0E2B\u0E48\u0E07\u0E41\u0E2A\u0E07"
+      - "\u5149\u4E4B\u5203"
+      - Bilah Cahaya
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/3
+      TermType: 0
+      Description: 
+      Languages:
+      - Swat hat
+      - "M\u0169 swat"
+      - "chap\xE9u Swat"
+      - "\uC2A4\uC640\uD2B8 \uBAA8\uC790"
+      - Chapeau Swat
+      - Swat-Hut
+      - topi pemukul
+      - sombrero de golpe
+      - "\u0421\u043F\u0435\u0446\u043D\u0430\u0437"
+      - "\u0E2B\u0E21\u0E27\u0E01\u0E2A\u0E27\u0E32\u0E17"
+      - "\u7279\u8B66\u5E3D"
+      - Swat topi
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/4
+      TermType: 0
+      Description: 
+      Languages:
+      - Captain America shirt
+      - "\xC1o captain america"
+      - "camisa capit\xE3o am\xE9rica"
+      - "\uCEA1\uD2F4 \uC544\uBA54\uB9AC\uCE74 \uC154\uCE20"
+      - "chemise Capitaine Am\xE9rica"
+      - Captain America-Shirt
+      - Kaos Captain America
+      - "camiseta Capit\xE1n Am\xE9rica"
+      - "\u0440\u0443\u0431\u0430\u0448\u043A\u0430 \u043A\u0430\u043F\u0438\u0442\u0430\u043D\u0430
+        \u0430\u043C\u0435\u0440\u0438\u043A\u0438"
+      - "\u0E40\u0E2A\u0E37\u0E49\u0E2D\u0E01\u0E31\u0E1B\u0E15\u0E31\u0E19\u0E2D\u0E40\u0E21\u0E23\u0E34\u0E01\u0E32"
+      - "\u7F8E\u56FD\u961F\u957F\u886C\u886B"
+      - Baju Captain America
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/5
+      TermType: 0
+      Description: 
+      Languages:
+      - Captain's hat
+      - "M\u0169 captain"
+      - "chap\xE9u de capit\xE3o"
+      - "\uCEA1\uD2F4\uC758 \uBAA8\uC790"
+      - chapeau de capitaine
+      - "Kapit\xE4nsm\xFCtze"
+      - topi kapten
+      - sombrero de capitan
+      - "\u0448\u043B\u044F\u043F\u0430 \u043A\u0430\u043F\u0438\u0442\u0430\u043D\u0430"
+      - "\u0E2B\u0E21\u0E27\u0E01\u0E01\u0E31\u0E1B\u0E15\u0E31\u0E19"
+      - "\u8239\u957F\u7684\u5E3D\u5B50"
+      - topi kapten
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/6
+      TermType: 0
+      Description: 
+      Languages:
+      - Iron man armor
+      - "Gi\xE1p iron man"
+      - armadura homem de ferro
+      - "\uC544\uC774\uC5B8\uB9E8 \uC544\uBA38"
+      - Armure d'homme de fer
+      - "Iron-Man-R\xFCstung"
+      - Baju besi pria besi
+      - armadura de hombre de hierro
+      - "\u0411\u0440\u043E\u043D\u044F \u0436\u0435\u043B\u0435\u0437\u043D\u043E\u0433\u043E
+        \u0447\u0435\u043B\u043E\u0432\u0435\u043A\u0430"
+      - "\u0E40\u0E01\u0E23\u0E32\u0E30\u0E44\u0E2D\u0E23\u0E2D\u0E19\u0E41\u0E21\u0E19"
+      - "\u94A2\u94C1\u4FA0\u76D4\u7532"
+      - Perisai lelaki besi
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/7
+      TermType: 0
+      Description: 
+      Languages:
+      - Iron man hat
+      - "M\u0169 iron man"
+      - "chap\xE9u homem de ferro"
+      - "\uC544\uC774\uC5B8\uB9E8 \uBAA8\uC790"
+      - Chapeau d'homme de fer
+      - Ironman-Hut
+      - Topi manusia besi
+      - sombrero de hombre de hierro
+      - "\u0428\u043B\u044F\u043F\u0430 \u0436\u0435\u043B\u0435\u0437\u043D\u043E\u0433\u043E
+        \u0447\u0435\u043B\u043E\u0432\u0435\u043A\u0430"
+      - "\u0E2B\u0E21\u0E27\u0E01\u0E44\u0E2D\u0E23\u0E2D\u0E19\u0E41\u0E21\u0E19"
+      - "\u94A2\u94C1\u4FA0\u5E3D\u5B50"
+      - Topi lelaki besi
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/8
+      TermType: 0
+      Description: 
+      Languages:
+      - batman shirt
+      - "\xC1o batman"
+      - camisa do batman
+      - "\uBC30\uD2B8\uB9E8 \uC154\uCE20"
+      - chemise batman
+      - Batman-Shirt
+      - baju batman
+      - camisa de batman
+      - "\u0431\u044D\u0442\u043C\u0435\u043D \u0440\u0443\u0431\u0430\u0448\u043A\u0430"
+      - "\u0E40\u0E2A\u0E37\u0E49\u0E2D\u0E41\u0E1A\u0E17\u0E41\u0E21\u0E19"
+      - "\u8759\u8760\u4FA0\u886C\u886B"
+      - baju batman
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Equipment_Name/9
+      TermType: 0
+      Description: 
+      Languages:
+      - Batman hat
+      - "M\u0169 ng\u01B0\u1EDDi d\u01A1i"
+      - "chap\xE9u do Batman"
+      - "\uBC30\uD2B8\uB9E8 \uBAA8\uC790"
+      - Chapeau Batman
+      - Batman-Hut
+      - topi batman
+      - sombrero de batman
+      - "\u0431\u044D\u0442\u043C\u0435\u043D \u0448\u043B\u044F\u043F\u0430"
+      - "\u0E2B\u0E21\u0E27\u0E01\u0E41\u0E1A\u0E17\u0E41\u0E21\u0E19"
+      - "\u8759\u8760\u4FA0\u5E3D\u5B50"
+      - Topi Batman
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: FREE
+      TermType: 0
+      Description: 
+      Languages:
+      - FREE
+      - "Mi\u1EC5n Ph\xED"
+      - Gratuitamente
+      - "\uBB34\uB8CC"
+      - Libre
+      - Kostenlos
+      - Gratis
+      - Gratis
+      - "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E"
+      - "\u0E1F\u0E23\u0E35"
+      - "\u81EA\u7531"
+      - Percuma
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Free in
+      TermType: 0
+      Description: 
+      Languages:
+      - Free in
+      - "Mi\u1EC5n ph\xED trong"
+      - "Gr\xE1tis em"
+      - "\uBB34\uB8CC"
+      - Gratuit dans
+      - Frei in
+      - Gratis di
+      - Gratis en
+      - "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E \u0432"
+      - "\u0E1F\u0E23\u0E35\u0E43\u0E19"
+      - "\u514D\u8D39\u8FDB\u5165"
+      - Percuma masuk
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Gem Shop
+      TermType: 0
+      Description: 
+      Languages:
+      - Gem Shop
+      - "C\u1EEDa H\xE0ng \u0110\xE1 Qu\xFD"
+      - Loja De Gemas
+      - "\uBCF4\uC11D \uAC00\uAC8C"
+      - Bijouterie
+      - Edelsteinladen
+      - Toko Permata
+      - Tienda De Gemas
+      - "\u041C\u0430\u0433\u0430\u0437\u0438\u043D \u0414\u0440\u0430\u0433\u043E\u0446\u0435\u043D\u043D\u044B\u0445
+        \u041A\u0430\u043C\u043D\u0435\u0439"
+      - "\u0E23\u0E49\u0E32\u0E19\u0E2D\u0E31\u0E0D\u0E21\u0E13\u0E35"
+      - "\u5B9D\u77F3\u5E97"
+      - Kedai Permata
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Get
+      TermType: 0
+      Description: 
+      Languages:
+      - Claim
+      - "Nh\u1EADn"
+      - Pegar
+      - "\uAC00\uC838 \uC624\uAE30"
+      - Avoir
+      - Bekommen
+      - Dapatkan
+      - Obtener
+      - "\u041F\u043E\u043B\u0443\u0447\u0430\u0442\u044C"
+      - "\u0E23\u0E31\u0E1A"
+      - "\u5F97\u5230"
+      - Dapatkan
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Gold Shop
+      TermType: 0
+      Description: 
+      Languages:
+      - Gold Shop
+      - "Ti\u1EC7m V\xE0ng"
+      - Loja De Ouro
+      - "\uAE08 \uAC00\uAC8C"
+      - Magasin D'or
+      - "Goldgesch\xE4ft"
+      - Toko Emas
+      - Tienda De Oro
+      - "\u0417\u043E\u043B\u043E\u0442\u043E\u0439 \u041C\u0430\u0433\u0430\u0437\u0438\u043D"
+      - "\u0E23\u0E49\u0E32\u0E19\u0E17\u0E2D\u0E07"
+      - "\u91D1\u5E97"
+      - Kedai Emas
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Hero
+      TermType: 0
+      Description: 
+      Languages:
+      - Hero
+      - "Anh H\xF9ng"
+      - "Her\xF3i"
+      - "\uC601\uC6C5"
+      - "H\xE9ros"
+      - Held
+      - Pahlawan
+      - "H\xE9roe"
+      - "\u0413\u0435\u0440\u043E\u0439"
+      - "\u0E2E\u0E35\u0E42\u0E23\u0E48"
+      - "\u82F1\u96C4"
+      - Wira
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: INCREASE INSIDE BLADE
+      TermType: 0
+      Description: 
+      Languages:
+      - INCREASE INSIDE BLADE
+      - "T\u0103ng L\u01B0\u1EE1i Dao B\xEAn Trong"
+      - "Aumentar A L\xE2mina Interna"
+      - "\uB0B4\uBD80 \uBE14\uB808\uC774\uB4DC \uC99D\uAC00"
+      - "Augmenter L'int\xE9rieur De La Lame"
+      - "Innere Klinge Erh\xF6hen"
+      - Tingkatkan Bilah Bagian Dalam
+      - Aumentar La Hoja Interior
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C \u0412\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u044E\u044E
+        \u0427\u0430\u0441\u0442\u044C \u041B\u0435\u0437\u0432\u0438\u044F"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E20\u0E32\u0E22\u0E43\u0E19"
+      - "\u589E\u52A0\u5185\u5203"
+      - Meningkatkan Bahagian Dalam Bilah
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: INCREASE MAX DMG
+      TermType: 0
+      Description: 
+      Languages:
+      - INCREASE MAX DMG
+      - "T\u0103ng Dmg T\u1ED1i \u0110a"
+      - "Aumentar O Dano M\xE1ximo"
+      - "\uCD5C\uB300 \uB370\uBBF8\uC9C0 \uC99D\uAC00"
+      - Augmenter Max Dmg
+      - "Max Dmg Erh\xF6hen"
+      - Tingkatkan Maks Dmg
+      - "Aumentar El Da\xF1o M\xE1ximo"
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C \u041C\u0430\u043A\u0441\u0438\u043C\u0430\u043B\u044C\u043D\u044B\u0439
+        \u0423\u0440\u043E\u043D"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21 Dmg \u0E2A\u0E39\u0E07\u0E2A\u0E38\u0E14"
+      - "\u589E\u52A0\u6700\u5927\u4F24\u5BB3"
+      - Tingkatkan Dmg Maks
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: INCREASE MAX HP
+      TermType: 0
+      Description: 
+      Languages:
+      - INCREASE MAX HP
+      - "T\u0103ng Hp T\u1ED1i \u0110a"
+      - "Aumentar Hp M\xE1ximo"
+      - "\uCD5C\uB300 HP \uC99D\uAC00"
+      - Augmenter La Puissance Maximale
+      - "Max PS Erh\xF6hen"
+      - Meningkatkan Max Hp
+      - "Aumentar La Potencia M\xE1xima"
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C \u041C\u0430\u043A\u0441.
+        \u0425\u043F"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E41\u0E23\u0E07\u0E21\u0E49\u0E32\u0E2A\u0E39\u0E07\u0E2A\u0E38\u0E14"
+      - "\u589E\u52A0\u6700\u5927\u9A6C\u529B"
+      - Meningkatkan Maks Hp
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: INCREASE OUTSIDE BLADE
+      TermType: 0
+      Description: 
+      Languages:
+      - INCREASE OUTSIDE BLADE
+      - "T\u0103ng L\u01B0\u1EE1i Dao B\xEAn Ngo\xE0i"
+      - "Aumentar A L\xE2mina Externa"
+      - "\uC678\uBD80 \uBE14\uB808\uC774\uB4DC \uC99D\uAC00"
+      - "Augmenter La Lame Ext\xE9rieure"
+      - "Au\xDFenklinge Erh\xF6hen"
+      - Tingkatkan Bilah Luar
+      - Aumentar Hoja Exterior
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C \u0412\u043D\u0435\u0448\u043D\u0435\u0435
+        \u041B\u0435\u0437\u0432\u0438\u0435"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E43\u0E1A\u0E21\u0E35\u0E14\u0E14\u0E49\u0E32\u0E19\u0E19\u0E2D\u0E01"
+      - "\u589E\u52A0\u5916\u5203"
+      - Meningkatkan Bilah Luar
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: INCREASE SPINING SPEED
+      TermType: 0
+      Description: 
+      Languages:
+      - INCREASE SPINING SPEED
+      - "T\u0103ng T\u1ED1c \u0110\u1ED9 Quay"
+      - "Aumentar A Velocidade De Fia\xE7\xE3o"
+      - "\uD68C\uC804 \uC18D\uB3C4 \uC99D\uAC00"
+      - Augmenter La Vitesse De Rotation
+      - "Drehgeschwindigkeit Erh\xF6hen"
+      - Meningkatkan Kecepatan Berputar
+      - Aumentar La Velocidad De Giro
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C \u0421\u043A\u043E\u0440\u043E\u0441\u0442\u044C
+        \u0412\u0440\u0430\u0449\u0435\u043D\u0438\u044F"
+      - "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E04\u0E27\u0E32\u0E21\u0E40\u0E23\u0E47\u0E27\u0E43\u0E19\u0E01\u0E32\u0E23\u0E2B\u0E21\u0E38\u0E19"
+      - "\u63D0\u9AD8\u7EBA\u7EB1\u901F\u5EA6"
+      - Meningkatkan Kelajuan Putaran
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Information
+      TermType: 0
+      Description: 
+      Languages:
+      - Information
+      - "Ch\u1EC9 s\u1ED1"
+      - "Em Forma\xE7\xE3o"
+      - "\uC815\uBCF4"
+      - Information
+      - Information
+      - Informasi
+      - "Informaci\xF3n"
+      - "\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F"
+      - "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25"
+      - "\u4FE1\u606F"
+      - Maklumat
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Inventory
+      TermType: 0
+      Description: 
+      Languages:
+      - Inventory
+      - "Trang B\u1ECB"
+      - "Invent\xE1rio"
+      - "\uBAA9\uB85D"
+      - Inventaire
+      - Inventar
+      - Inventaris
+      - Inventario
+      - "\u0418\u043D\u0432\u0435\u043D\u0442\u0430\u0440\u044C"
+      - "\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\u0E2A\u0E34\u0E48\u0E07\u0E02\u0E2D\u0E07"
+      - "\u5B58\u8D27"
+      - Inventori
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: LANGUAGE
+      TermType: 0
+      Description: 
+      Languages:
+      - LANGUAGE
+      - "NG\xD4N NG\u1EEE"
+      - "L\xEDngua"
+      - "\uC5B8\uC5B4"
+      - Langue
+      - Sprache
+      - Bahasa
+      - Idioma
+      - "\u042F\u0437\u044B\u043A"
+      - "\u0E20\u0E32\u0E29\u0E32"
+      - "\u8BED"
+      - Bahasa
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: LOADING...
+      TermType: 0
+      Description: 
+      Languages:
+      - LOADING...
+      - "\u0110ANG T\u1EA2I..."
+      - Carregando...
+      - "\uB85C\uB529 \uC911..."
+      - Chargement En Cours...
+      - Wird Geladen...
+      - Memuat...
+      - Cargando...
+      - "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430 ..."
+      - "\u0E01\u0E33\u0E25\u0E31\u0E07\u0E42\u0E2B\u0E25\u0E14..."
+      - "\u52A0\u8F7D\u4E2D..."
+      - Memuatkan...
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Language/language
+      TermType: 0
+      Description: 
+      Languages:
+      - English
+      - "Ti\u1EBFng Vi\u1EC7t"
+      - "Portugu\xEAs"
+      - "\uD55C\uAD6D\uC5B4"
+      - "Fran\xE7ais"
+      - Deutsch
+      - Indonesian
+      - "Espa\xF1ol"
+      - "\u0440\u0443\u0441\u0441\u043A\u0438\u0439"
+      - "\u0E44\u0E17\u0E22"
+      - "\u4E2D\u6587"
+      - Malaysia
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Legendary
+      TermType: 0
+      Description: 
+      Languages:
+      - Legendary
+      - "Huy\u1EC1n Tho\u1EA1i"
+      - "Lend\xE1rio"
+      - "\uC804\uC124\uC801\uC778"
+      - "L\xE9gendaire"
+      - "Legend\xE4r"
+      - Legendaris
+      - Legendario
+      - "\u041B\u0435\u0433\u0435\u043D\u0434\u0430\u0440\u043D\u044B\u0439"
+      - "\u0E15\u0E33\u0E19\u0E32\u0E19"
+      - "\u4F20\u5947\u7684"
+      - Legenda
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: MAX
+      TermType: 0
+      Description: 
+      Languages:
+      - MAX
+      - MAX
+      - MAX
+      - MAX
+      - MAX
+      - MAX
+      - MAX
+      - MAX
+      - MAX
+      - MAX
+      - MAX
+      - MAX
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Max
+      TermType: 0
+      Description: 
+      Languages:
+      - Max
+      - "T\u1ED1i \u0110a"
+      - "M\xE1ximo"
+      - "\uCD5C\uB300"
+      - Maximum
+      - Max
+      - Maksimal
+      - "M\xE1ximo"
+      - "\u041C\u0430\u043A\u0441\u0438\u043C\u0443\u043C"
+      - Max
+      - "\u6700\u5927\u9650\u5EA6"
+      - Maks
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Maximum upgrade
+      TermType: 0
+      Description: 
+      Languages:
+      - Maximum upgrade
+      - "N\xE2ng c\u1EA5p t\u1ED1i \u0111a"
+      - "Atualiza\xE7\xE3o m\xE1xima"
+      - "\uCD5C\uB300 \uC5C5\uADF8\uB808\uC774\uB4DC"
+      - "Mise \xE0 niveau maximale"
+      - Maximales Upgrade
+      - Peningkatan maksimum
+      - "Actualizaci\xF3n m\xE1xima"
+      - "\u041C\u0430\u043A\u0441\u0438\u043C\u0430\u043B\u044C\u043D\u044B\u0439
+        \u0430\u043F\u0433\u0440\u0435\u0439\u0434"
+      - "\u0E2D\u0E31\u0E1E\u0E40\u0E01\u0E23\u0E14\u0E2A\u0E39\u0E07\u0E2A\u0E38\u0E14"
+      - "\u6700\u5927\u5347\u7EA7"
+      - Peningkatan maksimum
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: New
+      TermType: 0
+      Description: 
+      Languages:
+      - New
+      - "M\u1EDBi"
+      - Novo
+      - "\uC0C8\uB85C\uC6B4"
+      - Nouveau
+      - Neu
+      - Baru
+      - Nuevo
+      - "\u041D\u043E\u0432\u044B\u0439"
+      - "\u0E43\u0E2B\u0E21\u0E48"
+      - "\u65B0\u7684"
+      - Baru
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: No
+      TermType: 0
+      Description: 
+      Languages:
+      - No
+      - "Kh\xF4ng"
+      - "N\xE3o"
+      - "\uC544\uB2C8\uC694"
+      - Non
+      - Nein
+      - Tidak
+      - No
+      - "\u041D\u0435\u0442"
+      - "\u0E44\u0E21\u0E48"
+      - "\u4E0D"
+      - Tidak
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: No, Thanks
+      TermType: 0
+      Description: 
+      Languages:
+      - No, Thanks
+      - "Kh\xF4ng, C\u1EA3m \u01A1n"
+      - "N\xE3o, Obrigado"
+      - "\uACE0\uB9D9\uC9C0 \uB9CC \uC0AC\uC591 \uD560\uAC8C"
+      - Non Merci
+      - Nein Danke
+      - Tidak, Terima Kasih
+      - No, Gracias
+      - "\u041D\u0435\u0442, \u0421\u043F\u0430\u0441\u0438\u0431\u043E"
+      - "\u0E44\u0E21\u0E48\u0E40\u0E1B\u0E47\u0E19\u0E44\u0E23\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13"
+      - "\u4E0D\u7528\u4E86\uFF0C\u8C22\u8C22"
+      - Tidak, Terima Kasih
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: No, thank
+      TermType: 0
+      Description: 
+      Languages:
+      - No, thank
+      - "Kh\xF4ng, c\u1EA3m \u01A1n"
+      - "N\xE3o, obrigado"
+      - "\uC544\uB2C8, \uACE0\uB9C8\uC6CC"
+      - Non merci
+      - Nein Danke
+      - Tidak terima kasih
+      - No gracias
+      - "\u041D\u0435\u0442, \u0441\u043F\u0430\u0441\u0438\u0431\u043E"
+      - "\u0E44\u0E21\u0E48\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13"
+      - "\u4E0D\uFF0C\u8C22\u8C22"
+      - Tidak, terima kasih
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: OFF
+      TermType: 0
+      Description: 
+      Languages:
+      - OFF
+      - "T\u1EAET"
+      - Desligado
+      - "\uB044\uB2E4"
+      - "D\xE9sactiv\xE9"
+      - Aus
+      - Mati
+      - Apagado
+      - "\u0412\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u043D\u044B\u0439"
+      - "\u0E1B\u0E34\u0E14"
+      - "\u79BB\u5F00"
+      - Padam
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: ON
+      TermType: 0
+      Description: 
+      Languages:
+      - ON
+      - "B\u1EACT"
+      - Sobre
+      - "~\uC5D0"
+      - Au
+      - An
+      - Pada
+      - Sobre
+      - "\u041D\u0430"
+      - "\u0E1A\u0E19"
+      - "\u5728"
+      - Pada
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Ok
+      TermType: 0
+      Description: 
+      Languages:
+      - Ok
+      - "\u0110\u1ED3ng \xFD"
+      - OK
+      - "\uC88B\uC544\uC694"
+      - D'accord
+      - OK
+      - Oke
+      - OK
+      - Ok
+      - "\u0E15\u0E01\u0E25\u0E07"
+      - "\u884C"
+      - Okey
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: PAUSE
+      TermType: 0
+      Description: 
+      Languages:
+      - Pause
+      - "T\u1EA1m Ng\u1EEBng"
+      - Pausa
+      - "\uC815\uC9C0\uC2DC\uD0A4\uB2E4"
+      - Pause
+      - Pause
+      - Berhenti Sebentar
+      - Pausa
+      - "\u041F\u0430\u0443\u0437\u0430"
+      - "\u0E2B\u0E22\u0E38\u0E14"
+      - "\u6682\u505C"
+      - Jeda
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Power
+      TermType: 0
+      Description: 
+      Languages:
+      - Power
+      - "S\u1EE9c M\u1EA1nh"
+      - "Pot\xEAncia"
+      - "\uD798"
+      - Puissance
+      - Energie
+      - Kekuatan
+      - "Energ\xEDa"
+      - "\u0412\u043B\u0430\u0441\u0442\u044C"
+      - "\u0E1E\u0E25\u0E31\u0E07"
+      - "\u529B\u91CF"
+      - Kuasa
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Press to continue...
+      TermType: 0
+      Description: 
+      Languages:
+      - Press to continue...
+      - "Nh\u1EA5n \u0111\u1EC3 ti\u1EBFp t\u1EE5c ..."
+      - Pressione para continuar...
+      - "\uACC4\uC18D\uD558\uB824\uBA74 \uB204\uB974\uC138\uC694..."
+      - Appuyez pour continuer...
+      - "Dr\xFCcken Sie um fortzufahren..."
+      - Tekan untuk melanjutkan...
+      - Presiona para continuar...
+      - "\u041D\u0430\u0436\u043C\u0438\u0442\u0435, \u0447\u0442\u043E\u0431\u044B
+        \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C..."
+      - "\u0E01\u0E14\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\u0E23\u0E15\u0E48\u0E2D..."
+      - "\u6309\u7EE7\u7EED..."
+      - Tekan untuk meneruskan...
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Press to open chest
+      TermType: 0
+      Description: 
+      Languages:
+      - Press to open chest
+      - "Nh\u1EA5n \u0111\u1EC3 m\u1EDF r\u01B0\u01A1ng"
+      - Pressione para abrir o peito
+      - "\uAC00\uC2B4\uC744 \uC5F4\uB824\uBA74 \uB204\uB974\uC2ED\uC2DC\uC624"
+      - Appuyez pour ouvrir la poitrine
+      - "Dr\xFCcken, um Brust zu \xF6ffnen"
+      - Tekan untuk membuka dada
+      - Presiona para abrir el cofre
+      - "\u041D\u0430\u0436\u043C\u0438\u0442\u0435, \u0447\u0442\u043E\u0431\u044B
+        \u043E\u0442\u043A\u0440\u044B\u0442\u044C \u0441\u0443\u043D\u0434\u0443\u043A"
+      - "\u0E01\u0E14\u0E40\u0E1B\u0E34\u0E14\u0E2B\u0E35\u0E1A"
+      - "\u6309\u4E0B\u6253\u5F00\u80F8\u90E8"
+      - Tekan untuk membuka dada
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Purchase Failed
+      TermType: 0
+      Description: 
+      Languages:
+      - Purchase Failed
+      - "Giao D\u1ECBch Th\u1EA5t B\u1EA1i"
+      - A Compra Falhou
+      - "\uAD6C\uB9E4 \uC2E4\uD328"
+      - "Achat Rat\xE9"
+      - Kauf Gescheitert
+      - Pembelian Gagal
+      - "La Compra Fall\xF3"
+      - "\u041F\u043E\u043A\u0443\u043F\u043A\u0430_\u041D\u0435 \u0423\u0434\u0430\u043B\u043E\u0441\u044C"
+      - Buy_Failed
+      - "\u8D2D\u4E70\u5931\u8D25"
+      - Pembelian_Gagal
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Quick Equip
+      TermType: 0
+      Description: 
+      Languages:
+      - Quick Equip
+      - "Trang B\u1ECB Nhanh"
+      - "Equipamento R\xE1pido"
+      - "\uBE60\uB978 \uC7A5\uBE44"
+      - "\xC9quiper Rapidement"
+      - "Schnell Ausr\xFCsten"
+      - Perlengkapan Cepat
+      - "Equipo R\xE1pido"
+      - "\u0411\u044B\u0441\u0442\u0440\u043E\u0435 \u041E\u0441\u043D\u0430\u0449\u0435\u043D\u0438\u0435"
+      - "\u0E2D\u0E38\u0E1B\u0E01\u0E23\u0E13\u0E4C\u0E14\u0E48\u0E27\u0E19"
+      - "\u5FEB\u901F\u88C5\u5907"
+      - Kelengkapan Cepat
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Rare
+      TermType: 0
+      Description: 
+      Languages:
+      - Rare
+      - "Hi\u1EBFm"
+      - Cru
+      - "\uD76C\uADC0 \uD55C"
+      - "Peu Fr\xE9quent"
+      - Selten
+      - Langka
+      - Raro
+      - "\u0420\u0435\u0434\u043A\u0438\u0439"
+      - "\u0E2B\u0E32\u0E22\u0E32\u0E01"
+      - "\u7A00\u6709\u7684"
+      - Jarang
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Revive
+      TermType: 0
+      Description: 
+      Languages:
+      - Revive
+      - "H\u1ED3i Sinh"
+      - Reviver
+      - "\uC18C\uC0DD\uD558\uB2E4"
+      - Relancer
+      - Beleben
+      - Membangkitkan
+      - Reanimar
+      - "\u0412\u043E\u0437\u0440\u043E\u0434\u0438\u0442\u044C"
+      - "\u0E0A\u0E38\u0E1A\u0E0A\u0E35\u0E27\u0E34\u0E15"
+      - "\u590D\u6D3B"
+      - Menghidupkan Semula
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Reward
+      TermType: 0
+      Description: 
+      Languages:
+      - Reward
+      - "Ph\u1EA7n Th\u01B0\u1EDFng"
+      - Recompensa
+      - "\uBCF4\uC0C1"
+      - "R\xE9compense"
+      - Belohnen
+      - Hadiah
+      - Recompensa
+      - "\u041D\u0430\u0433\u0440\u0430\u0434\u0430"
+      - "\u0E23\u0E32\u0E07\u0E27\u0E31\u0E25"
+      - "\u62A5\u916C"
+      - Ganjaran
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Royal Chest
+      TermType: 0
+      Description: 
+      Languages:
+      - Royal Chest
+      - "R\u01B0\u01A1ng Ho\xE0ng Gia"
+      - "Ba\xFA Real"
+      - "\uC655\uC2E4 \uAC00\uC2B4"
+      - Poitrine Royale
+      - "K\xF6nigliche Brust"
+      - Dada Kerajaan
+      - Pecho Real
+      - "\u041A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u043A\u0438\u0439 \u0421\u0443\u043D\u0434\u0443\u043A"
+      - "\u0E2B\u0E35\u0E1A\u0E2A\u0E21\u0E1A\u0E31\u0E15\u0E34"
+      - "\u7687\u5BB6\u5B9D\u7BB1"
+      - Dada Diraja
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Select a new ability!
+      TermType: 0
+      Description: 
+      Languages:
+      - Select a new ability!
+      - "Ch\u1ECDn m\u1ED9t kh\u1EA3 n\u0103ng m\u1EDBi!"
+      - Selecione uma nova habilidade!
+      - "\uC0C8\uB85C\uC6B4 \uB2A5\uB825\uC744 \uC120\uD0DD\uD558\uC138\uC694!"
+      - "S\xE9lectionnez une nouvelle capacit\xE9\_!"
+      - "W\xE4hle eine neue F\xE4higkeit!"
+      - Pilih kemampuan baru!
+      - "\xA1Selecciona una nueva habilidad!"
+      - "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u043D\u043E\u0432\u0443\u044E
+        \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u044C!"
+      - "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E43\u0E2B\u0E21\u0E48!"
+      - "\u9009\u62E9\u4E00\u4E2A\u65B0\u7684\u80FD\u529B\uFF01"
+      - Pilih keupayaan baharu!
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Shop
+      TermType: 0
+      Description: 
+      Languages:
+      - Shop
+      - "C\u1EEDa Ti\u1EC7m"
+      - Fazer Compras
+      - "\uAC00\uAC8C"
+      - Magasin
+      - Einkaufen
+      - Toko
+      - Tienda
+      - "\u041C\u0430\u0433\u0430\u0437\u0438\u043D"
+      - "\u0E23\u0E49\u0E32\u0E19\u0E04\u0E49\u0E32"
+      - "\u5E97\u94FA"
+      - Kedai
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Silver Chest
+      TermType: 0
+      Description: 
+      Languages:
+      - Silver Chest
+      - "R\u01B0\u01A1ng B\u1EA1c"
+      - "Ba\xFA De Prata"
+      - "\uC740\uC0C9 \uAC00\uC2B4"
+      - Coffre D'argent
+      - Silberne Truhe
+      - Dada Perak
+      - Cofre De Plata
+      - "\u0421\u0435\u0440\u0435\u0431\u0440\u044F\u043D\u044B\u0439 \u0421\u0443\u043D\u0434\u0443\u043A"
+      - "\u0E2B\u0E35\u0E1A\u0E40\u0E07\u0E34\u0E19"
+      - "\u94F6\u7BB1"
+      - Dada Perak
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Skip
+      TermType: 0
+      Description: 
+      Languages:
+      - Skip
+      - "B\u1ECF qua"
+      - Pular
+      - "\uAC74\uB108 \uB6F0\uAE30"
+      - Sauter
+      - "\xDCberspringen"
+      - Melewati
+      - Saltar
+      - "\u041F\u0440\u043E\u043F\u0443\u0441\u043A\u0430\u0442\u044C"
+      - "\u0E02\u0E49\u0E32\u0E21"
+      - "\u8DF3\u8FC7"
+      - Ponteng
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Special Offer
+      TermType: 0
+      Description: 
+      Languages:
+      - Special Offer
+      - "\u0110\u1EC1 Ngh\u1ECB \u0110\u1EB7c Bi\u1EC7t"
+      - Oferta Especial
+      - "\uD2B9\uBCC4 \uBA54\uB274"
+      - "Offre Sp\xE9ciale"
+      - Sonderangebot
+      - Penawaran Istimewa
+      - Oferta Especial
+      - "\u0421\u043F\u0435\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u0435 \u041F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u0435"
+      - "\u0E02\u0E49\u0E2D\u0E40\u0E2A\u0E19\u0E2D\u0E1E\u0E34\u0E40\u0E28\u0E29"
+      - "\u7279\u4EF7"
+      - Tawaran Istimewa
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Start
+      TermType: 0
+      Description: 
+      Languages:
+      - Start
+      - "B\u1EAFt \u0110\u1EA7u"
+      - "Come\xE7ar"
+      - "\uC2DC\uC791"
+      - "D\xE9marrer"
+      - Anfang
+      - Mulailah
+      - Comienzo
+      - "\u041D\u0430\u0447\u0430\u043B\u043E"
+      - "\u0E40\u0E23\u0E34\u0E48\u0E21"
+      - "\u5F00\u59CB"
+      - Mulakan
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Stat_Desc/Ability
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Ability: {0}'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Stat_Desc/Dmg
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Dmg: {0}'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Stat_Desc/DmgCrit
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Dmg Crit: {0} %'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Stat_Desc/DmgNegate
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Dmg Negate: {0} %'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Stat_Desc/Hp
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Hp: {0}'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Stat_Desc/Luck
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Luck: {0} %'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Stat_Desc/PerDmg
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Rate Dmg: {0} %'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Stat_Desc/PerHp
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Rate Hp: {0} %'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Stat_Desc/RateCrit
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Crit Rate: {0} %'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Stat_Desc/SpeedMove
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Move Speed: {0} %'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Stat_Desc/SpeedRotation
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Rotation Speed: {0} %'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Successfully received gifts
+      TermType: 0
+      Description: 
+      Languages:
+      - Successfully received gifts!
+      - "Nh\u1EADn qu\xE0 th\xE0nh c\xF4ng!"
+      - Presentes recebidos com sucesso!
+      - "\uC120\uBB3C\uC744 \uC131\uACF5\uC801\uC73C\uB85C \uBC1B\uC558\uC2B5\uB2C8\uB2E4!"
+      - "Cadeaux re\xE7us avec succ\xE8s\_!"
+      - Geschenke erfolgreich erhalten!
+      - Berhasil menerima hadiah!
+      - "\xA1Regalos recibidos con \xE9xito!"
+      - "\u041F\u043E\u0434\u0430\u0440\u043A\u0438 \u0443\u0441\u043F\u0435\u0448\u043D\u043E
+        \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u044B!"
+      - "\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E02\u0E2D\u0E07\u0E02\u0E27\u0E31\u0E0D\u0E40\u0E23\u0E35\u0E22\u0E1A\u0E23\u0E49\u0E2D\u0E22\u0E41\u0E25\u0E49\u0E27!"
+      - "\u6210\u529F\u6536\u5230\u793C\u7269\uFF01"
+      - Berjaya menerima hadiah!
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Tap To Play
+      TermType: 0
+      Description: 
+      Languages:
+      - Tap To Play
+      - "Nh\u1EA5n \u0110\u1EC3 Ch\u01A1i"
+      - Toque Para Jogar
+      - "\uD0ED\uD558\uC5EC \uC7AC\uC0DD"
+      - Appuyez Pour Jouer
+      - "Ber\xFChre Um Zu Spielen"
+      - Ketuk Untuk Bermain
+      - Toque Para Jugar
+      - "\u041D\u0430\u0436\u043C\u0438\u0442\u0435, \u0427\u0442\u043E\u0431\u044B
+        \u0418\u0433\u0440\u0430\u0442\u044C"
+      - "\u0E41\u0E15\u0E30\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E40\u0E25\u0E48\u0E19"
+      - "\u70B9\u51FB\u64AD\u653E"
+      - Ketik Untuk Bermain
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Tap to continue
+      TermType: 0
+      Description: 
+      Languages:
+      - Tap to continue
+      - "Ch\u1EA1m \u0111\u1EC3 ti\u1EBFp t\u1EE5c"
+      - Clique para continuar
+      - "\uACC4\uC18D\uD558\uB824\uBA74 \uD0ED\uD558\uC138\uC694."
+      - Appuyez pour continuer
+      - Tippen Sie, um fortzufahren
+      - Ketuk untuk melanjutkan
+      - Pulse para continuar
+      - "\u041D\u0430\u0436\u043C\u0438\u0442\u0435, \u0447\u0442\u043E\u0431\u044B
+        \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+      - "\u0E41\u0E15\u0E30\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\u0E23\u0E15\u0E48\u0E2D"
+      - "\u70B9\u6309\u4EE5\u7EE7\u7EED"
+      - Ketik untuk meneruskan
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: This is already worn
+      TermType: 0
+      Description: 
+      Languages:
+      - This is already worn
+      - "C\xE1i n\xE0y \u0111\xE3 m\u1EB7c r\u1ED3i"
+      - "Isso j\xE1 est\xE1 desgastado"
+      - "\uC774\uAC83\uC740 \uC774\uBBF8 \uCC29\uC6A9"
+      - "C'est d\xE9j\xE0 port\xE9"
+      - Das ist schon getragen
+      - Ini sudah dipakai
+      - "Esto ya est\xE1 usado"
+      - "\u044D\u0442\u043E \u0443\u0436\u0435 \u043D\u0430\u0434\u0435\u0442\u043E"
+      - "\u0E15\u0E31\u0E27\u0E19\u0E35\u0E49\u0E43\u0E2A\u0E48\u0E41\u0E25\u0E49\u0E27"
+      - "\u8FD9\u4E2A\u5DF2\u7ECF\u7A7F\u4E86"
+      - Ini sudah dipakai
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Title Confirm Home
+      TermType: 0
+      Description: 
+      Languages:
+      - Back Home
+      - "Quay v\u1EC1 m\xE0n h\xECnh ch\xEDnh"
+      - De Volta Para Casa
+      - "\uC9D1\uC73C\uB85C \uB3CC\uC544\uAC00"
+      - "Retour \xC0 La Maison"
+      - "Zur\xFCck Zuhause"
+      - Kembali Ke Rumah
+      - De Vuelta A Casa
+      - "\u0414\u043E\u043C\u043E\u0439"
+      - "\u0E01\u0E25\u0E31\u0E1A\u0E1A\u0E49\u0E32\u0E19"
+      - "\u56DE\u5BB6"
+      - Balik Rumah
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Title Confirm Replay
+      TermType: 0
+      Description: 
+      Languages:
+      - Replay
+      - "Ch\u01A1i l\u1EA1i"
+      - Repetir
+      - "\uB2E4\uC2DC \uD558\uB2E4"
+      - Rejouer
+      - Wiederholung
+      - Memutar Ulang
+      - "Repetici\xF3n"
+      - "\u0412\u043E\u0441\u043F\u0440\u043E\u0438\u0437\u0432\u0435\u0441\u0442\u0438"
+      - "\u0E40\u0E25\u0E48\u0E19\u0E0B\u0E49\u0E33"
+      - "\u91CD\u64AD"
+      - Ulang Tayang
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Title Confirm Teleport
+      TermType: 0
+      Description: 
+      Languages:
+      - Teleport
+      - "D\u1ECBch Chuy\u1EC3n T\u1EE9c Th\u1EDDi"
+      - Teleporte
+      - "\uD154\uB808\uD3EC\uD2B8"
+      - "Se T\xE9l\xE9porter"
+      - Teleportieren
+      - Teleportasi
+      - Teletransportarse
+      - "\u0422\u0435\u043B\u0435\u043F\u043E\u0440\u0442"
+      - "\u0E40\u0E17\u0E40\u0E25\u0E1E\u0E2D\u0E23\u0E4C\u0E15"
+      - "\u77AC\u79FB"
+      - Teleport
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Unlock Ability
+      TermType: 0
+      Description: 
+      Languages:
+      - Unlock at epic
+      - "M\u1EDF kh\xF3a t\u1EA1i s\u1EED thi"
+      - "Desbloqueie no \xE9pico"
+      - "\uC5D0\uD53D\uC5D0\uC11C \uC7A0\uAE08 \uD574\uC81C"
+      - "D\xE9verrouiller \xE0 l'\xE9pop\xE9e"
+      - Schalte episch frei
+      - Buka kunci di epik
+      - Desbloquear en epic
+      - "\u0420\u0430\u0437\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+        \u0432 \u044D\u043F\u0438\u043A\u0435"
+      - "\u0E1B\u0E25\u0E14\u0E25\u0E47\u0E2D\u0E04\u0E17\u0E35\u0E48\u0E21\u0E2B\u0E32\u0E01\u0E32\u0E1E\u0E22\u0E4C"
+      - "\u89E3\u9501\u53F2\u8BD7"
+      - Buka kunci di epik
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Unlock Stat Bonus 1
+      TermType: 0
+      Description: 
+      Languages:
+      - Unlock at rare
+      - "M\u1EDF kh\xF3a hi\u1EBFm hoi"
+      - Desbloqueie em raras
+      - "\uD76C\uADC0 \uC7A0\uAE08 \uD574\uC81C"
+      - "D\xE9bloquer \xE0 rare"
+      - Selten freischalten
+      - Buka kunci di langka
+      - Desbloquear en raro
+      - "\u0420\u0430\u0437\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+        \u043D\u0430 \u0440\u0435\u0434\u043A\u043E\u0441\u0442\u044C"
+      - "\u0E1B\u0E25\u0E14\u0E25\u0E47\u0E2D\u0E04\u0E17\u0E35\u0E48\u0E2B\u0E32\u0E22\u0E32\u0E01"
+      - "\u7A00\u6709\u89E3\u9501"
+      - Buka kunci pada jarang
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Unlock Stat Bonus 2
+      TermType: 0
+      Description: 
+      Languages:
+      - Unlock at legendary
+      - "M\u1EDF kh\xF3a t\u1EA1i huy\u1EC1n tho\u1EA1i"
+      - "Desbloqueie no lend\xE1rio"
+      - "\uC804\uC124\uC5D0\uC11C \uC7A0\uAE08 \uD574\uC81C"
+      - "D\xE9bloquer au niveau l\xE9gendaire"
+      - "Unlock bei legend\xE4r"
+      - Buka kunci di legendaris
+      - Desbloquear en legendario
+      - "\u0420\u0430\u0437\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+        \u043D\u0430 \u043B\u0435\u0433\u0435\u043D\u0434\u0430\u0440\u043D\u043E\u043C"
+      - "\u0E1B\u0E25\u0E14\u0E25\u0E47\u0E2D\u0E04\u0E43\u0E19\u0E15\u0E33\u0E19\u0E32\u0E19"
+      - "\u5728\u4F20\u5947\u89E3\u9501"
+      - Buka kunci di legenda
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Upgrade
+      TermType: 0
+      Description: 
+      Languages:
+      - Upgrade
+      - "N\xE2ng C\u1EA5p"
+      - Melhoria
+      - "\uC5C5\uADF8\uB808\uC774\uB4DC"
+      - "Am\xE9liorer"
+      - Aktualisierung
+      - Meningkatkan
+      - Mejora
+      - "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C"
+      - "\u0E2D\u0E31\u0E1E\u0E40\u0E01\u0E23\u0E14"
+      - "\u5347\u7EA7"
+      - Naik Taraf
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Upgrade available!
+      TermType: 0
+      Description: 
+      Languages:
+      - Upgrade available!
+      - "N\xE2ng c\u1EA5p c\xF3 s\u1EB5n!"
+      - "Atualiza\xE7\xE3o dispon\xEDvel!"
+      - "\uC5C5\uADF8\uB808\uC774\uB4DC \uAC00\uB2A5!"
+      - "Mise \xE0 jour disponible\_!"
+      - "Upgrade verf\xFCgbar!"
+      - Upgrade tersedia!
+      - "\xA1Actualizaci\xF3n disponible!"
+      - "\u0414\u043E\u0441\u0442\u0443\u043F\u043D\u043E \u043E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0435!"
+      - "\u0E2D\u0E31\u0E1E\u0E40\u0E01\u0E23\u0E14\u0E43\u0E0A\u0E49\u0E44\u0E14\u0E49!"
+      - "\u53EF\u5347\u7EA7\uFF01"
+      - Naik taraf tersedia!
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: VICTORY
+      TermType: 0
+      Description: 
+      Languages:
+      - VICTORY
+      - "CHI\u1EBEN TH\u1EAENG"
+      - "Vit\xF3ria"
+      - "\uC2B9\uB9AC"
+      - La Victoire
+      - Sieg
+      - Kemenangan
+      - Victoria
+      - "\u041F\u043E\u0431\u0435\u0434\u0430"
+      - "\u0E0A\u0E31\u0E22\u0E0A\u0E19\u0E30"
+      - "\u80DC\u5229"
+      - Kemenangan
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: WAVE CLEAR
+      TermType: 0
+      Description: 
+      Languages:
+      - STAGE CLEAR
+      - "HO\xC0N TH\xC0NH M\xC0N"
+      - Onda Clara
+      - "\uC6E8\uC774\uBE0C \uD074\uB9AC\uC5B4"
+      - Vague Claire
+      - Welle Klar
+      - Gelombang Jelas
+      - Ola Clara
+      - "\u0412\u043E\u043B\u043D\u0430 \u0427\u0438\u0441\u0442\u0430\u044F"
+      - "\u0E04\u0E25\u0E37\u0E48\u0E19\u0E43\u0E2A"
+      - "\u6CE2\u6E05"
+      - Gelombang Jelas
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Wave
+      TermType: 0
+      Description: 
+      Languages:
+      - Wave
+      - "M\xE0n"
+      - Aceno
+      - "\uD30C\uB3C4"
+      - Vague
+      - Welle
+      - Melambai
+      - Ola
+      - "\u0412\u043E\u043B\u043D\u0430"
+      - "\u0E04\u0E25\u0E37\u0E48\u0E19"
+      - "\u6D77\u6D6A"
+      - Ombak
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: YOU ARE DEAD
+      TermType: 0
+      Description: 
+      Languages:
+      - YOU ARE DEAD
+      - "B\u1EA1n \u0110\xE3 Ch\u1EBFt"
+      - "Voc\xEA Est\xE1 Morto"
+      - "\uB2F9\uC2E0\uC740 \uC8FD\uC740"
+      - Tu Es Mort
+      - Du Bist Tot
+      - Matilah Kau
+      - "Est\xE1s Muerto"
+      - "\u0422\u044B \u041C\u0435\u0440\u0442\u0432\u0435\u0446"
+      - "\u0E04\u0E38\u0E13\u0E15\u0E32\u0E22"
+      - "\u4F60\u6B7B\u4E86"
+      - Awak Sudah Mati
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Yes
+      TermType: 0
+      Description: 
+      Languages:
+      - Yes
+      - "C\xF3"
+      - Sim
+      - "\uB124"
+      - Oui
+      - Jawohl
+      - Ya
+      - "S\xED"
+      - "\u0414\u0430"
+      - "\u0E43\u0E0A\u0E48"
+      - "\u662F\u7684"
+      - Ya
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: You don't have enough coin
+      TermType: 0
+      Description: 
+      Languages:
+      - You don't have enough coin
+      - "B\u1EA1n kh\xF4ng c\xF3 \u0111\u1EE7 xu"
+      - "Voc\xEA n\xE3o tem moeda suficiente"
+      - "\uB3D9\uC804\uC774 \uBD80\uC871\uD569\uB2C8\uB2E4"
+      - "Vous n'avez pas assez de pi\xE8ces"
+      - "Du hast nicht genug M\xFCnzen"
+      - Anda tidak memiliki cukup koin
+      - No tienes suficiente moneda
+      - "\u0423 \u0432\u0430\u0441 \u043D\u0435\u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E
+        \u043C\u043E\u043D\u0435\u0442"
+      - "\u0E40\u0E2B\u0E23\u0E35\u0E22\u0E0D\u0E44\u0E21\u0E48\u0E1E\u0E2D"
+      - "\u4F60\u6CA1\u6709\u8DB3\u591F\u7684\u786C\u5E01"
+      - Anda tidak mempunyai syiling yang mencukupi
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: You don't have enough diamond
+      TermType: 0
+      Description: 
+      Languages:
+      - You don't have enough diamond
+      - "B\u1EA1n kh\xF4ng c\xF3 \u0111\u1EE7 kim c\u01B0\u01A1ng"
+      - "Voc\xEA n\xE3o tem diamante suficiente"
+      - "\uB2F9\uC2E0\uC740 \uB2E4\uC774\uC544\uBAAC\uB4DC\uAC00 \uCDA9\uBD84\uD558\uC9C0
+        \uC54A\uC2B5\uB2C8\uB2E4"
+      - Vous n'avez pas assez de diamant
+      - Du hast nicht genug Diamanten
+      - Anda tidak memiliki cukup berlian
+      - No tienes suficiente diamante
+      - "\u0423 \u0432\u0430\u0441 \u043D\u0435\u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E
+        \u0430\u043B\u043C\u0430\u0437\u043E\u0432"
+      - "\u0E04\u0E38\u0E13\u0E21\u0E35\u0E40\u0E1E\u0E0A\u0E23\u0E44\u0E21\u0E48\u0E1E\u0E2D"
+      - "\u4F60\u6CA1\u6709\u8DB3\u591F\u7684\u94BB\u77F3"
+      - Anda tidak mempunyai cukup berlian
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: You have run out of purchases
+      TermType: 0
+      Description: 
+      Languages:
+      - You have run out of purchases
+      - "B\u1EA1n \u0111\xE3 h\u1EBFt l\u01B0\u1EE3t mua"
+      - "Voc\xEA ficou sem compras"
+      - "\uAD6C\uB9E4\uD55C \uD56D\uBAA9\uC774 \uC18C\uC9C4\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+      - Vous n'avez plus d'achats
+      - "Sie haben keine Eink\xE4ufe mehr"
+      - Anda telah kehabisan pembelian
+      - Te has quedado sin compras
+      - "\u0423 \u0432\u0430\u0441 \u0437\u0430\u043A\u043E\u043D\u0447\u0438\u043B\u0438\u0441\u044C
+        \u043F\u043E\u043A\u0443\u043F\u043A\u0438"
+      - "\u0E04\u0E38\u0E13\u0E2B\u0E21\u0E14\u0E01\u0E32\u0E23\u0E0B\u0E37\u0E49\u0E2D\u0E41\u0E25\u0E49\u0E27"
+      - "\u60A8\u7684\u8D2D\u4E70\u5DF2\u7528\u5B8C"
+      - Anda telah kehabisan pembelian
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: You need connect network!
+      TermType: 0
+      Description: 
+      Languages:
+      - You need connect network!
+      - "B\u1EA1n c\u1EA7n k\u1EBFt n\u1ED1i m\u1EA1ng!"
+      - "Voc\xEA precisa conectar a rede!"
+      - "\uB124\uD2B8\uC6CC\uD06C \uC5F0\uACB0\uC774 \uD544\uC694\uD569\uB2C8\uB2E4!"
+      - "Vous avez besoin de vous connecter au r\xE9seau\_!"
+      - "Sie m\xFCssen Netzwerk verbinden!"
+      - Anda perlu menghubungkan jaringan!
+      - "\xA1Necesitas conectar la red!"
+      - "\u0412\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u043F\u043E\u0434\u043A\u043B\u044E\u0447\u0438\u0442\u044C
+        \u0441\u0435\u0442\u044C!"
+      - "\u0E04\u0E38\u0E13\u0E15\u0E49\u0E2D\u0E07\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E21\u0E15\u0E48\u0E2D\u0E40\u0E04\u0E23\u0E37\u0E2D\u0E02\u0E48\u0E32\u0E22!"
+      - "\u4F60\u9700\u8981\u8FDE\u63A5\u7F51\u7EDC\uFF01"
+      - Anda perlu menyambung rangkaian!
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: You need to reach level to unlock this function
+      TermType: 0
+      Description: 
+      Languages:
+      - You need to reach level {0} to unlock this function
+      - "B\u1EA1n c\u1EA7n \u0111\u1EA1t \u0111\u1EBFn c\u1EA5p \u0111\u1ED9 {0}
+        \u0111\u1EC3 m\u1EDF kh\xF3a ch\u1EE9c n\u0103ng n\xE0y"
+      - "Voc\xEA precisa atingir o n\xEDvel {0} para desbloquear esta fun\xE7\xE3o"
+      - "\uC774 \uAE30\uB2A5\uC744 \uC7A0\uAE08 \uD574\uC81C\uD558\uB824\uBA74 \uB808\uBCA8
+        {0}\uC5D0 \uB3C4\uB2EC\uD574\uC57C \uD569\uB2C8\uB2E4."
+      - "Vous devez atteindre le niveau {0} pour d\xE9bloquer cette fonction"
+      - "Sie m\xFCssen Level {0} erreichen, um diese Funktion freizuschalten"
+      - Anda harus mencapai level {0} untuk membuka fungsi ini
+      - "Necesitas alcanzar el nivel {0} para desbloquear esta funci\xF3n"
+      - "\u0412\u0430\u043C \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u043E
+        \u0434\u043E\u0441\u0442\u0438\u0447\u044C \u0443\u0440\u043E\u0432\u043D\u044F
+        {0}, \u0447\u0442\u043E\u0431\u044B \u0440\u0430\u0437\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+        \u044D\u0442\u0443 \u0444\u0443\u043D\u043A\u0446\u0438\u044E."
+      - "\u0E04\u0E38\u0E13\u0E15\u0E49\u0E2D\u0E07\u0E16\u0E36\u0E07\u0E23\u0E30\u0E14\u0E31\u0E1A
+        {0} \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E1B\u0E25\u0E14\u0E25\u0E47\u0E2D\u0E01\u0E1F\u0E31\u0E07\u0E01\u0E4C\u0E0A\u0E31\u0E19\u0E19\u0E35\u0E49"
+      - "\u60A8\u9700\u8981\u8FBE\u5230 {0} \u7EA7\u624D\u80FD\u89E3\u9501\u6B64\u529F\u80FD"
+      - Anda perlu mencapai tahap {0} untuk membuka kunci fungsi ini
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Zone
+      TermType: 0
+      Description: 
+      Languages:
+      - Chapter
+      - "Ch\u01B0\u01A1ng"
+      - Zona
+      - "\uC874"
+      - Zone
+      - Zone
+      - Daerah
+      - Zona
+      - "\u0417\u043E\u043D\u0430"
+      - "\u0E42\u0E0B\u0E19"
+      - "\u533A"
+      - Zon
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Zone_Name/0
+      TermType: 0
+      Description: 
+      Languages:
+      - New York
+      - New York
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Zone_Name/1
+      TermType: 0
+      Description: 
+      Languages:
+      - Las Vegas
+      - Las Vegas
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Zone_Name/2
+      TermType: 0
+      Description: 
+      Languages:
+      - Los Angeles
+      - Los Angeles
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Zone_Name/3
+      TermType: 0
+      Description: 
+      Languages:
+      - Chicago
+      - Chicago
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Zone_Name/4
+      TermType: 0
+      Description: 
+      Languages:
+      - Phoenix
+      - Phoenix
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Zone_Name/5
+      TermType: 0
+      Description: 
+      Languages:
+      - Houston
+      - Houston
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: Zone_Name/6
+      TermType: 0
+      Description: 
+      Languages:
+      - Washington, D.C.
+      - Washington, D.C.
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    - Term: successful login
+      TermType: 0
+      Description: 
+      Languages:
+      - successful login!
+      - "\u0111\u0103ng nh\u1EADp th\xE0nh c\xF4ng!"
+      - login realizado com sucesso!
+      - "\uB85C\uADF8\uC778 \uC131\uACF5!"
+      - "Connexion r\xE9ussie!"
+      - erfolgreicher Login!
+      - Login Berhasil!
+      - "\xA1acceso exitoso!"
+      - "\u0443\u0441\u043F\u0435\u0448\u043D\u044B\u0439 \u0432\u0445\u043E\u0434
+        \u0432 \u0441\u0438\u0441\u0442\u0435\u043C\u0443!"
+      - "\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E39\u0E48\u0E23\u0E30\u0E1A\u0E1A\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08!"
+      - "\u767B\u5F55\u6210\u529F\uFF01"
+      - log masuk berjaya!
+      Flags: 000000000000000000000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Vietnamese
+      Code: vi
+      Flags: 0
+    - Name: Portuguese
+      Code: pt
+      Flags: 0
+    - Name: Korean
+      Code: ko
+      Flags: 0
+    - Name: French
+      Code: fr
+      Flags: 0
+    - Name: German
+      Code: de
+      Flags: 0
+    - Name: Indonesian
+      Code: id
+      Flags: 0
+    - Name: Spanish
+      Code: es
+      Flags: 0
+    - Name: Russian
+      Code: ru
+      Flags: 0
+    - Name: Thailand
+      Code: th
+      Flags: 0
+    - Name: Chinese
+      Code: zh
+      Flags: 0
+    - Name: Malaysian
+      Code: ms-MY
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: https://script.google.com/macros/s/AKfycby_4UShoMyWHxTUz-T1veKwsM5X4d8j6GdLlzN8hRX6pYK1_RcKymjyHzOwF9nPj0S0/exec
+    Google_SpreadsheetKey: 1495NGmEnlOsirADC2sjimQFpVm2HZgQUoj5MWK5p0zY
+    Google_SpreadsheetName: I2Loc Zombie Blade Localization
+    Google_LastUpdatedVersion: 1650593593615
+    Google_Password: 
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1

@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 843ecf460182b094e94e9ff203cf4932, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  TimeWatchRewardToShowInters: 60
+  ExitRedFlash: 0.4
+  DelayContinueAbility: 1.5
+  XvaluewinZone: 3
+  ZoomCamera: 7.5
+  TimeImmotalRevive: 5
+  PerHpDropKillEnemy: 0.2
+  CooldownDropHpKillEnemy: 10
+  InvicibleTimeWhenHit: 1.2
+  NumberDropBonusStage: 20
+  DelayDropBonusStage: 0.3
+  DelayTeleportBonusStage: 10
+  SpeedArkBonusStage: 17
+  LifeArkBonusStage: 3
+  RadiusDropBonusStage: {x: 3, y: 5}
+  RarityDropBonusStage:
+  - 0.6
+  - 0.3
+  - 0.1
+  PerHpBonusStage: 0.25
+  CoinBonusStage: 200
+  DiamondBonusStage: 5
+  MaxStack: 3
+  PercentHpRestore: 0.3
+  CoolDownSpecItemHp: 2
+  DurationItemFreeze: 6
+  CoolDownSpecItemFreeze: 6
+  PerDmgNuclear: 25
+  CoolDownSpecItemNuclear: 3
+  RadiusSpawnEnemy: 7.5
+  RadiusSpawnEnemyThef: 5.5
+  RadiusTeleportEnemy: 12
+  ExitBarEnemy: 1.2
+  RateSoundDieEnemy: 0.4
+  PerDmgSkillEnemyDog: 1.5
+  PerDmgSkillEnemyBig: 2
+  PerDmgSkillEnemyDoctor: 0.5
+  TimeToDestroyPoison: 4
+  StartSkill1EnemyAthlete: 0
+  CooldownSkill1EnemyAthlete: 3.5
+  PerDmgSkillEnemyAthlete: 1.5
+  SpeedBulletEnemyPolice: 5
+  RandomRangeEnemyPolice: {x: -1, y: 1}
+  LimitAngryEnemyChef: 0.65
+  SpeedAngryEnemyChef: 0.8
+  LimitAlarmEnemyTheft: 0.25
+  RandomRangeEnemyTheft: {x: 6, y: 8.5}
+  RarityDropEnemyTheft:
+  - 0.65
+  - 0.25
+  - 0.1
+  PerHpEnemyTheft: 0.1
+  CoinEnemyTheft: 200
+  DiamondEnemyTheft: 5
+  ExitEnemyTheft: 20
+  StartSkill1EnemyBigBoss: 6
+  MaxCountSkill1EnemyBigBoss: 3
+  CooldownSkill1EnemyBigBoss: 18
+  RecoverySkill1EnemyBigBoss: 3
+  PerDmgSkill1EnemyBigBoss: 0.9
+  MaxExplodeSkill1EnemyBigBoss: 7
+  DelayExplodeSkill1EnemyBigBoss: 0.3
+  DistanceExplodeSkill1EnemyBigBoss: 2.5
+  StartSkill2EnemyBigBoss: 15
+  CooldownSkill2EnemyBigBoss: 15
+  IdEnemySpawnSkill2EnemyBigBoss: 000000000100000002000000
+  AmountSpawnSkill2EnemyBigBoss: 10
+  MaxSpawnSkill2EnemyBigBoss: 15
+  RadiusSpawnSkill2EnemyBigBoss: {x: 1.5, y: 2.5}
+  CooldownSkill3EnemyBigBoss: 15
+  LimitSkill3EnemyBigBoss: 0.6
+  DelaySkill3EnemyBigBoss: 0.15
+  PerDmgSkill3EnemyBigBoss: 2
+  SpeedBulletEnemyUFO: 10
+  StartSkill1EnemyUFO: 6
+  CooldownSkill1EnemyUFO: 20
+  RangeSkill1EnemyUFO: 2.25
+  PerDmgSkill1EnemyUFO: 1.5
+  DelaySkill1EnemyUFO: 0.5
+  ExitSkill1EnemyUFO: 6
+  RecoverySkill1EnemyUFO: 2.5
+  MoveSpeedSkill1EnemyUFO: 2.2
+  StartSkill2EnemyUFO: 10
+  CooldownSkill2EnemyUFO: 23
+  PerDmgSkill2EnemyUFO: 4
+  SpeedXraySkill2EnemyUFO: 0.17
+  ExitXraySkill2EnemyUFO: 3.5
+  AlphaXraySkill2EnemyUFO: 17.5
+  CooldownSkill3EnemyUFO: 30
+  LimitSkill3EnemyUFO: 0.65
+  MaxCountSkill3EnemyUFO: 2
+  NumberBulletSkill3EnemyUFO: 14
+  CooldownSkill1EnemyMiner: 5
+  RadiusSkill1EnemyMiner: {x: 0.6, y: 1.2}
+  TimeAlertSkill1EnemyMiner: 1
+  TimeDownSkill1EnemyMiner: 3
+  PerDmgSkill1EnemyMiner: 1
+  TimeJumpEnemySwat: 0.75
+  PowerJumpEnemySwat: 3
+  RandomRangeEnemySWAT: {x: -1, y: 1}
+  StartSkill1EnemyPirateBoss: 5
+  CooldownSkill1EnemyPirateBoss: 15
+  AmountTntSkill1EnemyPirateBoss: 20
+  DelayTntSkill1EnemyPirateBoss: 0.2
+  RadiusTntSkill1EnemyPirateBoss: {x: 2, y: 4}
+  ExitTntSkill1EnemyPirateBoss: 0.125
+  PerDmgSkill1EnemyPirateBoss: 2
+  StartSkill2EnemyPirateBoss: 11
+  CooldownSkill2EnemyPirateBoss: 23
+  AmountBulletSkill2EnemyPirateBoss: 30
+  RadiusBulletSkill2EnemyPirateBoss: {x: 3, y: 9}
+  DelayBulletSkill2EnemyPirateBoss: 0.1
+  AlertBulletSkill2EnemyPirateBoss: 0.85
+  SpeedBulletSkill2EnemyPirateBoss: 50
+  PerDmgSkill2EnemyPirateBoss: 1
+  StartSkill3EnemyPirateBoss: 16
+  CooldownSkill3EnemyPirateBoss: 11
+  AmountWhirlpoolSkill3EnemyPirateBoss: {x: 1, y: 1}
+  RadiusWhirlpoolSkill3EnemyPirateBoss: {x: 1, y: 2.5}
+  ExitWhirlpoolSkill3EnemyPirateBoss: 5.5
+  PerDmgSkill3EnemyPirateBoss: 1
+  StartSkill1EnemyBullBoss: 12
+  CooldownSkill1EnemyBullBoss: 12
+  PerDmgSkill1EnemyBullBoss: 2
+  TimeStunBullBossSkill1BullBoss: 2
+  SpeedSkill1BullBoss: 20
+  TimeAnticipation0: 2.5
+  TimeAnticipation1: 0.85
+  StartSkill2EnemyBullBoss: 6
+  CooldownSkill2EnemyBullBoss: 2
+  PerDmgSkill2EnemyBullBoss: 1
+  PerDmgSkill3EnemyBullBoss: 0.3
+  TimeFlameSkill3EnemyBullBoss: 12
+  DistanceToCreateFlameSkill3BullBoss: 1
+  PerSpeedIncreaseSkill3: 0.5
+  SpeedKnife: 1
+  NumberOutKnife: 5
+  NumberInKnife: 3
+  SlowSwamp: 0.4
+  CooldownFire: 0.5
+  PerDmgFire2Hero: 0.25
+  PerDmgFire2Enemy: 0.5
+  LifeBox: 4
+  RateDrop: 0.75
+  RarityDropBox:
+  - 0.6
+  - 0.3
+  - 0.1
+  PerHpBox: 0.05
+  CoinBox: 200
+  DiamondBox: 5
+  LifeFence: 5
+  LifePetro: 4
+  DelayPetro: 1.1
+  PerDmgPetro2Hero: 1
+  PerDmgPetro2Enemy: 10
+  ResetAbility: 150
+  AdsAbility: 800
+  RateNormalAbility:
+  - 0.3
+  - 0.3
+  - 0.2
+  - 0.2
+  RateBossAbility:
+  - 0
+  - 0
+  - 0.7
+  - 0.3
+  RadiusLighting: 6
+  MaxLighting: 5
+  CooldownLighting: 10
+  DelayLighting: 0.05
+  ExitBomb: 8
+  DistanceBomb: 3.5
+  ExitIceBomb: 5
+  DistanceIceBomb: 4
+  TimeIceBomb: 1.5
+  CooldownElectric: 10.5
+  ForceElectric: 40
+  ExitShield: 3
+  CooldownShield: 12
+  RadiusMeteorite: 6.5
+  MaxMeteorite: 2
+  CooldownMeteorite: 11.5
+  SpeedMeteorite: 40
+  RadiusIceMeteorite: 7
+  MaxIceMeteorite: 3
+  CooldownIceMeteorite: 11.5
+  TimeIceMeteorite: 2.85
+  SpeedIceMeteorite: 40
+  SpeedXray: 2.4
+  ExitXray: 0.7
+  CooldownXray: 11
+  CooldownAmulet: 20
+  ForceAmulet: 40
+  ExitAmulet: 5
+  PerHpEmergency: 0.05
+  RadiusRocket: 7
+  NumberRocket: 0
+  CooldownRocket: 12
+  DelayRocket: 0.05
+  SpeedRocket: 15
+  RadiusThrowKnife: 8
+  NumberThrowKnife: 2
+  CooldownThrowKnife: 9.5
+  DelayThrowKnife: 0.9
+  SpeedThrowKnife: 23
+  RadiusSpawnSupport: 2.85
+  RadiusShootDrone: 7
+  SpeedDrone: 5
+  DelayShootDrone: 0.2
+  SpeedBulletDrone: 22
+  CooldownIce: 12.5
+  TimeIce: 3
+  MinHeal: 1.25
+  SpeedHeal: 0.5
+  RateDead: 0.8
+  NumberAirBomb: {x: 12, y: 18}
+  RadiusAirBomb: {x: 0, y: 8}
+  DelayAirBomb: 0.065
+  CooldownAirBomb: 20
+  SpeedArkProvision: 12
+  LifeArkProvision: 4
+  RadiusDropProvision: {x: 3, y: 5}
+  RarityDropProvision:
+  - 0.6
+  - 0.3
+  - 0.1
+  PerHpProvision: 0.1
+  CoinProvision: 200
+  DiamondProvision: 5
+  ExitSubtitute: 4.5
+  ExitInvisible: 2.5
+  CooldownSubJutsu: 17.5
+  NumberExplodeSword: 12
+  CooldownExplodeSword: 9.5
+  SpeedExplodeSword: 23
+  ExitBlackHold: 4
+  RadiusBlackHold: {x: 2, y: 4}
+  CooldownBlackHold: 3
+  NumberWisp: 3
+  ExitGiantization: 3.5
+  CooldownGiantization: 15
+  ScaleGiantization: 1.5
+  DurationGiantization: 0.8
+  SpeedGiantization: 2.85

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1099439886463-4vmisrconejdscn8j26t9aksm60natis.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1099439886463-4vmisrconejdscn8j26t9aksm60natis</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1099439886463-l70408n3ttjmfqa0aoc5qn9cqvjo1e22.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD4id4Zc6XCp9zALMfNm1uO53qDufli6Eg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1099439886463</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.unimob.farm.miner</string>
+	<key>PROJECT_ID</key>
+	<string>crazy-farm-unimob</string>
+	<key>STORAGE_BUCKET</key>
+	<string>crazy-farm-unimob.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1099439886463:ios:26f466b76bfe7f7cd5af4a</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+
+Hand_Ctrl.png
+size: 448,448
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Finger
+  rotate: true
+  xy: 2, 244
+  size: 199, 234
+  orig: 199, 234
+  offset: 0, 0
+  index: -1
+modular_aura03
+  rotate: false
+  xy: 238, 238
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,38 @@
+v1.3.1
+- EasyLayout: added ElementsRotate and ElementsRotationStart for Ellipse layout
+
+v1.3.0
+- added EasyLayoutEllipseScroll
+- EasyLayout: added new layout type Ellipse
+- EasyLayout: added new option ResetRotation
+
+v1.2.1
+- fixed FitContainer option
+
+v1.2.0
+- added Flex layout type
+- added Staggered layout type
+- renamed Stacking to MainAxis
+- reduced memory allocations
+- EasyLayout namespace renamed to EasyLayoutNS to avoid problems with Unity 2018.2 and later
+- fixed "dirty" scene bug when using FitContainer or ShrinkOnOverflow
+- added Shrink on Overflow option
+- added CompactConstraint and CompactConstraintCount options
+- added row/column constraint for Grid layout
+
+v1.1.1
+- improved compatibility with Unity 2017.x
+
+v1.1.0
+- bug fixes
+- performance improvements
+
+v1.0.5
+- bug fixes.
+
+v1.0.4
+- improved performance
+- bug fixes.
+
+v1.0.3
+- renamed to EasyLayout
